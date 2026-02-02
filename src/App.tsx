@@ -79,7 +79,7 @@ function App() {
 <div className="grid md:grid-cols-3 gap-8">
   {[
     { icon: Sparkles, title: "Webové stránky", desc: "Od Jednodušších po komplexnější weby které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální" },
-    { icon: Code2, title: "Lokální SEO", desc: "Dostaňme dáš podnik do top 3 na Goole pro vaše město, když zákazník vyhledá Npř "Kadeřnictví Nový Jičín", váš podnik mu vyjede hned nahoře" },
+    { icon: Code2, title: "Lokální SEO", desc: "Dostaňme dáš podnik do top 3 na Goole pro vaše město, když zákazník vyhledá Npř Kadeřnictví Nový Jičín, váš podnik mu vyjede hned nahoře" },
     { icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů." },
   ].map((item, idx) => (
     <ScrollReveal key={idx} delay={idx * 150}>
