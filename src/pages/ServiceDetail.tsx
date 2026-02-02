@@ -35,7 +35,7 @@ const serviceDetails = {
       "Recenzní management",
       "Měření a reporting"
     ],
-    pricing: "Balíčky od 5 000 Kč měsíčně s měřitelnými výsledky.",
+    pricing: "5000kč/8000kč",
   },
   eshops: {
     title: "Eshopy",
