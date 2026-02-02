@@ -78,7 +78,7 @@ function App() {
 
 <div className="grid md:grid-cols-3 gap-8">
   {[
-    { icon: Sparkles, title: "Jednoduché weby", desc: "Jednoduché weby ideální pro malé lokální podniky." },
+    { icon: Sparkles, title: "Webové stránky", desc: "Od Jednodušších po komplexnější weby které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální" },
     { icon: Code2, title: "Komplexnější weby", desc: "Komplexnější weby pro podnikatele co potřebujou profesionální online prezentaci a rezervační systém." },
     { icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů." },
   ].map((item, idx) => (
