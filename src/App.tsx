@@ -213,6 +213,8 @@ function App() {
 
       <footer className="py-8 px-6 border-t border-gray-800 text-center text-gray-400">
         <p>&copy; 2026 HavranWeb. Všechna práva vyhrazena.</p>
+        <p>tomashavran.pracovni@gmail.com</p>
+        <p>+420 770 600 944</p>
       </footer>
     </div>
   );
