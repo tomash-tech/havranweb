@@ -166,7 +166,7 @@ function Home() {
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { num: "1", title: "Setkání", desc: "Diskutujeme o vašich cílech a představě projektu" },
-              { num: "2", title: "Návrh", desc: "vytvořím a ukážu vám návrh podle informací ze setkání" },
+              { num: "2", title: "Návrh", desc: "Vytvořím a ukážu vám návrh podle informací ze setkání" },
               { num: "3", title: "Vývoj", desc: "Dokončím web podle schváleného návrhu" },
               { num: "4", title: "Spuštění", desc: "Web se spustí na vámi vybranou url adresu" },
             ].map((step, idx) => (
