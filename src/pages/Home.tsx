@@ -80,7 +80,7 @@ function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { id: 'websites', icon: Sparkles, title: "Webové stránky", desc: "Od Jednodušších po komplexnější weby které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální" },
-              { id: 'seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Goole, když zákazník vyhledá Npř Kadeřnictví Nový Jičín, váš podnik mu vyjede hned nahoře" },
+              { id: 'seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Goole, když zákazník vyhledá Npř Kadeřnictví Nový Jičín, váš podnik se mu zobrazí hned nahoře" },
               { id: 'eshops', icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů." },
             ].map((item, idx) => (
               <ScrollReveal key={idx} delay={idx * 150}>
