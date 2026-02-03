@@ -1,79 +1,8 @@
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 
-const serviceDetails = {
-  websites: {
-    title: "Webové stránky",
-    heroImage: "🌐",
-    description: "Moderní webové stránky postavené na nejnovější technologiích",
-    fullDescription: "Vytvářím webové stránky od jednoduchých prezentačních webů až po komplexní e-commerce řešení s rezervačními systémy, více jazyčnou podporou a pokročilými funkcemi.",
-    features: [
-      "Responzivní design pro všechna zařízení",
-      "Optimalizace pro vyhledávače (SEO)",
-      "Bezpečné a rychlé načítání",
-      "Integrace s vašimi existujícími systémy",
-      "Administrační panel pro správu obsahu",
-      "Analitika a sledování návštěvnosti",
-      "Rezervační systémy a formuláře",
-      "Podpora více jazyků"
-    ],
-    pricing: "Cena se určuje podle složitosti projektu. Jednoduchý web od 15 000 Kč, komplexnější řešení dle dohody.",
-  },
-  seo: {
-    title: "Lokální SEO",
-    heroImage: "📈",
-    description: "Zvyšte vaši viditelnost v lokálních vyhledávačích",
-    fullDescription: "Optimalizuji vaše webové stránky a online přítomnost tak, aby se váš podnik objevil v top 3 výsledcích Google, když si potenciální zákazník zadá váš obor a místo.",
-    features: [
-      "Optimalizace Google Moje Firmy",
-      "Lokální vyhledávání a mapy",
-      "SEO audit a analýza konkurence",
-      "On-page optimalizace",
-      "Stavba kvalitních zpětných odkazů",
-      "Lokální zmínky a citace",
-      "Recenzní management",
-      "Měření a reporting"
-    ],
-    pricing: "5000kč/8000kč",
-  },
-  eshops: {
-    title: "Eshopy",
-    heroImage: "🛒",
-    description: "Vlastní online obchod pro prodej vašich produktů",
-    fullDescription: "Vytvářím moderní e-shopy propojené s vašimi webovými stránkami, ideální pro prodej fyzických produktů, služeb nebo digitálních produktů se zabezpečenou platební bránou.",
-    features: [
-      "Katalog produktů s kategoriemi",
-      "Nákupní košík a checkout",
-      "Platební brány (Stripe, PayPal)",
-      "Správa inventáře",
-      "Automatické objednávkové notifikace",
-      "Sledování objednávek",
-      "Správa cen a slev",
-      "Analytics a tržby reporting"
-    ],
-    pricing: "E-shopy začínají od 25 000 Kč v závislosti na počtu produktů a požadovaných funkcí.",
-  }
-};
-
-function ServiceDetail() {
-  const { serviceId } = useParams();
-  const service = serviceDetails[serviceId as keyof typeof serviceDetails];
-
-  if (!service) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Služba nebyla nalezena</h1>
-          <Link to="/" className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-semibold transition-all">
-            <ArrowLeft className="w-5 h-5" />
-            Zpět na domů
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
+function SEODetail() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
       <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
@@ -102,20 +31,20 @@ function ServiceDetail() {
 
           <ScrollReveal>
             <div className="text-center mb-16">
-              <div className="text-7xl mb-6">{service.heroImage}</div>
-              <h1 className="text-6xl font-bold mb-6">{service.title}</h1>
-              <p className="text-2xl text-gray-300 mb-8">{service.description}</p>
+              <div className="text-7xl mb-6">📈</div>
+              <h1 className="text-6xl font-bold mb-6">Lokální SEO</h1>
+              <p className="text-2xl text-gray-300 mb-8">Zvyšte vaši viditelnost v lokálních vyhledávačích</p>
             </div>
           </ScrollReveal>
 
           <ScrollReveal delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 mb-16">
               <h2 className="text-3xl font-bold mb-6">O službě</h2>
-              <p className="text-xl text-gray-300 leading-relaxed mb-8">{service.fullDescription}</p>
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">Optimalizuji vaše webové stránky a online přítomnost tak, aby se váš podnik objevil v top 3 výsledcích Google, když si potenciální zákazník zadá váš obor a místo.</p>
 
               <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-6 mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-blue-300">Cena</h3>
-                <p className="text-lg text-gray-200">{service.pricing}</p>
+                <p className="text-lg text-gray-200">5000kč/8000kč</p>
               </div>
             </div>
           </ScrollReveal>
@@ -124,7 +53,16 @@ function ServiceDetail() {
             <div className="mb-16">
               <h2 className="text-4xl font-bold mb-12">Co vám nabízím</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                {service.features.map((feature, idx) => (
+                {[
+                  "Optimalizace Google Moje Firmy",
+                  "Lokální vyhledávání a mapy",
+                  "SEO audit a analýza konkurence",
+                  "On-page optimalizace",
+                  "Stavba kvalitních zpětných odkazů",
+                  "Lokální zmínky a citace",
+                  "Recenzní management",
+                  "Měření a reporting"
+                ].map((feature, idx) => (
                   <div key={idx} className="flex gap-4 p-6 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all">
                     <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
                     <span className="text-lg text-gray-200">{feature}</span>
@@ -158,4 +96,4 @@ function ServiceDetail() {
   );
 }
 
-export default ServiceDetail;
+export default SEODetail;
