@@ -79,8 +79,8 @@ function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { id: 'websites', icon: Sparkles, title: "Webové stránky", desc: "Od jednodušších po komplexnější weby, které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální" },
-              { id: 'seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Goole, když zákazník vyhledá Npř. Kadeřnictví Nový Jičín, váš podnik se mu zobrazí hned nahoře" },
+              { id: 'websites', icon: Sparkles, title: "Webové stránky", desc: "Od jednodušších po komplexnější weby, které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální." },
+              { id: 'seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Goole, když zákazník vyhledá Npř. Kadeřnictví Nový Jičín, váš podnik se mu zobrazí hned nahoře." },
               { id: 'eshops', icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů (kurzy, e-booky atd)." },
             ].map((item, idx) => (
               <ScrollReveal key={idx} delay={idx * 150}>
@@ -116,10 +116,10 @@ function Home() {
               </ScrollReveal>
               <div className="space-y-6">
                 {[
-                  { icon: Clock, title: "Rychlé spuštění", desc: "Projekt se spustí v blízkých dnech po vašem schválení finální podoby" },
-                  { icon: Shield, title: "První návrh", desc: "Po prvním setkání vytvořím návrh webovek, který s vámi zkonzultuji abych zajistil že vytvořím web který se vám bude líbit" },
-                  { icon: Sparkles, title: "Moderní design", desc: "Všechny weby mají moderní desing konsultovaný s vámi" },
-                  { icon: CheckCircle, title: "SEO optimalizace", desc: "Vaše stránky budou připraveny aby byly co nejvíce viditelné na google" },
+                  { icon: Clock, title: "Rychlé spuštění", desc: "Projekt se spustí v blízkých dnech po vašem schválení finální podoby." },
+                  { icon: Shield, title: "První návrh", desc: "Po prvním setkání vytvořím návrh webovek, který s vámi zkonzultuji abych zajistil že vytvořím web který se vám bude líbit." },
+                  { icon: Sparkles, title: "Moderní design", desc: "Všechny weby mají moderní desing konsultovaný s vámi." },
+                  { icon: CheckCircle, title: "SEO optimalizace", desc: "Vaše stránky budou připraveny aby byly co nejvíce viditelné na google." },
                 ].map((item, idx) => (
                   <ScrollReveal key={idx} delay={idx * 120}>
                     <div className="flex gap-4">
