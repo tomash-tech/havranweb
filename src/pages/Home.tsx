@@ -117,7 +117,7 @@ function Home() {
               <div className="space-y-6">
                 {[
                   { icon: Clock, title: "Rychlé spuštění", desc: "Projekt se spustí v blízkých dnech po vašem schválení finální podoby" },
-                  { icon: Shield, title: "První návrh", desc: "Po prvním setkání vytvořím návrh webovek který s vámi zkonzultuji abych zajistil že nevytvořím web který se vám nelíbí" },
+                  { icon: Shield, title: "První návrh", desc: "Po prvním setkání vytvořím návrh webovek, který s vámi zkonzultuji abych zajistil že vytvořím web který se vám bude líbit" },
                   { icon: Sparkles, title: "Moderní design", desc: "Všechny weby mají moderní desing konsultovaný s vámi" },
                   { icon: CheckCircle, title: "SEO optimalizace", desc: "Vaše stránky budou připraveny aby byly co nejvíce viditelné na google" },
                 ].map((item, idx) => (
