@@ -1,12 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import WebsitesDetail from './pages/WebsitesDetail';
 import SEODetail from './pages/SEODetail';
 import EshopsDetail from './pages/EshopsDetail';
 
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [location]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/service/websites" element={<WebsitesDetail />} />
