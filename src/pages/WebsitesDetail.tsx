@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
+import ContactForm from '../components/ContactForm';
 
 function WebsitesDetail() {
   return (
@@ -73,16 +74,31 @@ function WebsitesDetail() {
           </ScrollReveal>
 
           <ScrollReveal delay={200}>
-            <div className="text-center py-16">
-              <h2 className="text-3xl font-bold mb-8">Máte zájem?</h2>
-              <a
-                href="/#kontakt"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30"
-              >
-                Kontaktujte mě
-              </a>
+            <div className="py-16">
+              <h2 className="text-3xl font-bold mb-12">Máte zájem?</h2>
             </div>
           </ScrollReveal>
+        </div>
+      </section>
+
+      <section className="min-h-screen px-6 flex items-center py-24">
+        <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
+            <h2 className="text-5xl font-bold">Kontakt</h2>
+            <p className="text-xl text-gray-300">
+              Ozvěte se mi a společně vytvoříme web, který vám přinese klienty.
+            </p>
+
+            <div className="space-y-4 text-gray-300">
+              <p><strong>Email:</strong> tomashavran.pracovni@gmail.com</p>
+              <p><strong>Telefon:</strong> +420 770 600 944</p>
+              <p><strong>Lokalita:</strong> Nový Jičín a okolí</p>
+            </div>
+          </div>
+
+          <div className="w-full">
+            <ContactForm />
+          </div>
         </div>
       </section>
 
