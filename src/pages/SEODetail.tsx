@@ -69,7 +69,6 @@ function SEODetail() {
               </div>
             </div>
           </ScrollReveal>
-
          
         </div>
       </section>
