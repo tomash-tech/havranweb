@@ -70,11 +70,7 @@ function SEODetail() {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={200}>
-            <div className="py-16">
-              <h2 className="text-3xl font-bold mb-12">Máte zájem?</h2>
-            </div>
-          </ScrollReveal>
+         
         </div>
       </section>
 
