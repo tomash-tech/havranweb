@@ -50,7 +50,7 @@ function SEODetail() {
  <ScrollReveal delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 mb-16">
               <h2 className="text-3xl font-bold mb-6">Jak to funguje</h2>
-              <p className="text-xl text-gray-300 leading-relaxed mb-8">Spoustu lidí si myslí že tohle funguje stejně jako reklamy, to ovšem není pravda, jde spíše o to co se děje na vašich webových stránkách, vašem Google buisness profilu (to je to co se zobrazí když si vás někdo vyhledá), a kde všude jsou vaše stránky zmíněny, tohle vše nastavím tak aby když to potom Google čte tak vás dá hned na začátek!       Pokud</p>
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">Spoustu lidí si myslí že tohle funguje stejně jako reklamy, to ovšem není pravda, jde spíše o to co se děje na vašich webových stránkách, vašem Google buisness profilu (to je to co se zobrazí když si vás někdo vyhledá), a kde všude jsou vaše stránky zmíněny, tohle vše nastavím tak aby když to potom Google čte tak vás dá hned na začátek!       Pokud máte web ode mě tak tam je vše perfektně nastavené, tuďiš to bude levnější,</p>
 
              
             </div>
