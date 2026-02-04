@@ -72,7 +72,6 @@ function EshopsDetail() {
               </div>
             </div>
           </ScrollReveal>
-
         
         </div>
       </section>
