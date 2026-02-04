@@ -47,28 +47,7 @@ function SEODetail() {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={150}>
-            <div className="mb-16">
-              <h2 className="text-4xl font-bold mb-12">Co vám nabízím</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                {[
-                  "Optimalizace Google Moje Firmy",
-                  "Lokální vyhledávání a mapy",
-                  "SEO audit a analýza konkurence",
-                  "On-page optimalizace",
-                  "Stavba kvalitních zpětných odkazů",
-                  "Lokální zmínky a citace",
-                  "Recenzní management",
-                  "Měření a reporting"
-                ].map((feature, idx) => (
-                  <div key={idx} className="flex gap-4 p-6 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all">
-                    <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
-                    <span className="text-lg text-gray-200">{feature}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </ScrollReveal>
+
          
         </div>
       </section>
