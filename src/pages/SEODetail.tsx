@@ -47,6 +47,8 @@ function SEODetail() {
             </div>
           </ScrollReveal>
 
+
+          
  <ScrollReveal delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 mb-16">
               <h2 className="text-3xl font-bold mb-6">Jak to funguje</h2>
