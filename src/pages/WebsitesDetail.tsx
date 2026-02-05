@@ -43,10 +43,7 @@ function WebsitesDetail() {
               <h2 className="text-3xl font-bold mb-6">O službě</h2>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">Vytvářím webové stránky od jednoduchých prezentačních webů až po komplexní e-commerce řešení s rezervačními systémy, více jazykovou podporou a pokročilými funkcemi.</p>
 
-              <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-6 mb-8">
-                <h3 className="text-xl font-semibold mb-4 text-blue-300">Cena</h3>
-                <p className="text-lg text-gray-200">Cena se určuje podle složitosti projektu. Jednoduchý web od 15 000 Kč, komplexnější řešení dle dohody.</p>
-              </div>
+              
             </div>
           </ScrollReveal>
 
