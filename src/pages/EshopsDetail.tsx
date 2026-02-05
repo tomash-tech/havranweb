@@ -43,10 +43,7 @@ function EshopsDetail() {
               <h2 className="text-3xl font-bold mb-6">O službě</h2>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">Vytvářím moderní e-shopy propojené s vašimi webovými stránkami, pro prodej digitálních produktů jako jsou e-booky, online kurzy, webináře, podcasty, aplikace atd.</p>
 
-              <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-6 mb-8">
-                <h3 className="text-xl font-semibold mb-4 text-blue-300">Cena</h3>
-                <p className="text-lg text-gray-200">E-shopy začínají od 25 000 Kč v závislosti na počtu produktů a požadovaných funkcí.</p>
-              </div>
+             
             </div>
           </ScrollReveal>
 
