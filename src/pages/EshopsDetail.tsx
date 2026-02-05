@@ -55,7 +55,7 @@ function EshopsDetail() {
                   "Katalog produktů s kategoriemi",
                   "Nákupní košík a checkout",
                   "Prodejní formulář přímo na webu",
-                  "produkt se automaticky odešle zákazníkovi",
+                  "Produkt se automaticky odešle zákazníkovi",
                   "Automatické objednávkové notifikace",
                   "Sledování objednávek",
                   "Správa cen a slev",
