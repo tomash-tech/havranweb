@@ -54,12 +54,12 @@ function EshopsDetail() {
                 {[
                   "Katalog produktů s kategoriemi",
                   "Nákupní košík a checkout",
-                  "Platební brány (Stripe, PayPal)",
-                  "Správa inventáře",
+                  "Prodejní formulář přímo na webu",
+                  "",
                   "Automatické objednávkové notifikace",
                   "Sledování objednávek",
                   "Správa cen a slev",
-                  "Analytics a tržby reporting"
+                  ""
                 ].map((feature, idx) => (
                   <div key={idx} className="flex gap-4 p-6 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all">
                     <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
