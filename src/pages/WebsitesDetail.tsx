@@ -52,7 +52,7 @@ function WebsitesDetail() {
               <h2 className="text-4xl font-bold mb-12">Co vám nabízím</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {[
-                  "Responzivní design pro všechna zařízení",
+                  "Přispůsobivý design pro všechna zařízení",
                   "Optimalizace pro vyhledávače (SEO)",
                   "Bezpečné a rychlé načítání",
                   "Weby složené z několika podstránek",
