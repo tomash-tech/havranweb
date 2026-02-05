@@ -49,7 +49,7 @@ function EshopsDetail() {
 
           <ScrollReveal delay={150}>
             <div className="mb-16">
-              <h2 className="text-4xl font-bold mb-12">Co vám nabízím</h2>
+              <h2 className="text-4xl font-bold mb-12">Výhody</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   "Katalog produktů s kategoriemi",
