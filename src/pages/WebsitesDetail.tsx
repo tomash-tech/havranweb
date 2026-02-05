@@ -41,7 +41,7 @@ function WebsitesDetail() {
           <ScrollReveal delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 mb-16">
               <h2 className="text-3xl font-bold mb-6">O službě</h2>
-              <p className="text-xl text-gray-300 leading-relaxed mb-8">Vytvářím webové stránky od jednoduchých prezentačních webů až po komplexní s rezervačními systémy a pokročilými funkcemi.</p>
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">Vytvářím webové stránky od jednoduchých prezentačních webů až po komplexní s rezervačními systémy a pokročilými funkcemi, Cena individuální podle toho co vše na webu budete chtít, může se pohybovat mezi 6 000-10 000 kč.</p>
 
               
             </div>
