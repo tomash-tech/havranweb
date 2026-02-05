@@ -56,9 +56,9 @@ function WebsitesDetail() {
                   "Optimalizace pro vyhledávače (SEO)",
                   "Bezpečné a rychlé načítání",
                   "Integrace s vašimi existujícími systémy",
-                  "Administrační panel pro správu obsahu",
-                  "Analitika a sledování návštěvnosti",
-                  "Rezervační systémy a formuláře",
+                  "zobrazení vašeho podniku na mapách přímo na webu",
+                  "Formuláře",
+                  "Rezervační systémy",
                   "Podpora více jazyků"
                 ].map((feature, idx) => (
                   <div key={idx} className="flex gap-4 p-6 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all">
