@@ -56,7 +56,7 @@ function WebsitesDetail() {
                   "Optimalizace pro vyhledávače (SEO)",
                   "Bezpečné a rychlé načítání",
                   "Integrace s vašimi existujícími systémy",
-                  "zobrazení vašeho podniku na mapách přímo na webu",
+                  "Zobrazení vašeho podniku na mapách přímo na webu",
                   "Formuláře",
                   "Rezervační systémy",
                   "Podpora více jazyků"
