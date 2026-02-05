@@ -55,7 +55,7 @@ function WebsitesDetail() {
                   "Responzivní design pro všechna zařízení",
                   "Optimalizace pro vyhledávače (SEO)",
                   "Bezpečné a rychlé načítání",
-                  "Integrace s vašimi existujícími systémy",
+                  "Weby složené z několika podstránek",
                   "Zobrazení vašeho podniku na mapách přímo na webu",
                   "Formuláře",
                   "Rezervační systémy",
