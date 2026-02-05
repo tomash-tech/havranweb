@@ -53,7 +53,7 @@ function WebsitesDetail() {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   "Přispůsobivý design pro všechna zařízení",
-                  "Hotové optimalizace pro vyhledávače (SEO)",
+                  "Formuláře propojené s Google tabulkami",
                   "Bezpečné a rychlé načítání",
                   "Weby složené z několika podstránek",
                   "Zobrazení vašeho podniku na mapách přímo na webu",
