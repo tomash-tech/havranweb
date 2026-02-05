@@ -59,7 +59,7 @@ function EshopsDetail() {
                   "Automatické objednávkové oznámení",
                   "Sledování objednávek",
                   "Správa cen a slev",
-                  ""
+                  "Peníze přídou přímo k vám na účet"
                 ].map((feature, idx) => (
                   <div key={idx} className="flex gap-4 p-6 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all">
                     <CheckCircle className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
