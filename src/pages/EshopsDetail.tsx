@@ -56,7 +56,7 @@ function EshopsDetail() {
                   "Nákupní košík a checkout",
                   "Prodejní formulář přímo na webu",
                   "Produkt se automaticky odešle zákazníkovi",
-                  "Automatické objednávkové notifikace",
+                  "Automatické objednávkové oznámení",
                   "Sledování objednávek",
                   "Správa cen a slev",
                   ""
