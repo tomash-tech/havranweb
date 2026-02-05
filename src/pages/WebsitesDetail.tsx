@@ -57,7 +57,7 @@ function WebsitesDetail() {
                   "Bezpečné a rychlé načítání",
                   "Weby složené z několika podstránek",
                   "Zobrazení vašeho podniku na mapách přímo na webu",
-                  "Formuláře",
+                  "Již hotové optimalizace pro vyhledávače (SEO)",
                   "Rezervační systémy",
                   "Podpora více jazyků"
                 ].map((feature, idx) => (
