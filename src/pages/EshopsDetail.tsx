@@ -99,6 +99,9 @@ function EshopsDetail() {
         <p>tomashavran.pracovni@gmail.com</p>
         <p>+420 770 600 944</p>
         <p>Nový Jičín</p>
+        <p>Web design</p>
+        <p>Lokální SEO</p>
+        <p>E-shopy</p>
       </footer>
     </div>
   );
