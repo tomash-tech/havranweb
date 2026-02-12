@@ -14,8 +14,8 @@ function WebsitesDetail() {
           </Link>
           <div className="hidden md:flex gap-12">
             <a href="/#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
-            <a href="/#proc" className="text-gray-300 hover:text-white transition-colors font-medium">Proč já</a>
-            <a href="/#proces" className="text-gray-300 hover:text-white transition-colors font-medium">Proces</a>
+            <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
+            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
             <a href="/#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
           </div>
         </div>
