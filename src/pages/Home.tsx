@@ -219,7 +219,7 @@ function Home() {
         <p>Nový Jičín</p>
         <p>Web design</p>
         <p>Lokální SEO</p>
-        <p>E-shopy</p>    <p>E-shopy</p>
+        <p>E-shopy</p>
       </footer>
     </div>
   );
