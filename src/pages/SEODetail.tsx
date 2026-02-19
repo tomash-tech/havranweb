@@ -41,7 +41,7 @@ function SEODetail() {
           <ScrollReveal delay={100}>
             <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 mb-16">
               <h2 className="text-3xl font-bold mb-6">O službě</h2>
-              <p className="text-xl text-gray-300 leading-relaxed mb-8">SEO je optimalizace vašeho podniku pro vyhledávače jako Google, to znamená, že když si někdo vyhledá váš obor ve vašem městě, zobrazíte se hned nahoře (viz foto dole), Proč je to důležité? když si někdo vyhledá npř. kadeřnictví v Novém Jičíně, 70% lidí rozklikne jeden ze 3 prvních zobrazených podniků, takže pokud tam jste vy tak vám to zajistí, že váš podnik najde spoustu nových zákazníků.</p>
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">SEO je optimalizace vašeho podniku pro vyhledávače jako Google, to znamená, že když si někdo vyhledá váš obor ve vašem městě, zobrazíte se hned nahoře (viz foto dole), Proč je to důležité? když si někdo vyhledá npř. kadeřnictví v Novém Jičíně, 70% lidí rozklikne jeden ze 3 prvních zobrazených podniků, takže pokud tam jste vy, tak vám to zajistí, že váš podnik najde spoustu nových zákazníků.</p>
 
             </div>
           </ScrollReveal>
