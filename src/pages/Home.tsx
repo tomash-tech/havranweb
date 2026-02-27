@@ -24,30 +24,44 @@ function Home() {
 
       <section className="min-h-screen flex items-center px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 via-transparent to-transparent pointer-events-none"></div>
-        <div className="max-w-4xl mx-auto relative w-full">
-          <div className="text-center space-y-8 animate-fade-in">
-            <div className="space-y-4">
-              <h1 className="text-6xl md:text-7xl font-bold leading-tight">
-                Web design v Novém Jičíně
-              </h1>
+        <div className="max-w-7xl mx-auto relative w-full">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8 animate-fade-in">
+              <div className="space-y-4">
+                <h1 className="text-6xl md:text-7xl font-bold leading-tight">
+                  Web design v Novém Jičíně
+                </h1>
+              </div>
+              <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
+                Vytvářím moderní webové stránky na míru pro lokální podnikatele.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <a
+                  href="#kontakt"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 w-fit"
+                >
+                  Mám zájem
+                  <ArrowRight className="w-5 h-5" />
+                </a>
+                <a
+                  href="#sluzby"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700 w-fit"
+                >
+                  Služby
+                </a>
+              </div>
             </div>
-            <p className="text-xl text-gray-300 leading-relaxed">
-              Vytvářím moderní webové stránky na míru pro lokální podnikatele.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a
-                href="#kontakt"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 w-fit"
-              >
-                Mám zájem
-                <ArrowRight className="w-5 h-5" />
-              </a>
-              <a
-                href="#sluzby"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700 w-fit"
-              >
-                Služby
-              </a>
+            <div className="relative h-96 md:h-full">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl blur-3xl"></div>
+              <div className="relative bg-gradient-to-br from-blue-900/30 to-cyan-900/30 rounded-2xl p-8 border border-blue-800/50">
+                <div className="space-y-4">
+                  <div className="w-12 h-12 bg-blue-500/20 rounded-lg"></div>
+                  <div className="space-y-3">
+                    <div className="h-3 bg-gray-700 rounded w-3/4"></div>
+                    <div className="h-3 bg-gray-700 rounded w-1/2"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
