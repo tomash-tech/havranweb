@@ -77,7 +77,7 @@ odměna bude vyplacena do ___ dnů po dokončení práce na bankovní účet neb
 
 Váš podpis ____
 Můj Podpis ____
-Podpis mého zákoného zástupce ____
+Podpis mého zákoného zástupce ____/n
 
 dne ____.
 
