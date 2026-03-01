@@ -76,6 +76,13 @@ function SEODetail() {
               <p><strong>Telefon:</strong> +420 770 600 944</p>
               <p><strong>Lokalita:</strong> Nový Jičín a okolí</p>
             </div>
+
+            <Link
+              to="/legal"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700 mt-4"
+            >
+              Právní informace
+            </Link>
           </div>
 
           <div className="w-full">
