@@ -42,7 +42,8 @@ function Legal() {
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700">
                 <h2 className="text-3xl font-bold mb-6">Nejde o podnikatelskou činost</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
-                  <p>Zde budou umístěny vaše obchodní podmínky.</p>
+                  <p>Nejde o podnikatelskou činnost, vždy s vámi uzavřu DPP (Dohoda o provedení práce), což je legální dokument, který potvrzuje, že mě “najímáte” např. na tvorbu webových stránek, nebo jinou službu, se kterou vám pomohu. 
+</p>
                 </div>
               </div>
             </ScrollReveal>
