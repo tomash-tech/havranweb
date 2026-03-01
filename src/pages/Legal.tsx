@@ -40,7 +40,7 @@ function Legal() {
           <div className="space-y-12">
             <ScrollReveal delay={100}>
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700">
-                <h2 className="text-3xl font-bold mb-6">Obchodní podmínky</h2>
+                <h2 className="text-3xl font-bold mb-6">Nejde o podnikatelskou činost</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
                   <p>Zde budou umístěny vaše obchodní podmínky.</p>
                 </div>
