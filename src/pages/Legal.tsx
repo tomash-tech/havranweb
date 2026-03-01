@@ -52,7 +52,37 @@ function Legal() {
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700">
                 <h2 className="text-3xl font-bold mb-6">Co obsahuje DPP?</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
-                  <p>Zde bude umístěna informace o ochraně osobních údajů (GDPR).</p>
+                  <p>Co se píše v DPP?
+
+Vaše:
+
+Jméno a příjmení
+ IČO
+Sídlo
+
+Mé:
+
+Jméno a příjmení
+Datum narození
+Adresa bydliště
+
+Obsah a rozsah práce:
+
+Jakou práci pro vás vykonám a jak dlouho bude trvat.
+
+Odměna:
+
+___ za dokončený úkol
+odměna bude vyplacena do ___ dnů po dokončení práce na bankovní účet nebo v hotovosti.
+
+Váš podpis ____
+Můj Podpis ____
+Podpis mého zákoného zástupce ____
+
+dne ____.
+
+
+</p>
                 </div>
               </div>
             </ScrollReveal>
