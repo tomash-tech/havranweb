@@ -62,10 +62,7 @@ Poté obsah a rozsah práce: Jakou práci pro vás vykonám a jak dlouho bude tr
 
 Odměna: píše se kolik, kdy a jak mi za dokončení práce zaplatíte.
 
-Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a datum
-
-
-</p>
+Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a datum </p>
                 </div>
               </div>
             </ScrollReveal>
