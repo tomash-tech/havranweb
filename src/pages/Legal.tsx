@@ -71,15 +71,7 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
                 <h2 className="text-3xl font-bold mb-6">Co obsahuje DPP?</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
 <p>
-Vaše Jméno a příjmení, IČO a Sídlo.
-
-Mé Jméno a příjmení, Datum narození a Adresa bydliště.
-
-Poté obsah a rozsah práce: Jakou práci pro vás vykonám a jak dlouho bude trvat.
-
-Odměna: píše se kolik, kdy a jak mi za dokončení práce zaplatíte.
-
-Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a datum </p>
+l</p>
                 </div>
               </div>
             </ScrollReveal>
