@@ -54,17 +54,9 @@ function Legal() {
                 <div className="text-gray-300 space-y-4 leading-relaxed">
                   <p>Co se píše v DPP?
 
-Vaše:
+Vaše Jméno a příjmení, IČO a Sídlo.
 
-Jméno a příjmení
- IČO
-Sídlo
-
-Mé:
-
-Jméno a příjmení
-Datum narození
-Adresa bydliště
+Mé Jméno a příjmení, Datum narození a Adresa bydliště
 
 Obsah a rozsah práce:
 
