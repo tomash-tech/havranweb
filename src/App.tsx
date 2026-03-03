@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Home from './pages/Home';
 import WebsitesDetail from './pages/WebsitesDetail';
 import SEODetail from './pages/SEODetail';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/service/eshops" element={<EshopsDetail />} />
         <Route path="/legal" element={<Legal />} />
       </Routes>
+      <Analytics />
     </Router>
   );
 }
