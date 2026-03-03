@@ -56,11 +56,9 @@ function Legal() {
 
 Vaše Jméno a příjmení, IČO a Sídlo.
 
-Mé Jméno a příjmení, Datum narození a Adresa bydliště
+Mé Jméno a příjmení, Datum narození a Adresa bydliště.
 
-Obsah a rozsah práce:
-
-Jakou práci pro vás vykonám a jak dlouho bude trvat.
+Poté obsah a rozsah práce: Jakou práci pro vás vykonám a jak dlouho bude trvat.
 
 Odměna:
 
