@@ -71,7 +71,7 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
                 <h2 className="text-3xl font-bold mb-6">Nezletilost</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
 <p>
-l</p>
+Můžu toto dělat i když mi ještě nebylo 18 let? Ano. Jelikož jak už víte tak se to řeší přes DPP, což znamená, že mě najímáte na provedení práce, to je v ČR legální od 14ti let (s podpisem zákonného zástupce).</p>
                 </div>
               </div>
             </ScrollReveal>
