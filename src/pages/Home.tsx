@@ -16,7 +16,7 @@ function Home() {
             <a href="#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
             <Link to="/service/websites" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
             <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
-            <Link to="/legal" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
+            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
             <a href="#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
           </div>
         </div>
