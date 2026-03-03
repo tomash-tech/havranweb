@@ -60,16 +60,9 @@ Mé Jméno a příjmení, Datum narození a Adresa bydliště.
 
 Poté obsah a rozsah práce: Jakou práci pro vás vykonám a jak dlouho bude trvat.
 
-Odměna:
+Odměna: píše se kolik, kdy a jak mi za dokončení práce zaplatíte.
 
-___ za dokončený úkol
-odměna bude vyplacena do ___ dnů po dokončení práce na bankovní účet nebo v hotovosti.
-
-Váš podpis ____
-Můj Podpis ____
-Podpis mého zákoného zástupce ____
-
-dne ____.
+Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a datum
 
 
 </p>
