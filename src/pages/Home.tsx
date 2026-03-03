@@ -13,7 +13,7 @@ function Home() {
             <span className="text-xl font-bold">HavranWeb</span>
           </Link>
           <div className="hidden md:flex gap-12">
-            <Link to="/legal" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
+            <Link to="/services/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
             <Link to="/service/websites" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
             <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
             <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
