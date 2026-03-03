@@ -70,10 +70,10 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700">
                 <h2 className="text-3xl font-bold mb-6">Kontaktní údaje</h2>
                 <div className="text-gray-300 space-y-2">
-                  <p><strong>Provozovatel:</strong> HavranWeb</p>
+                  <p><strong>Provozovatel:</strong> Tomáš Havran</p>
                   <p><strong>Email:</strong> tomashavran.pracovni@gmail.com</p>
                   <p><strong>Telefon:</strong> +420 770 600 944</p>
-                  <p><strong>Název webu:</strong> Havran Web</p>
+                  <p><strong>Název webu:</strong> HavranWeb</p>
                 </div>
               </div>
             </ScrollReveal>
