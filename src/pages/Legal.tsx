@@ -72,8 +72,7 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
                 <div className="text-gray-300 space-y-2">
                   <p><strong>Mé jméno:</strong> Tomáš Havran</p>
                   <p><strong>Email:</strong> tomashavran.pracovni@gmail.com</p>
-                  <p><strong>Telefon:</strong> +420 770 600 944</p>
-                  
+                  <p><strong>Telefon:</strong> +420 770 600 944</p>                  
                 </div>
               </div>
             </ScrollReveal>
