@@ -120,7 +120,7 @@ function Home() {
                   { icon: Clock, title: "Rychlé spuštění", desc: "Projekt se spustí v blízkých dnech po vašem schválení finální podoby." },
                   { icon: Shield, title: "První návrh", desc: "Po prvním setkání vytvořím návrh webovek, který s vámi zkonzultuji, abych zajistil, že vytvořím web, který se vám bude líbit." },
                   { icon: Sparkles, title: "Moderní design", desc: "Všechny weby mají moderní desing konzultovaný s vámi." },
-                  { icon: Clock, title: "Jsem student", desc: "Jakožto mladý student se orientuju v nejnovějších technologiích ." },
+                  { icon: Clock, title: "Jsem student", desc: "Jakožto mladý student se orientuju v nejnovějších technologiích, které používám pro dosažení nejlepšího výsledku ." },
                   { icon: CheckCircle, title: "SEO optimalizace", desc: "Vaše stránky budou připraveny, aby byly co nejvíce viditelné na google." },
                 ].map((item, idx) => (
                   <ScrollReveal key={idx} delay={idx * 120}>
