@@ -68,7 +68,7 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
 
 <ScrollReveal delay={150}>
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700">
-                <h2 className="text-3xl font-bold mb-6">Co obsahuje DPP?</h2>
+                <h2 className="text-3xl font-bold mb-6">Nezletilost</h2>
                 <div className="text-gray-300 space-y-4 leading-relaxed">
 <p>
 l</p>
