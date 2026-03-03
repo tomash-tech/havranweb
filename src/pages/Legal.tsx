@@ -73,7 +73,7 @@ Poté už jen váš podpis, můj Podpis, podpis mého zákoného zástupce a dat
                   <p><strong>Provozovatel:</strong> HavranWeb</p>
                   <p><strong>Email:</strong> tomashavran.pracovni@gmail.com</p>
                   <p><strong>Telefon:</strong> +420 770 600 944</p>
-                  <p><strong>Sídlo:</strong> Nový Jičín</p>
+                  <p><strong>Název webu:</strong> Havran Web</p>
                 </div>
               </div>
             </ScrollReveal>
