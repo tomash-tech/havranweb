@@ -52,7 +52,13 @@ function Home() {
                 </a>
               </div>
             </div>
-          
+           <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px]">
+                <iframe
+                  src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
+                  frameBorder="0"
+                  className="absolute inset-0 w-full h-full"
+                />
+              </div>
           </div>
         </div>
       </section>
