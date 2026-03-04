@@ -52,15 +52,7 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative h-96 md:h-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl blur-3xl"></div>
-              <div className="relative bg-gradient-to-br from-blue-900/30 to-cyan-900/30 rounded-2xl p-8 border border-blue-800/50">
-                <div className="space-y-4">
-                  <div className="w-12 h-12 bg-blue-500/20 rounded-lg"></div>
-                  <div className="space-y-3">
-                    <div className="h-3 bg-gray-700 rounded w-3/4"></div>
-                    <div className="h-3 bg-gray-700 rounded w-1/2"></div>
-                  </div>
+
                 </div>
               </div>
             </div>
