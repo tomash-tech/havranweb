@@ -54,7 +54,7 @@ function Home() {
             </div>
            <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px]">
                 <iframe
-                  src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
+                  src="https://my.spline.design/3dglobe-ilZgUXNKvZsJki6lkUrp7g8I/"
                   frameBorder="0"
                   className="absolute inset-0 w-full h-full"
                 />
