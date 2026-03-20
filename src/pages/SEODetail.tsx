@@ -47,7 +47,7 @@ function SEODetail() {
           </ScrollReveal>
 
           <ScrollReveal delay={100}>
-            <img src="/seo2.jpg" alt="SEO výsledky" className="w-full rounded-2xl mb-16 border border-gray-700" />
+            <img src="/seo3.png" alt="SEO výsledky" className="w-full rounded-2xl mb-16 border border-gray-700" />
           </ScrollReveal>
 
 
