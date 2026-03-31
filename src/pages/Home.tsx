@@ -219,7 +219,7 @@ function Home() {
             {/* Column 1 - Logo & Tagline */}
             <div className="md:col-span-1">
               <img
-                src="/blue_HW.png"
+                src="/blue_hw.png"
                 alt="HavranWeb logo"
                 className="w-16 h-16 rounded-xl object-cover mb-4"
               />
