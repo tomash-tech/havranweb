@@ -241,7 +241,7 @@ function Home() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.facebook.com/havranweb"
+                  href="https://www.facebook.com/profile.php?id=61575590282039"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-lg flex items-center justify-center text-gray-400 hover:text-white transition"
