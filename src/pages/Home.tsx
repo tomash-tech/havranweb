@@ -156,7 +156,7 @@ function Home() {
             </ScrollReveal>
             <ScrollReveal delay={100}>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Jednoduchý proces od prvního setkání do spuštění
+                Jednoduchý proces od prvního setkání do spuštění.
               </p>
             </ScrollReveal>
           </div>
