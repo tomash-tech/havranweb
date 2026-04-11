@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 function WebsitesDetail() {
   return (
@@ -101,15 +102,7 @@ function WebsitesDetail() {
         </div>
       </section>
 
-      <footer className="py-8 px-6 bg-black border-t border-gray-800 text-center text-gray-400">
-        <p>&copy; 2026 HavranWeb. Všechna práva vyhrazena.</p>
-        <p>tomashavran.pracovni@gmail.com</p>
-        <p>+420 770 600 944</p>
-        <p>Nový Jičín</p>
-        <p>Web design</p>
-        <p>Lokální SEO</p>
-        <p>E-shopy</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
