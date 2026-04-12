@@ -32,7 +32,7 @@ function EshopsDetail() {
             </Link>
           </ScrollReveal>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="max-w-3xl">
             <div className="space-y-10">
               <ScrollReveal>
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-5xl mb-6 shadow-xl shadow-purple-500/10">
@@ -99,28 +99,6 @@ function EshopsDetail() {
                 </div>
               </ScrollReveal>
             </div>
-
-            <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
-              <div 
-                className="relative h-[500px] md:h-[600px] lg:h-[750px] group transition-all duration-700"
-                style={{
-                  WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
-                  maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
-                }}
-              >
-                <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-pink-500/5 blur-2xl -z-10 rounded-full pointer-events-none group-hover:from-purple-500/30 transition-all duration-700" />
-                <div className="w-full h-full overflow-hidden relative">
-                  <iframe
-                    src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
-                    frameBorder="0"
-                    className="absolute top-0 left-0 w-full h-[calc(100%+70px)] object-cover"
-                    title="Interactive 3D representation"
-                  />
-                  {/* Subtle overlay to safely capture interactions and prevent edge clipping */}
-                  <div className="absolute inset-0 pointer-events-none rounded-2xl" />
-                </div>
-              </div>
-            </ScrollReveal>
           </div>
         </div>
       </section>
