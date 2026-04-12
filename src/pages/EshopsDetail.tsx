@@ -107,7 +107,7 @@ function EshopsDetail() {
                   <iframe
                     src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
                     frameBorder="0"
-                    className="absolute inset-0 w-full h-full object-cover scale-[1.01]"
+                    className="absolute top-0 left-0 w-full h-[calc(100%+70px)] object-cover"
                     title="Interactive 3D representation"
                   />
                   {/* Subtle overlay to soften iframe edges */}

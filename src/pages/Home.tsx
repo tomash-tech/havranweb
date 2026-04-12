@@ -53,11 +53,11 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px]">
+            <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-3xl shadow-2xl shadow-blue-900/20">
               <iframe
                 src="https://my.spline.design/3dglobe-ilZgUXNKvZsJki6lkUrp7g8I/"
                 frameBorder="0"
-                className="absolute inset-0 w-full h-full"
+                className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
               />
             </div>
           </div>
@@ -137,11 +137,11 @@ function Home() {
               </div>
             </div>
             <ScrollReveal>
-              <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px]">
+              <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-3xl shadow-2xl shadow-purple-900/20">
                 <iframe
                   src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
                   frameBorder="0"
-                  className="absolute inset-0 w-full h-full"
+                  className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
                 />
               </div>
             </ScrollReveal>
