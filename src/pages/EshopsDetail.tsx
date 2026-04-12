@@ -8,22 +8,22 @@ const steps = [
   {
     num: 1,
     title: "Setkání",
-    desc: "Diskutujeme o vašich cílech a představě projektu. Zjistím co potřebujete a navrhnu nejlepší řešení.",
+    desc: "Diskutujeme o vašich cílech a představě projektu.",
   },
   {
     num: 2,
     title: "Návrh",
-    desc: "Vytvořím a ukážu vám návrh podle informací ze setkání. Společně ho upravíme dokud nebudete spokojeni.",
+    desc: "Vytvořím a ukážu vám návrh podle informací ze setkání.",
   },
   {
     num: 3,
     title: "Vývoj",
-    desc: "Dokončím e-shop podle schváleného návrhu. Průběžně vás informuji o postupu.",
+    desc: "Dokončím e-shop podle schváleného návrhu.",
   },
   {
     num: 4,
     title: "Spuštění",
-    desc: "Web se spustí na vámi vybranou url adresu. Předám vám vše potřebné pro správu.",
+    desc: "Web se spustí na vámi vybranou url adresu.",
     last: true,
   },
 ];
@@ -56,8 +56,7 @@ function EshopsDetail() {
             </Link>
           </ScrollReveal>
 
-          {/* Grid — levý obsah + pravý stepper, stejná výška */}
-          <div className="grid lg:grid-cols-2 gap-16 items-stretch">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
 
             {/* ── Levý sloupec ── */}
             <div className="flex flex-col space-y-10">
@@ -126,33 +125,30 @@ function EshopsDetail() {
               </ScrollReveal>
             </div>
 
-            {/* ── Pravý sloupec — stepper roztažený na celou výšku ── */}
+            {/* ── Pravý sloupec — kartičkový stepper ── */}
             <ScrollReveal delay={200}>
-              {/*
-                h-full + flex flex-col zajistí, že sloupec vyplní výšku gridu.
-                Každý krok dostane flex-1 aby se mezery rovnoměrně rozdělily.
-              */}
-              <div className="h-full flex flex-col pt-4">
-                {steps.map((step, i) => (
-                  <div key={step.num} className={`flex gap-6 group ${!step.last ? 'flex-1' : ''}`}>
+              <div className="lg:sticky lg:top-32 flex flex-col gap-3 pt-4">
+                {steps.map((step) => (
+                  <div key={step.num} className="flex gap-4">
 
-                    {/* Ikona + spojovací linka */}
-                    <div className="flex flex-col items-center">
-                      <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-700/20 border border-blue-500/30 flex items-center justify-center flex-shrink-0 group-hover:border-blue-400/60 group-hover:from-blue-500/30 group-hover:to-blue-700/30 transition-all duration-300">
-                        <span className="text-blue-400 font-bold text-sm">{step.num}</span>
+                    {/* Číslo + linka */}
+                    <div className="flex flex-col items-center flex-shrink-0">
+                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20 flex-shrink-0">
+                        {step.num}
                       </div>
                       {!step.last && (
-                        <div className="w-px flex-1 my-3 bg-gradient-to-b from-blue-500/50 via-blue-500/20 to-gray-700/20" />
+                        <div className="w-px flex-1 mt-2 bg-gradient-to-b from-blue-500/40 to-blue-500/10 min-h-[1.5rem]" />
                       )}
                     </div>
 
-                    {/* Text kroku */}
-                    <div className={`pt-1 ${!step.last ? 'pb-0' : ''}`}>
-                      <p className="text-white font-bold text-lg mb-2 leading-[2.75rem] group-hover:text-blue-300 transition-colors duration-300">
+                    {/* Kartička */}
+                    <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-900/90 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
+                      <p className="text-white font-bold text-base mb-1 group-hover:text-blue-300 transition-colors duration-300">
                         {step.title}
                       </p>
                       <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
                     </div>
+
                   </div>
                 ))}
               </div>
