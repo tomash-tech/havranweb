@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Wallet, Layout, Layers, Zap, Smartphone, Search, Globe, MessageSquare } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
@@ -47,41 +47,71 @@ function WebsitesDetail() {
               </ScrollReveal>
 
               <ScrollReveal delay={100}>
-                <div className="relative p-8 rounded-2xl bg-gradient-to-br from-gray-900/80 to-gray-800/80 border border-gray-700/50 backdrop-blur-sm">
-                  <div className="absolute top-0 left-8 px-3 py-1 -translate-y-1/2 bg-blue-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-blue-500/30">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 border border-gray-700/50 backdrop-blur-md shadow-2xl hover:border-blue-500/30 transition-colors duration-500">
+                  <div className="absolute top-0 left-8 px-4 py-1.5 -translate-y-1/2 bg-gradient-to-r from-blue-600 to-cyan-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-blue-500/30 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                     O službě
                   </div>
-                  <p className="text-lg text-gray-300 leading-relaxed font-light">
-                    Vytvářím webové stránky od jednoduchých prezentačních webů, až po komplexní s rezervačními systémy a pokročilými funkcemi. Cena individuální podle toho co vše na webu budete chtít, může se pohybovat mezi <span className="text-blue-400 font-semibold px-1">4 000 - 12 000 Kč</span>.
+                  <p className="text-lg text-gray-300 leading-relaxed font-light mb-8 mt-2">
+                    Vytvářím webové stránky od jednoduchých prezentačních webů pro živnostníky, až po komplexní webové aplikace s rezervačními systémy a pokročilými funkcemi pro firmy.
                   </p>
+                  
+                  <div className="mt-6 flex items-center gap-4 bg-gray-950/50 p-5 rounded-2xl border border-gray-800 shadow-inner group transition-all hover:border-blue-500/30">
+                    <div className="p-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                      <Wallet className="w-7 h-7 text-blue-400" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-gray-400 font-medium mb-1">Předpokládaná investice</p>
+                      <p className="text-2xl font-bold text-white tracking-tight">
+                        4 000 - 12 000 Kč
+                        <span className="text-sm font-normal text-gray-500 ml-2">/ dle náročnosti</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </ScrollReveal>
+
+              <ScrollReveal delay={150}>
+                <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
+                  <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span className="text-blue-400">✨</span> Co vám nabízím
+                  </h2>
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {[
+                      { text: "Přizpůsobivý design", icon: <Layout className="w-5 h-5 text-blue-400" /> },
+                      { text: "Napojení na Google tabulky", icon: <Layers className="w-5 h-5 text-blue-400" /> },
+                      { text: "Extrémně rychlé načítání", icon: <Zap className="w-5 h-5 text-blue-400" /> },
+                      { text: "Více podstránek", icon: <Layout className="w-5 h-5 text-blue-400" /> },
+                      { text: "Google mapy na webu", icon: <Globe className="w-5 h-5 text-blue-400" /> },
+                      { text: "Základní SEO optimalizace", icon: <Search className="w-5 h-5 text-blue-400" /> },
+                      { text: "Rezervační systémy", icon: <Smartphone className="w-5 h-5 text-blue-400" /> },
+                      { text: "Podpora více jazyků", icon: <MessageSquare className="w-5 h-5 text-blue-400" /> }
+                    ].map((feature, idx) => (
+                      <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 group-hover:scale-110 transition-all duration-300 shadow-inner">
+                          {feature.icon || <CheckCircle className="w-5 h-5 text-blue-400" />}
+                        </div>
+                        <span className="text-gray-200 text-sm font-medium">{feature.text}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </ScrollReveal>
             </div>
 
-            <ScrollReveal delay={150}>
-              <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 md:p-10 rounded-3xl border border-gray-700/50 shadow-2xl relative overflow-hidden">
-                <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
-                <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                  <span className="text-blue-400">✨</span> Co vám nabízím
-                </h2>
-                <div className="grid sm:grid-cols-1 gap-4">
-                  {[
-                    "Přispůsobivý design pro všechna zařízení",
-                    "Formuláře propojené s Google tabulkami",
-                    "Bezpečné a rychlé načítání",
-                    "Weby složené z několika podstránek",
-                    "Zobrazení vašeho podniku na mapách přímo na webu",
-                    "Již hotové optimalizace pro vyhledávače (SEO)",
-                    "Rezervační systémy",
-                    "Podpora více jazyků"
-                  ].map((feature, idx) => (
-                    <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-xl border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-800/80 transition-all">
-                      <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                        <CheckCircle className="w-5 h-5 text-blue-400" />
-                      </div>
-                      <span className="text-gray-200 font-medium">{feature}</span>
-                    </div>
-                  ))}
+            <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
+              <div className="p-2 rounded-3xl bg-gray-800/30 border border-gray-700 backdrop-blur-sm shadow-2xl relative h-[500px] md:h-[600px] lg:h-[750px] group transition-all duration-700 hover:border-blue-500/40">
+                <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-cyan-500/5 blur-2xl -z-10 rounded-full pointer-events-none group-hover:from-blue-500/30 transition-all duration-700" />
+                <div className="w-full h-full rounded-2xl overflow-hidden border border-gray-700/30 bg-gray-900/50 relative">
+                  <iframe
+                    src="https://my.spline.design/3dglobe-ilZgUXNKvZsJki6lkUrp7g8I/"
+                    frameBorder="0"
+                    className="absolute inset-0 w-full h-full object-cover scale-[1.01]"
+                    title="Interactive 3D representation"
+                  />
+                  {/* Subtle overlay to soften iframe edges */}
+                  <div className="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(3,7,18,0.5)] rounded-2xl" />
                 </div>
               </div>
             </ScrollReveal>
