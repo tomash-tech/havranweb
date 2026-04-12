@@ -32,7 +32,9 @@ function EshopsDetail() {
             </Link>
           </ScrollReveal>
 
-          <div className="max-w-3xl">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+
+            {/* Levý sloupec — původní obsah */}
             <div className="space-y-10">
               <ScrollReveal>
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-5xl mb-6 shadow-xl shadow-purple-500/10">
@@ -55,7 +57,7 @@ function EshopsDetail() {
                   <p className="text-lg text-gray-300 leading-relaxed font-light mb-8 mt-2">
                     Vytvářím moderní e-shopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů jako jsou e-booky, online kurzy, webináře, podcasty, či aplikace.
                   </p>
-                  
+
                   <div className="mt-6 flex items-center gap-4 bg-gray-950/50 p-5 rounded-2xl border border-gray-800 shadow-inner group transition-all hover:border-purple-500/30">
                     <div className="p-3 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl group-hover:scale-110 transition-transform duration-300">
                       <Wallet className="w-7 h-7 text-purple-400" />
@@ -99,6 +101,39 @@ function EshopsDetail() {
                 </div>
               </ScrollReveal>
             </div>
+
+            {/* Pravý sloupec — vertikální stepper */}
+            <ScrollReveal delay={200}>
+              <div className="lg:sticky lg:top-32 bg-gradient-to-br from-gray-900/90 to-gray-800/90 border border-gray-700/50 rounded-3xl p-8 shadow-2xl backdrop-blur-md">
+                <h2 className="text-2xl font-bold text-white mb-2">Jak to funguje</h2>
+                <p className="text-gray-400 text-sm mb-8">Jednoduchý proces od prvního setkání do spuštění</p>
+
+                <div>
+                  {[
+                    { num: 1, title: "Setkání", desc: "Diskutujeme o vašich cílech a představě projektu" },
+                    { num: 2, title: "Návrh", desc: "Vytvořím a ukážu vám návrh podle informací ze setkání" },
+                    { num: 3, title: "Vývoj", desc: "Dokončím web podle schváleného návrhu" },
+                    { num: 4, title: "Spuštění", desc: "Web se spustí na vámi vybranou url adresu", last: true },
+                  ].map((step) => (
+                    <div key={step.num} className="flex gap-5">
+                      <div className="flex flex-col items-center">
+                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-lg shadow-blue-500/20">
+                          {step.num}
+                        </div>
+                        {!step.last && (
+                          <div className="w-px flex-1 bg-gray-700 my-2 min-h-[2rem]" />
+                        )}
+                      </div>
+                      <div className={step.last ? 'pb-0' : 'pb-8'}>
+                        <p className="text-white font-semibold text-base leading-10">{step.title}</p>
+                        <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </ScrollReveal>
+
           </div>
         </div>
       </section>
