@@ -32,7 +32,7 @@ function WebsitesDetail() {
             </Link>
           </ScrollReveal>
 
-          <div className="max-w-3xl">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-10">
               <ScrollReveal>
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-blue-500/30 text-5xl mb-6 shadow-xl shadow-blue-500/10">
@@ -55,7 +55,7 @@ function WebsitesDetail() {
                   <p className="text-lg text-gray-300 leading-relaxed font-light mb-8 mt-2">
                     Vytvářím webové stránky od jednoduchých prezentačních webů pro živnostníky, až po komplexní webové aplikace s rezervačními systémy a pokročilými funkcemi pro firmy.
                   </p>
-                  
+
                   <div className="mt-6 flex items-center gap-4 bg-gray-950/50 p-5 rounded-2xl border border-gray-800 shadow-inner group transition-all hover:border-blue-500/30">
                     <div className="p-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-xl group-hover:scale-110 transition-transform duration-300">
                       <Wallet className="w-7 h-7 text-blue-400" />
@@ -70,35 +70,73 @@ function WebsitesDetail() {
                   </div>
                 </div>
               </ScrollReveal>
+            </div>
 
-              <ScrollReveal delay={150}>
-                <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
-                  <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
-                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-                    <span className="text-blue-400">✨</span> Co vám nabízím
-                  </h2>
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    {[
-                      { text: "Přizpůsobivý design", icon: <Layout className="w-5 h-5 text-blue-400" /> },
-                      { text: "Napojení na Google tabulky", icon: <Layers className="w-5 h-5 text-blue-400" /> },
-                      { text: "Extrémně rychlé načítání", icon: <Zap className="w-5 h-5 text-blue-400" /> },
-                      { text: "Více podstránek", icon: <Layout className="w-5 h-5 text-blue-400" /> },
-                      { text: "Google mapy na webu", icon: <Globe className="w-5 h-5 text-blue-400" /> },
-                      { text: "Základní SEO optimalizace", icon: <Search className="w-5 h-5 text-blue-400" /> },
-                      { text: "Rezervační systémy", icon: <Smartphone className="w-5 h-5 text-blue-400" /> },
-                      { text: "Podpora více jazyků", icon: <MessageSquare className="w-5 h-5 text-blue-400" /> }
-                    ].map((feature, idx) => (
-                      <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/10">
-                        <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 group-hover:scale-110 transition-all duration-300 shadow-inner">
-                          {feature.icon || <CheckCircle className="w-5 h-5 text-blue-400" />}
-                        </div>
-                        <span className="text-gray-200 text-sm font-medium">{feature.text}</span>
+            <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
+              <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
+                <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
+                <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                  <span className="text-blue-400">✨</span> Co vám nabízím
+                </h2>
+                <div className="grid sm:grid-cols-1 gap-4">
+                  {[
+                    { text: "Přizpůsobivý design", icon: <Layout className="w-5 h-5 text-blue-400" /> },
+                    { text: "Napojení na Google tabulky", icon: <Layers className="w-5 h-5 text-blue-400" /> },
+                    { text: "Extrémně rychlé načítání", icon: <Zap className="w-5 h-5 text-blue-400" /> },
+                    { text: "Více podstránek", icon: <Layout className="w-5 h-5 text-blue-400" /> },
+                    { text: "Google mapy na webu", icon: <Globe className="w-5 h-5 text-blue-400" /> },
+                    { text: "Základní SEO optimalizace", icon: <Search className="w-5 h-5 text-blue-400" /> },
+                    { text: "Rezervační systémy", icon: <Smartphone className="w-5 h-5 text-blue-400" /> },
+                    { text: "Podpora více jazyků", icon: <MessageSquare className="w-5 h-5 text-blue-400" /> }
+                  ].map((feature, idx) => (
+                    <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800/80 transition-all duration-300 hover:-translate-x-1 hover:shadow-lg hover:shadow-blue-500/10">
+                      <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 group-hover:scale-110 transition-all duration-300 shadow-inner">
+                        {feature.icon || <CheckCircle className="w-5 h-5 text-blue-400" />}
                       </div>
-                    ))}
+                      <span className="text-gray-200 text-sm font-medium">{feature.text}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-6 bg-gray-800/20">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <ScrollReveal>
+              <h2 className="text-5xl md:text-6xl font-bold mb-6">Jak to funguje</h2>
+            </ScrollReveal>
+            <ScrollReveal delay={100}>
+              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                Jednoduchý proces od prvního setkání do spuštění
+              </p>
+            </ScrollReveal>
+          </div>
+          <div className="grid md:grid-cols-4 gap-6">
+            {[
+              { num: "1", title: "Setkání", desc: "Diskutujeme o vašich cílech a představě projektu" },
+              { num: "2", title: "Návrh", desc: "Vytvořím a ukážu vám návrh podle informací ze setkání" },
+              { num: "3", title: "Vývoj", desc: "Dokončím web podle schváleného návrhu" },
+              { num: "4", title: "Spuštění", desc: "Web se spustí na vámi vybranou url adresu" },
+            ].map((step, idx) => (
+              <ScrollReveal key={idx} delay={idx * 150}>
+                <div className="relative">
+                  {idx < 3 && (
+                    <div className="absolute top-12 -right-3 w-6 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 hidden md:block" />
+                  )}
+                  <div className="group bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-6 rounded-xl border border-gray-700 hover:border-blue-500/60 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2 cursor-default h-full">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4 font-bold text-gray-950 group-hover:scale-110 transition-transform">
+                      {step.num}
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                    <p className="text-gray-400 text-sm">{step.desc}</p>
                   </div>
                 </div>
               </ScrollReveal>
-            </div>
+            ))}
           </div>
         </div>
       </section>
