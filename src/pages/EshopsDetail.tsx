@@ -101,17 +101,23 @@ function EshopsDetail() {
             </div>
 
             <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
-              <div className="p-2 rounded-3xl bg-gray-800/30 border border-gray-700 backdrop-blur-sm shadow-2xl relative h-[500px] md:h-[600px] lg:h-[750px] group transition-all duration-700 hover:border-purple-500/40">
+              <div 
+                className="relative h-[500px] md:h-[600px] lg:h-[750px] group transition-all duration-700"
+                style={{
+                  WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
+                  maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
+                }}
+              >
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-pink-500/5 blur-2xl -z-10 rounded-full pointer-events-none group-hover:from-purple-500/30 transition-all duration-700" />
-                <div className="w-full h-full rounded-2xl overflow-hidden border border-gray-700/30 bg-gray-900/50 relative">
+                <div className="w-full h-full overflow-hidden relative">
                   <iframe
                     src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
                     frameBorder="0"
                     className="absolute top-0 left-0 w-full h-[calc(100%+70px)] object-cover"
                     title="Interactive 3D representation"
                   />
-                  {/* Subtle overlay to soften iframe edges */}
-                  <div className="absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(3,7,18,0.5)] rounded-2xl" />
+                  {/* Subtle overlay to safely capture interactions and prevent edge clipping */}
+                  <div className="absolute inset-0 pointer-events-none rounded-2xl" />
                 </div>
               </div>
             </ScrollReveal>

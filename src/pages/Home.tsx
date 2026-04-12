@@ -53,7 +53,13 @@ function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-3xl shadow-2xl shadow-blue-900/20">
+            <div 
+              className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
+              style={{
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
+                maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
+              }}
+            >
               <iframe
                 src="https://my.spline.design/3dglobe-ilZgUXNKvZsJki6lkUrp7g8I/"
                 frameBorder="0"
@@ -137,7 +143,13 @@ function Home() {
               </div>
             </div>
             <ScrollReveal>
-              <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden rounded-3xl shadow-2xl shadow-purple-900/20">
+              <div 
+                className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
+                style={{
+                  WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
+                  maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
+                }}
+              >
                 <iframe
                   src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
                   frameBorder="0"
