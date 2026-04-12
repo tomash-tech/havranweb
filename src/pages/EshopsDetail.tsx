@@ -8,22 +8,22 @@ const steps = [
   {
     num: 1,
     title: "Setkání",
-    desc: "Diskutujeme o vašich cílech a představě projektu.",
+    desc: "Diskutujeme o vašich cílech a představách.",
   },
   {
     num: 2,
-    title: "Návrh",
-    desc: "Vytvořím a ukážu vám návrh podle informací ze setkání.",
+    title: "Tvorba",
+    desc: "Sestrijím e-shop a prodejní formulář.",
   },
   {
     num: 3,
-    title: "Vývoj",
-    desc: "Dokončím e-shop podle schváleného návrhu.",
+    title: "Propojení",
+    desc: "Přidáme to k vám na web.",
   },
   {
     num: 4,
     title: "Spuštění",
-    desc: "Web se spustí na vámi vybranou url adresu.",
+    desc: "lidé si budou moct kupovat vaše digitální produkty na vašem e-shopu.",
     last: true,
   },
 ];
