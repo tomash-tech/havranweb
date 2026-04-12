@@ -63,7 +63,7 @@ function EshopsDetail() {
                     <div>
                       <p className="text-sm text-gray-400 font-medium mb-1">Počáteční investice</p>
                       <p className="text-2xl font-bold text-white tracking-tight">
-                        Od 8 000 Kč
+                        Od 2 000 Kč
                         <span className="text-sm font-normal text-gray-500 ml-2">/ individuální obcenění</span>
                       </p>
                     </div>
