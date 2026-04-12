@@ -1,10 +1,33 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Wallet, Package, ShoppingCart, FileText, Send, Bell, Activity, Tag, CircleDollarSign } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
-function SEODetail() {
+const steps = [
+  {
+    num: 1,
+    title: "Setkání",
+    desc: "Diskutujeme o vašich cílech a představě projektu.",
+  },
+  {
+    num: 2,
+    title: "Návrh",
+    desc: "Vytvořím a ukážu vám návrh podle informací ze setkání.",
+  },
+  {
+    num: 3,
+    title: "Vývoj",
+    desc: "Dokončím e-shop podle schváleného návrhu.",
+  },
+  {
+    num: 4,
+    title: "Spuštění",
+    desc: "Web se spustí na vámi vybranou url adresu.",
+  },
+];
+
+function EshopsDetail() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
       <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
@@ -16,14 +39,14 @@ function SEODetail() {
           <div className="hidden md:flex gap-12">
             <a href="/#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
             <Link to="/service/websites" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
-            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
+            <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
             <a href="/#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
           </div>
         </div>
       </nav>
 
       <section className="relative pt-32 pb-24 px-6 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[400px] bg-gradient-to-b from-green-600/20 to-emerald-500/10 blur-[100px] -z-10 rounded-full pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[400px] bg-gradient-to-b from-purple-600/20 to-pink-500/10 blur-[100px] -z-10 rounded-full pointer-events-none" />
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <Link to="/" className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800/50 hover:bg-gray-800 border border-gray-700 rounded-lg text-gray-300 hover:text-white transition-all mb-12 w-fit">
@@ -33,54 +56,95 @@ function SEODetail() {
           </ScrollReveal>
 
           <div className="grid lg:grid-cols-2 gap-16 items-start">
-            <div className="space-y-10">
+
+            {/* ── Levý sloupec ── */}
+            <div className="flex flex-col space-y-10">
               <ScrollReveal>
-                <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-green-500/20 to-emerald-500/20 border border-green-500/30 text-5xl mb-6 shadow-xl shadow-green-500/10">
-                  📈
+                <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-5xl mb-6 shadow-xl shadow-purple-500/10">
+                  🛒
                 </div>
                 <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-                  Lokální SEO
+                  E-shopy
                 </h1>
-                <p className="text-2xl text-green-200/80 font-medium tracking-wide">
-                  Zvyšte vaši viditelnost v lokálních vyhledávačích
+                <p className="text-2xl text-purple-200/80 font-medium tracking-wide">
+                  Vlastní online obchod pro prodej vašich produktů
                 </p>
               </ScrollReveal>
 
               <ScrollReveal delay={100}>
-                <div className="relative p-8 rounded-2xl bg-gradient-to-br from-gray-900/80 to-gray-800/80 border border-gray-700/50 backdrop-blur-sm">
-                  <div className="absolute top-0 left-8 px-3 py-1 -translate-y-1/2 bg-green-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-green-500/30">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 border border-gray-700/50 backdrop-blur-md shadow-2xl hover:border-purple-500/30 transition-colors duration-500">
+                  <div className="absolute top-0 left-8 px-4 py-1.5 -translate-y-1/2 bg-gradient-to-r from-purple-600 to-pink-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-purple-500/30 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                     O službě
                   </div>
-                  <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
-                    SEO je optimalizace vašeho podniku pro vyhledávače jako Google. Znamená to, že když si někdo vyhledá váš obor ve vašem městě, zobrazíte se hned nahoře.
+                  <p className="text-lg text-gray-300 leading-relaxed font-light mb-8 mt-2">
+                    Vytvářím moderní e-shopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů jako jsou e-booky, online kurzy, webináře, podcasty, či aplikace.
                   </p>
-                  <p className="text-lg text-gray-300 leading-relaxed font-light">
-                    <strong>Proč je to důležité?</strong> Když si někdo vyhledá např. kadeřnictví v Novém Jičíně, <span className="text-green-400 font-semibold">70% lidí rozklikne</span> jeden ze 3 prvních zobrazených podniků. Pokud tam jste vy, zajistí vám to spoustu nových zákazníků.
-                  </p>
+                  <div className="mt-6 flex items-center gap-4 bg-gray-950/50 p-5 rounded-2xl border border-gray-800 shadow-inner group transition-all hover:border-purple-500/30">
+                    <div className="p-3 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                      <Wallet className="w-7 h-7 text-purple-400" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-gray-400 font-medium mb-1">Počáteční investice</p>
+                      <p className="text-2xl font-bold text-white tracking-tight">
+                        Od 2 000 Kč
+                        <span className="text-sm font-normal text-gray-500 ml-2">/ individuální obcenění</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </ScrollReveal>
 
               <ScrollReveal delay={150}>
-                <div className="relative p-8 rounded-2xl bg-gradient-to-br from-gray-900/80 to-gray-800/80 border border-gray-700/50 backdrop-blur-sm">
-                  <div className="absolute top-0 left-8 px-3 py-1 -translate-y-1/2 bg-green-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-green-500/30">
-                    Jak to funguje
-                  </div>
-                  <p className="text-lg text-gray-300 leading-relaxed font-light mb-6">
-                    Spousta lidí si myslí, že tohle funguje stejně jako reklamy, to ovšem není pravda. Jde spíše o to, co se děje na vašich webových stránkách, vašem Google business profilu a kde všude jsou vaše stránky zmíněny. Tohle vše nastavím tak, aby vás Google dal hned na začátek!
-                  </p>
-                  <div className="inline-block mt-2 px-5 py-3 border border-green-500/30 bg-green-500/10 rounded-xl">
-                    <span className="text-green-400 font-medium">Cena:</span> Pokud už máte web ode mě tak <span className="text-white font-bold px-1">5 000 Kč</span>, pokud ne tak <span className="text-white font-bold px-1">8 000 Kč</span>.
+                <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
+                  <div className="absolute -top-24 -right-24 w-48 h-48 bg-purple-500/10 blur-3xl rounded-full pointer-events-none" />
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span className="text-purple-400">⚡</span> Výhody
+                  </h2>
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {[
+                      { text: "Katalog produktů", icon: <Package className="w-5 h-5 text-purple-400" /> },
+                      { text: "Nákupní košík (checkout)", icon: <ShoppingCart className="w-5 h-5 text-purple-400" /> },
+                      { text: "Prodejní formulář", icon: <FileText className="w-5 h-5 text-purple-400" /> },
+                      { text: "Automatické odesílání", icon: <Send className="w-5 h-5 text-purple-400" /> },
+                      { text: "Notifikace o objednávce", icon: <Bell className="w-5 h-5 text-purple-400" /> },
+                      { text: "Sledování objednávek", icon: <Activity className="w-5 h-5 text-purple-400" /> },
+                      { text: "Správa cen a slev", icon: <Tag className="w-5 h-5 text-purple-400" /> },
+                      { text: "Peníze rovnou na účet", icon: <CircleDollarSign className="w-5 h-5 text-purple-400" /> }
+                    ].map((feature, idx) => (
+                      <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-2xl border border-gray-700/50 hover:border-purple-500/50 hover:bg-gray-800/80 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/10">
+                        <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500/20 group-hover:scale-110 transition-all duration-300 shadow-inner">
+                          {feature.icon || <CheckCircle className="w-5 h-5 text-purple-400" />}
+                        </div>
+                        <span className="text-gray-200 text-sm font-medium">{feature.text}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </ScrollReveal>
             </div>
 
-            <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
-              <div className="p-2 rounded-3xl bg-gray-800/50 border border-gray-700 backdrop-blur-sm shadow-2xl relative">
-                <div className="absolute inset-0 bg-gradient-to-tr from-green-500/20 to-transparent blur-2xl -z-10 rounded-full pointer-events-none" />
-                <img src="/seo3.png" alt="SEO výsledky na Google mapách" className="w-full rounded-2xl object-cover hover:scale-[1.02] transition-transform duration-500 border border-gray-700/50" />
+            {/* ── Pravý sloupec — velké kartičky ── */}
+            <ScrollReveal delay={200}>
+              <div className="lg:sticky lg:top-32 flex flex-col gap-4 pt-4">
+                {steps.map((step, idx) => (
+                  <div
+                    key={step.num}
+                    className="group p-7 rounded-3xl bg-gray-900/60 border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-900/90 transition-all duration-300"
+                  >
+                    {/* Číslo vlevo nahoře — jako na mobilním screenshotu */}
+                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-blue-500/30 mb-5">
+                      {step.num}
+                    </div>
+                    <p className="text-white font-bold text-xl mb-2 group-hover:text-blue-300 transition-colors duration-300">
+                      {step.title}
+                    </p>
+                    <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
+                  </div>
+                ))}
               </div>
             </ScrollReveal>
+
           </div>
         </div>
       </section>
@@ -92,13 +156,11 @@ function SEODetail() {
             <p className="text-xl text-gray-300">
               Ozvěte se mi a společně vytvoříme web, který vám přinese klienty.
             </p>
-
             <div className="space-y-4 text-gray-300">
               <p><strong>Email:</strong> tomashavran.pracovni@gmail.com</p>
               <p><strong>Telefon:</strong> +420 770 600 944</p>
               <p><strong>Lokalita:</strong> Nový Jičín a okolí</p>
             </div>
-
             <Link
               to="/legal"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700 mt-4"
@@ -106,7 +168,6 @@ function SEODetail() {
               Právní informace
             </Link>
           </div>
-
           <div className="w-full">
             <ContactForm />
           </div>
@@ -118,4 +179,4 @@ function SEODetail() {
   );
 }
 
-export default SEODetail;
+export default EshopsDetail;
