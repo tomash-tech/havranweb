@@ -34,7 +34,7 @@ function EshopsDetail() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-start">
 
-            {/* Levý sloupec — původní obsah */}
+            {/* Levý sloupec */}
             <div className="space-y-10">
               <ScrollReveal>
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 text-5xl mb-6 shadow-xl shadow-purple-500/10">
@@ -102,30 +102,50 @@ function EshopsDetail() {
               </ScrollReveal>
             </div>
 
-            {/* Pravý sloupec — vertikální stepper */}
+            {/* Pravý sloupec — stepper bez boxu */}
             <ScrollReveal delay={200}>
-              <div className="lg:sticky lg:top-32 bg-gradient-to-br from-gray-900/90 to-gray-800/90 border border-gray-700/50 rounded-3xl p-8 shadow-2xl backdrop-blur-md">
-                <h2 className="text-2xl font-bold text-white mb-2">Jak to funguje</h2>
-                <p className="text-gray-400 text-sm mb-8">Jednoduchý proces od prvního setkání do spuštění</p>
+              <div className="lg:sticky lg:top-32 pt-4">
+
+                <p className="text-xs font-bold uppercase tracking-widest text-blue-400 mb-3">Postup spolupráce</p>
+                <h2 className="text-3xl font-extrabold text-white mb-2">Jak to funguje</h2>
+                <p className="text-gray-400 text-sm mb-10">Jednoduchý proces od prvního setkání do spuštění</p>
 
                 <div>
                   {[
-                    { num: 1, title: "Setkání", desc: "Diskutujeme o vašich cílech a představě projektu" },
-                    { num: 2, title: "Návrh", desc: "Vytvořím a ukážu vám návrh podle informací ze setkání" },
-                    { num: 3, title: "Vývoj", desc: "Dokončím web podle schváleného návrhu" },
-                    { num: 4, title: "Spuštění", desc: "Web se spustí na vámi vybranou url adresu", last: true },
+                    {
+                      num: 1,
+                      title: "Setkání",
+                      desc: "Diskutujeme o vašich cílech a představě projektu. Zjistím co potřebujete a navrhnu nejlepší řešení.",
+                    },
+                    {
+                      num: 2,
+                      title: "Návrh",
+                      desc: "Vytvořím a ukážu vám návrh podle informací ze setkání. Společně ho upravíme dokud nebudete spokojeni.",
+                    },
+                    {
+                      num: 3,
+                      title: "Vývoj",
+                      desc: "Dokončím e-shop podle schváleného návrhu. Průběžně vás informuji o postupu.",
+                    },
+                    {
+                      num: 4,
+                      title: "Spuštění",
+                      desc: "Web se spustí na vámi vybranou url adresu. Předám vám vše potřebné pro správu.",
+                      last: true,
+                    },
                   ].map((step) => (
-                    <div key={step.num} className="flex gap-5">
+                    <div key={step.num} className="flex gap-6 group">
                       <div className="flex flex-col items-center">
-                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-lg shadow-blue-500/20">
-                          {step.num}
+                        <div className="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-blue-500/20 to-blue-700/20 border border-blue-500/30 flex items-center justify-center flex-shrink-0 group-hover:border-blue-400/60 group-hover:from-blue-500/30 group-hover:to-blue-700/30 transition-all duration-300">
+                          <span className="text-blue-400 font-bold text-sm">{step.num}</span>
                         </div>
                         {!step.last && (
-                          <div className="w-px flex-1 bg-gray-700 my-2 min-h-[2rem]" />
+                          <div className="w-px flex-1 my-3 bg-gradient-to-b from-blue-500/40 to-gray-700/30 min-h-[3rem]" />
                         )}
                       </div>
-                      <div className={step.last ? 'pb-0' : 'pb-8'}>
-                        <p className="text-white font-semibold text-base leading-10">{step.title}</p>
+
+                      <div className={`${step.last ? 'pb-0' : 'pb-10'} pt-1`}>
+                        <p className="text-white font-bold text-lg mb-2 group-hover:text-blue-300 transition-colors duration-300">{step.title}</p>
                         <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
                       </div>
                     </div>
