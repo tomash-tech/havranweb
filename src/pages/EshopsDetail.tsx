@@ -24,6 +24,7 @@ const steps = [
     num: 4,
     title: "Spuštění",
     desc: "Web se spustí na vámi vybranou url adresu.",
+    last: true,
   },
 ];
 
@@ -124,29 +125,30 @@ function EshopsDetail() {
               </ScrollReveal>
             </div>
 
-            {/* ── Pravý sloupec — 2×2 čtvercový grid ── */}
+            {/* ── Pravý sloupec — kartičkový stepper ── */}
             <ScrollReveal delay={200}>
-              <div className="lg:sticky lg:top-32 pt-4">
-                <div className="grid grid-cols-2 gap-4">
-                  {steps.map((step) => (
-                    <div
-                      key={step.num}
-                      className="group aspect-square flex flex-col justify-between p-6 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-900/90 transition-all duration-300"
-                    >
-                      {/* Číslo */}
-                      <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white font-bold text-base shadow-lg shadow-blue-500/20">
+              <div className="lg:sticky lg:top-32 flex flex-col gap-3 pt-4">
+                {steps.map((step) => (
+                  <div key={step.num} className="flex gap-4">
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20 flex-shrink-0">
                         {step.num}
                       </div>
-                      {/* Text dole */}
-                      <div>
-                        <p className="text-white font-bold text-base mb-1 group-hover:text-blue-300 transition-colors duration-300">
-                          {step.title}
-                        </p>
-                        <p className="text-gray-400 text-xs leading-relaxed">{step.desc}</p>
-                      </div>
+                      {!step.last && (
+                        <div className="w-px flex-1 mt-2 bg-gradient-to-b from-blue-500/40 to-blue-500/10 min-h-[1.5rem]" />
+                      )}
                     </div>
-                  ))}
-                </div>
+
+                    <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-900/90 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
+                      <p className="text-white font-bold text-base mb-1 group-hover:text-blue-300 transition-colors duration-300">
+                        {step.title}
+                      </p>
+                      <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
+                    </div>
+
+                  </div>
+                ))}
               </div>
             </ScrollReveal>
 
