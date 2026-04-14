@@ -29,6 +29,9 @@ function App() {
         <Route path="/service/eshops" element={<EshopsDetail />} />
         <Route path="/legal" element={<Legal />} />
       </Routes>
+
+       <AiAssistant />
+    
     </Router>
   );
 }
