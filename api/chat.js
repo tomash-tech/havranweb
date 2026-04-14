@@ -15,29 +15,31 @@ export default async function handler(req, res) {
       .map(m => `${m.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m.content}`)
       .join('\n');
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [
+const response = await fetch(
+  `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-latest:generateContent`,
+  {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-goog-api-key': process.env.GEMINI_API_KEY
+    },
+    body: JSON.stringify({
+      contents: [
+        {
+          parts: [
             {
-              parts: [
-                {
-                  text: `Jsi přátelský AI asistent HavranWeb...
+              text: `Jsi přátelský AI asistent HavranWeb...
 
 ${conversation}
 
 Asistent:`
-                }
-              ]
             }
           ]
-        })
-      }
-    );
-
+        }
+      ]
+    })
+  }
+);
    const data = await response.json();
 
 // 👇 POŠLEME CELÝ RESPONSE DO CHatu (debug)
