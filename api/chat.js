@@ -26,9 +26,10 @@ const response = await fetch(
     body: JSON.stringify({
       contents: [
         {
+          role: "user",
           parts: [
             {
-              text: `Jsi přátelský AI asistent HavranWeb...
+              text: `Jsi přátelský AI asistent HavranWeb.
 
 ${conversation}`
             }
@@ -41,9 +42,16 @@ ${conversation}`
 
 const data = await response.json();
 
+console.log("FULL DATA:", JSON.stringify(data, null, 2));
+
 const reply =
-  data?.candidates?.[0]?.content?.parts?.[0]?.text ||
-  'Omlouvám se, něco se pokazilo.';
+  data?.candidates?.[0]?.content?.parts?.[0]?.text;
+
+if (!reply) {
+  return res.status(200).json({
+    reply: "DEBUG: " + JSON.stringify(data)
+  });
+}
 
 res.status(200).json({ reply });
    const data = await response.json();
