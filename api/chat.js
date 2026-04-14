@@ -37,14 +37,12 @@ Asistent:`
       }
     );
 
-    const data = await response.json();
+   const data = await response.json();
 
-    const reply =
-      data.candidates?.[0]?.content?.parts?.[0]?.text ||
-      'Omlouvám se, něco se pokazilo.';
-
-    res.status(200).json({ reply });
-
+// 👇 POŠLEME CELÝ RESPONSE DO CHatu (debug)
+return res.status(200).json({
+  reply: "DEBUG: " + JSON.stringify(data)
+});
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Server error' });
