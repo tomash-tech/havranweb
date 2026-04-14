@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       .join('\n');
 
 const response = await fetch(
-  `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent`,
+  `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`,
   {
     method: 'POST',
     headers: {
@@ -26,13 +26,12 @@ const response = await fetch(
     body: JSON.stringify({
       contents: [
         {
+          role: "user",
           parts: [
             {
               text: `Jsi přátelský AI asistent HavranWeb...
 
-${conversation}
-
-Asistent:`
+${conversation}`
             }
           ]
         }
