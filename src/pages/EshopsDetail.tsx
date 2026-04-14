@@ -132,7 +132,7 @@ function EshopsDetail() {
                   <div key={step.num} className="flex gap-4">
 
                     <div className="flex flex-col items-center flex-shrink-0">
-                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purpule-400 to-pink-600 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20 flex-shrink-0">
+                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purpule-500 to-pink-500 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20 flex-shrink-0">
                         {step.num}
                       </div>
                       {!step.last && (
