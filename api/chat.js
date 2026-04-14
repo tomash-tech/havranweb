@@ -16,29 +16,20 @@ export default async function handler(req, res) {
       .join('\n');
 
 const response = await fetch(
-  `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`,
+  `https://generativelanguage.googleapis.com/v1beta/models`,
   {
-    method: 'POST',
+    method: 'GET',
     headers: {
-      'Content-Type': 'application/json',
       'x-goog-api-key': process.env.GEMINI_API_KEY
-    },
-    body: JSON.stringify({
-      contents: [
-        {
-          role: "user",
-          parts: [
-            {
-              text: `Jsi přátelský AI asistent HavranWeb...
-
-${conversation}`
-            }
-          ]
-        }
-      ]
-    })
+    }
   }
 );
+
+const data = await response.json();
+
+return res.status(200).json({
+  reply: "MODELS: " + JSON.stringify(data)
+});
    const data = await response.json();
 
 // 👇 POŠLEME CELÝ RESPONSE DO CHatu (debug)
