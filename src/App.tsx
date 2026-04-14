@@ -5,6 +5,7 @@ import WebsitesDetail from './pages/WebsitesDetail';
 import SEODetail from './pages/SEODetail';
 import EshopsDetail from './pages/EshopsDetail';
 import Legal from './pages/Legal';
+import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
   const location = useLocation();
