@@ -125,32 +125,29 @@ function EshopsDetail() {
               </ScrollReveal>
             </div>
 
-            {/* ── Pravý sloupec — kartičkový stepper ── */}
-            <ScrollReveal delay={200}>
-              <div className="lg:sticky lg:top-32 flex flex-col gap-3 pt-4">
-                {steps.map((step) => (
-                  <div key={step.num} className="flex gap-4">
-
-                    <div className="flex flex-col items-center flex-shrink-0">
-                      <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purpule-500 to-pink-500 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20 flex-shrink-0">
-                        {step.num}
-                      </div>
-                      {!step.last && (
-                        <div className="w-px flex-1 mt-2 bg-gradient-to-b from-purple-500/40 to-purple-500/10 min-h-[1.5rem]" />
-                      )}
-                    </div>
-
-                    <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-purple-500/40 hover:bg-gray-900/90 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
-                      <p className="text-white font-bold text-base mb-1 group-hover:text-blue-300 transition-colors duration-300">
-                        {step.title}
-                      </p>
-                      <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
-                    </div>
-
-                  </div>
-                ))}
-              </div>
-            </ScrollReveal>
+          {/* ── Pravý sloupec — kartičkový stepper ── */}
+<ScrollReveal delay={200}>
+  <div className="lg:sticky lg:top-32 flex flex-col gap-3 pt-4">
+    {steps.map((step) => (
+      <div key={step.num} className="flex gap-4">
+        <div className="flex flex-col items-center flex-shrink-0">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-purple-500/20 flex-shrink-0">
+            {step.num}
+          </div>
+          {!step.last && (
+            <div className="w-px flex-1 mt-2 bg-gradient-to-b from-purple-500/40 to-pink-500/10 min-h-[1.5rem]" />
+          )}
+        </div>
+        <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-purple-500/40 hover:bg-purple-950/30 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
+          <p className="text-white font-bold text-base mb-1 group-hover:text-purple-300 transition-colors duration-300">
+            {step.title}
+          </p>
+          <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</ScrollReveal>
 
           </div>
         </div>
