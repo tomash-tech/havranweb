@@ -60,8 +60,11 @@ res.status(200).json({ reply });
 return res.status(200).json({
   reply: "DEBUG: " + JSON.stringify(data)
 });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: 'Server error' });
-  }
+} catch (err) {
+  console.error("SERVER ERROR:", err);
+
+  res.status(200).json({
+    reply: "ERROR: " + err.message
+  });
+}
 }
