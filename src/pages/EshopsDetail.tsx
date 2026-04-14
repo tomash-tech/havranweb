@@ -136,7 +136,7 @@ function EshopsDetail() {
                         {step.num}
                       </div>
                       {!step.last && (
-                        <div className="w-px flex-1 mt-2 bg-gradient-to-b from-blue-500/40 to-blue-500/10 min-h-[1.5rem]" />
+                        <div className="w-px flex-1 mt-2 bg-gradient-to-b from-purple-500/40 to-purple-500/10 min-h-[1.5rem]" />
                       )}
                     </div>
 
