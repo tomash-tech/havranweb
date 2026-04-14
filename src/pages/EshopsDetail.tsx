@@ -13,7 +13,7 @@ const steps = [
   {
     num: 2,
     title: "Tvorba",
-    desc: "Sestrijím e-shop a prodejní formulář.",
+    desc: "Sestroijím e-shop a prodejní formulář.",
   },
   {
     num: 3,
@@ -140,7 +140,7 @@ function EshopsDetail() {
                       )}
                     </div>
 
-                    <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-blue-500/40 hover:bg-gray-900/90 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
+                    <div className={`group flex-1 p-5 rounded-2xl bg-gray-900/60 border border-gray-700/50 hover:border-purple-500/40 hover:bg-gray-900/90 transition-all duration-300 ${!step.last ? 'mb-1' : ''}`}>
                       <p className="text-white font-bold text-base mb-1 group-hover:text-blue-300 transition-colors duration-300">
                         {step.title}
                       </p>
