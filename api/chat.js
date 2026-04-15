@@ -6,7 +6,11 @@ export default async function handler(req, res) {
       return res.status(405).json({ error: "Method not allowed" });
     }
 
-    const { messages } = req.body;
+    const body = typeof req.body === "string"
+      ? JSON.parse(req.body)
+      : req.body;
+
+    const messages = body?.messages || [];
 
     const conversation = messages
       .map(m => `${m.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m.content}`)
