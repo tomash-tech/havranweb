@@ -37,9 +37,7 @@ Dodržuj:
 Konverzace:
 ${conversation}
 
-Asistent:`
-
-${conversation}`,
+Asistent:`,
                 },
               ],
             },
