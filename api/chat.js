@@ -10,8 +10,13 @@ export default async function handler(req, res) {
       .map(m => `${m.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m.content}`)
       .join('\n');
 
-  const response = await fetch(
-  "https://generativelanguage.googleapis.com/v1/models?key=" + process.env.GEMINI_API_KEY
+const response = await fetch(
+  "https://generativelanguage.googleapis.com/v1beta/models",
+  {
+    headers: {
+      "x-goog-api-key": process.env.GEMINI_API_KEY
+    }
+  }
 );
 
 const data = await response.json();
