@@ -1,4 +1,4 @@
-import { SYSTEM_PROMPT } from "./prompt";
+import { SYSTEM_PROMPT } from "./prompt.js";
 
 export default async function handler(request) {
   try {
