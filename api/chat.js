@@ -1,4 +1,5 @@
 import { SYSTEM_PROMPT } from "./prompt";
+
 export default async function handler(req, res) {
   try {
     if (req.method !== "POST") {
@@ -25,9 +26,7 @@ export default async function handler(req, res) {
               role: "user",
               parts: [
                 {
-                 text: `Jsi AI asistent firmy HavranWeb.
-
-text: `${SYSTEM_PROMPT}
+                  text: `${SYSTEM_PROMPT}
 
 Konverzace:
 ${conversation}
