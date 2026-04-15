@@ -37,9 +37,16 @@ ${conversation}`,
 
     const data = await response.json();
 
-    const reply =
-      data?.candidates?.[0]?.content?.parts?.[0]?.text ||
-      "Omlouvám se, něco se pokazilo.";
+    let reply = "";
+
+    if (data.candidates && data.candidates.length > 0) {
+      const parts = data.candidates[0].content.parts;
+      reply = parts.map(p => p.text).join("");
+    }
+
+    if (!reply) {
+      reply = "DEBUG: " + JSON.stringify(data);
+    }
 
     res.status(200).json({ reply });
 
