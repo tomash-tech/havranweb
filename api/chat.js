@@ -1,15 +1,14 @@
 import { SYSTEM_PROMPT } from "./prompt";
 
-export default async function handler(req, res) {
+export default async function handler(request) {
   try {
-    if (req.method !== "POST") {
-      return res.status(405).json({ error: "Method not allowed" });
+    if (request.method !== "POST") {
+      return new Response(JSON.stringify({ error: "Method not allowed" }), { status: 405 });
     }
 
-    // 🔒 bezpečné parsování body
     let body;
     try {
-      body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+      body = await request.json();
     } catch {
       body = {};
     }
@@ -48,14 +47,7 @@ Asistent:`,
       }
     );
 
-    let data = {};
-    try {
-      data = await response.json();
-    } catch {
-      return res.status(200).json({
-        reply: "ERROR: Neplatná odpověď z API"
-      });
-    }
+    const data = await response.json();
 
     let reply = "";
 
@@ -68,13 +60,17 @@ Asistent:`,
       reply = "DEBUG: " + JSON.stringify(data);
     }
 
-    return res.status(200).json({ reply });
+    return new Response(JSON.stringify({ reply }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
 
   } catch (err) {
-    console.error("FATAL ERROR:", err);
-
-    return res.status(200).json({
+    return new Response(JSON.stringify({
       reply: "ERROR: " + err.toString()
+    }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
     });
   }
 }
