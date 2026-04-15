@@ -6,14 +6,18 @@ export default async function handler(req, res) {
       return res.status(405).json({ error: "Method not allowed" });
     }
 
-    const body = typeof req.body === "string"
-      ? JSON.parse(req.body)
-      : req.body;
+    // 🔒 bezpečné parsování body
+    let body;
+    try {
+      body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+    } catch {
+      body = {};
+    }
 
-    const messages = body?.messages || [];
+    const messages = Array.isArray(body?.messages) ? body.messages : [];
 
     const conversation = messages
-      .map(m => `${m.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m.content}`)
+      .map(m => `${m?.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m?.content || ''}`)
       .join('\n');
 
     const response = await fetch(
@@ -44,25 +48,32 @@ Asistent:`,
       }
     );
 
-    const data = await response.json();
+    let data = {};
+    try {
+      data = await response.json();
+    } catch {
+      return res.status(200).json({
+        reply: "ERROR: Neplatná odpověď z API"
+      });
+    }
 
     let reply = "";
 
-    if (data.candidates && data.candidates.length > 0) {
-      const parts = data.candidates[0].content.parts;
-      reply = parts.map(p => p.text).join("");
+    if (data?.candidates?.length > 0) {
+      const parts = data.candidates[0]?.content?.parts || [];
+      reply = parts.map(p => p.text || "").join("");
     }
 
     if (!reply) {
       reply = "DEBUG: " + JSON.stringify(data);
     }
 
-    res.status(200).json({ reply });
+    return res.status(200).json({ reply });
 
   } catch (err) {
-    console.error("ERROR:", err);
+    console.error("FATAL ERROR:", err);
 
-    res.status(200).json({
+    return res.status(200).json({
       reply: "ERROR: " + err.toString()
     });
   }
