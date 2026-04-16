@@ -6,7 +6,7 @@ export default async function handler(req, res) {
       return res.status(405).json({ error: "Method not allowed" });
     }
 
-    // ✅ bezpečné parsování body
+    // bezpečné parsování body
     let body;
     try {
       body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
@@ -20,75 +20,41 @@ export default async function handler(req, res) {
       .map(m => `${m?.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m?.content || ''}`)
       .join('\n');
 
-    // ✅ timeout na fetch (zabrání 504)
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "llama3-70b-8192",
+        messages: [
+          {
+            role: "system",
+            content: SYSTEM_PROMPT,
+          },
+          {
+            role: "user",
+            content: conversation,
+          },
+        ],
+        temperature: 0.7,
+      }),
+    });
 
-    const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": process.env.GEMINI_API_KEY,
-        },
-        body: JSON.stringify({
-          contents: [
-            {
-              role: "user",
-              parts: [
-                {
-                  text: `${SYSTEM_PROMPT}
+    const data = await response.json();
 
-Konverzace:
-${conversation}
-
-Asistent:`,
-                },
-              ],
-            },
-          ],
-        }),
-        signal: controller.signal,
-      }
-    );
-
-    clearTimeout(timeout);
-
-    let data = {};
-    try {
-      data = await response.json();
-    } catch {
-      return res.status(200).json({
-        reply: "Chyba při čtení odpovědi z AI."
-      });
-    }
-
-    let reply = "";
-
-    if (data?.candidates?.length > 0) {
-      const parts = data.candidates[0]?.content?.parts || [];
-      reply = parts.map(p => p.text || "").join("");
-    }
-
-    if (!reply) {
-      reply = "DEBUG: " + JSON.stringify(data);
-    }
+    const reply =
+      data?.choices?.[0]?.message?.content ||
+      "Omlouvám se, něco se pokazilo.";
 
     return res.status(200).json({ reply });
 
   } catch (err) {
-    console.error("FATAL ERROR:", err);
-
-    // 👉 timeout fallback
-    if (err.name === "AbortError") {
-      return res.status(200).json({
-        reply: "Server je teď vytížený, zkus to prosím za chvíli."
-      });
-    }
+    console.error("ERROR:", err);
 
     return res.status(200).json({
-      reply: "ERROR: " + err.toString()
+      reply: "Server je teď vytížený, zkus to prosím za chvíli."
     });
   }
 }
