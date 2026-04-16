@@ -1,14 +1,15 @@
 import { SYSTEM_PROMPT } from "./prompt.js";
 
-export default async function handler(request) {
+export default async function handler(req, res) {
   try {
-    if (request.method !== "POST") {
-      return new Response(JSON.stringify({ error: "Method not allowed" }), { status: 405 });
+    if (req.method !== "POST") {
+      return res.status(405).json({ error: "Method not allowed" });
     }
 
+    // ✅ bezpečné parsování body
     let body;
     try {
-      body = await request.json();
+      body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
     } catch {
       body = {};
     }
@@ -18,6 +19,10 @@ export default async function handler(request) {
     const conversation = messages
       .map(m => `${m?.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m?.content || ''}`)
       .join('\n');
+
+    // ✅ timeout na fetch (zabrání 504)
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
 
     const response = await fetch(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
@@ -44,10 +49,20 @@ Asistent:`,
             },
           ],
         }),
+        signal: controller.signal,
       }
     );
 
-    const data = await response.json();
+    clearTimeout(timeout);
+
+    let data = {};
+    try {
+      data = await response.json();
+    } catch {
+      return res.status(200).json({
+        reply: "Chyba při čtení odpovědi z AI."
+      });
+    }
 
     let reply = "";
 
@@ -60,17 +75,20 @@ Asistent:`,
       reply = "DEBUG: " + JSON.stringify(data);
     }
 
-    return new Response(JSON.stringify({ reply }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
+    return res.status(200).json({ reply });
 
   } catch (err) {
-    return new Response(JSON.stringify({
+    console.error("FATAL ERROR:", err);
+
+    // 👉 timeout fallback
+    if (err.name === "AbortError") {
+      return res.status(200).json({
+        reply: "Server je teď vytížený, zkus to prosím za chvíli."
+      });
+    }
+
+    return res.status(200).json({
       reply: "ERROR: " + err.toString()
-    }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
     });
   }
 }
