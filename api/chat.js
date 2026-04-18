@@ -33,7 +33,7 @@ export default async function handler(req, res) {
             content: m.content || "",
           })),
         ],
-        temperature: 0.7,
+        temperature: 0.3,
       }),
     });
 
