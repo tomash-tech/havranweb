@@ -6,7 +6,6 @@ export default async function handler(req, res) {
       return res.status(405).json({ error: "Method not allowed" });
     }
 
-    // bezpečné parsování body
     let body;
     try {
       body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
@@ -16,10 +15,6 @@ export default async function handler(req, res) {
 
     const messages = Array.isArray(body?.messages) ? body.messages : [];
 
-    const conversation = messages
-      .map(m => `${m?.role === 'user' ? 'Uživatel' : 'Asistent'}: ${m?.content || ''}`)
-      .join('\n');
-
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
@@ -27,16 +22,16 @@ export default async function handler(req, res) {
         "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "llama-3.1-8b-instant",
+        model: "llama-3.3-70b-versatile",
         messages: [
           {
             role: "system",
             content: SYSTEM_PROMPT,
           },
-          {
-            role: "user",
-            content: conversation,
-          },
+          ...messages.map(m => ({
+            role: m.role,
+            content: m.content || "",
+          })),
         ],
         temperature: 0.7,
       }),
@@ -44,11 +39,11 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
- let reply = data?.choices?.[0]?.message?.content;
+    let reply = data?.choices?.[0]?.message?.content;
 
-if (!reply) {
-  reply = "DEBUG: " + JSON.stringify(data);
-}
+    if (!reply) {
+      reply = "DEBUG: " + JSON.stringify(data);
+    }
 
     return res.status(200).json({ reply });
 
