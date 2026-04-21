@@ -39,7 +39,7 @@ function WebsitesDetail() {
                   🌐
                 </div>
                 <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-                  Webové stránky
+                  Tvorba webových stránek
                 </h1>
                 <p className="text-2xl text-blue-200/80 font-medium tracking-wide">
                   Moderní webové stránky postavené na nejnovějších technologiích
