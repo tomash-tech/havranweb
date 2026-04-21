@@ -74,9 +74,9 @@ function Home() {
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6">Co vám mohu nabídnout</h2>
+              <h2 className="text-5xl md:text-6xl font-bold mb-6">Tvorba webových stránek, E-shopů a SEO</h2>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Řešení pro všechny vaše digitální potřeby
+                Co vám mohu nabídnout
               </p>
             </div>
           </ScrollReveal>
