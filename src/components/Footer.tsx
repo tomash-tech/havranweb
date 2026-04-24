@@ -64,7 +64,7 @@ export default function Footer() {
               <div className="w-8 h-0.5 mb-4" style={{ backgroundColor: '#22d3ee' }}></div>
               <ul className="space-y-3 text-gray-400 text-sm">
                <li className="flex items-center gap-2">
-                  <span style={{ color: '#22d3ee' }}>📍</span>
+                  <span style={{ color: '#22d3ee' }}>⚡</span>
                   <span>HavranWeb</span>
                 </li>
                 <li className="flex items-center gap-2">
