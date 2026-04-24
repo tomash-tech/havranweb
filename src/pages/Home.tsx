@@ -3,6 +3,7 @@ import { Code2, Sparkles, Rocket, ArrowRight, CheckCircle, Clock, Shield } from 
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import { blogPosts } from '../lib/blogPosts';
 
 function Home() {
   return (
@@ -200,6 +201,55 @@ function Home() {
         </div>
       </section>
 
+{/* Blog sekce - přidej PŘED sekci id="kontakt" */}
+      <section id="blog" className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold mb-6">Z našeho blogu</h2>
+              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                Tipy a znalosti pro váš byznys online
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {blogPosts.slice(0, 3).map((post, idx) => (
+              <ScrollReveal key={post.slug} delay={idx * 150}>
+                <Link
+                  to={`/blog/${post.slug}`}
+                  className="group bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all hover:shadow-2xl hover:shadow-blue-500/10 flex flex-col h-full"
+                >
+                  <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-3 py-1 rounded-full w-fit mb-4">
+                    {post.category}
+                  </span>
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-blue-300 transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-400 leading-relaxed mb-6 flex-grow text-sm">
+                    {post.description}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-blue-400 text-sm font-medium group-hover:gap-3 transition-all duration-200">
+                    Číst článek <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+
+          <ScrollReveal delay={300}>
+            <div className="text-center mt-12">
+              <Link
+                to="/blog"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700"
+              >
+                Všechny články <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+      
       <section id="kontakt" className="min-h-screen px-6 flex items-center">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
