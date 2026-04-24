@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { blogPosts, formatDate } from '../lib/blogPosts';
-import { Clock, ArrowRight, Tag } from 'lucide-react';
+import { Clock, ArrowRight, Tag, ArrowLeft } from 'lucide-react';
  
 export default function Blog() {
   return (
@@ -8,7 +8,15 @@ export default function Blog() {
       {/* SEO meta - ideálně přidej přes react-helmet nebo přímo v index.html */}
       <title>Blog – HavranWeb | Tvorba webů, e-shopů a SEO</title>
  
-      <main className="min-h-screen bg-[#0a0a0a] text-white">
+     <main className="min-h-screen bg-[#0a0a0a] text-white">
+  <div className="max-w-4xl mx-auto px-6 pt-10">
+    <Link
+      to="/"
+      className="inline-flex items-center gap-2 text-gray-400 hover:text-white text-sm transition-colors duration-200"
+    >
+      <ArrowLeft size={15} /> Zpět na hlavní stránku
+    </Link>
+  </div>
         {/* Header */}
         <section className="relative pt-32 pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111] to-[#0a0a0a]" />
