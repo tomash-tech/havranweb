@@ -65,7 +65,7 @@ export default function Footer() {
               <ul className="space-y-3 text-gray-400 text-sm">
                <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>📍</span>
-                  <span>Nový Jičín a okolí</span>
+                  <span>HavranWeb</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>✉️</span>
