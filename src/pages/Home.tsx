@@ -19,6 +19,7 @@ function Home() {
             <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
             <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
             <Link to="/legal" className="text-gray-300 hover:text-white transition-colors font-medium">Legální</Link>
+           <Link to="/blog" className="text-gray-300 hover:text-white transition-colors font-medium">Blog</Link>
             <a href="#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
           </div>
         </div>
