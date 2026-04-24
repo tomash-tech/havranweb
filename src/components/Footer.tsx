@@ -63,6 +63,10 @@ export default function Footer() {
               <h3 className="text-white text-sm font-bold uppercase tracking-widest mb-1">Kontakt</h3>
               <div className="w-8 h-0.5 mb-4" style={{ backgroundColor: '#22d3ee' }}></div>
               <ul className="space-y-3 text-gray-400 text-sm">
+               <li className="flex items-center gap-2">
+                  <span style={{ color: '#22d3ee' }}>📍</span>
+                  <span>Nový Jičín a okolí</span>
+                </li>
                 <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>✉️</span>
                   <a href="mailto:tomashavran.pracovni@gmail.com" className="hover:text-cyan-400 transition">
