@@ -1,27 +1,29 @@
 import { Link } from 'react-router-dom';
 import { blogPosts, formatDate } from '../lib/blogPosts';
 import { Clock, ArrowRight, Tag, ArrowLeft } from 'lucide-react';
- 
+import Footer from '../components/Footer';
+
 export default function Blog() {
   return (
     <>
       {/* SEO meta - ideálně přidej přes react-helmet nebo přímo v index.html */}
       <title>Blog – HavranWeb | Tvorba webů, e-shopů a SEO</title>
- 
-     <main className="min-h-screen bg-[#0a0a0a] text-white">
-  <div className="max-w-4xl mx-auto px-6 pt-10">
-    <Link
-      to="/"
-      className="inline-flex items-center gap-2 text-gray-400 hover:text-white text-sm transition-colors duration-200"
-    >
-      <ArrowLeft size={15} /> Zpět na hlavní stránku
-    </Link>
-  </div>
+
+      <main className="min-h-screen bg-[#0a0a0a] text-white">
+        <div className="max-w-4xl mx-auto px-6 pt-10">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-gray-400 hover:text-white text-sm transition-colors duration-200"
+          >
+            <ArrowLeft size={15} /> Zpět na hlavní stránku
+          </Link>
+        </div>
+
         {/* Header */}
         <section className="relative pt-32 pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111] to-[#0a0a0a]" />
           <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none" />
- 
+
           <div className="relative max-w-4xl mx-auto">
             <span className="inline-block text-blue-400 text-sm font-medium tracking-widest uppercase mb-4">
               HavranWeb Blog
@@ -35,7 +37,7 @@ export default function Blog() {
             </p>
           </div>
         </section>
- 
+
         {/* Articles */}
         <section className="max-w-4xl mx-auto px-6 pb-32">
           <div className="space-y-6">
@@ -56,14 +58,14 @@ export default function Blog() {
                     {post.readTime} min čtení
                   </span>
                 </div>
- 
+
                 <h2 className="text-2xl font-bold text-white group-hover:text-blue-300 transition-colors duration-200 mb-3">
                   {post.title}
                 </h2>
                 <p className="text-gray-400 leading-relaxed mb-5">
                   {post.description}
                 </p>
- 
+
                 <span className="inline-flex items-center gap-2 text-blue-400 text-sm font-medium group-hover:gap-3 transition-all duration-200">
                   Číst článek <ArrowRight size={15} />
                 </span>
@@ -72,6 +74,8 @@ export default function Blog() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
