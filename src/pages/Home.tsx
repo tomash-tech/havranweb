@@ -241,7 +241,7 @@ function Home() {
             <div className="text-center mt-12">
               <Link
                 to="/blog"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all border border-gray-700"
+               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 w-fit"
               >
                 Všechny články <ArrowRight className="w-5 h-5" />
               </Link>
