@@ -33,7 +33,7 @@ Vlastní web je **váš majetek**. Nikdo vám ho nemůže vzít, omezit ani změ
  
 ## Kolik to stojí?
  
-Moderní web pro malou firmu dnes nepotřebuje velký rozpočet. Důležité je, aby byl rychlý, přehledný a fungoval na mobilu.
+Moderní web pro malou firmu dnes nepotřebuje velký rozpočet, (můžete se vlézt i do 10 000). Důležité je, aby byl rychlý, přehledný a fungoval na mobilu.
  
 Pokud vás zajímá, co konkrétně tvorba webu obnáší, [podívejte se na naše služby](/service/websites).
     `
