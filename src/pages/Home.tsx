@@ -201,12 +201,12 @@ function Home() {
         </div>
       </section>
 
-{/* Blog sekce - přidej PŘED sekci id="kontakt" */}
+{/* Blog sekce */}
       <section id="blog" className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6">Z našeho blogu</h2>
+              <h2 className="text-5xl md:text-6xl font-bold mb-6">Nové z našeho blogu</h2>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
                 Tipy a znalosti pro váš byznys online
               </p>
@@ -223,7 +223,7 @@ function Home() {
                   <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-3 py-1 rounded-full w-fit mb-4">
                     {post.category}
                   </span>
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-blue-300 transition-colors">
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-gr-300 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-400 leading-relaxed mb-6 flex-grow text-sm">
@@ -241,7 +241,7 @@ function Home() {
             <div className="text-center mt-12">
               <Link
                 to="/blog"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-all border border-gray-700"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-800 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all border border-gray-700"
               >
                 Všechny články <ArrowRight className="w-5 h-5" />
               </Link>
