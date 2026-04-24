@@ -56,19 +56,19 @@ Lokální SEO je soubor technik, které pomáhají vaší firmě zobrazit se ve 
  
 Čísla hovoří jasně:
 - **46 %** všech vyhledávání na Googlu má lokální záměr
-- **78 %** lokálních mobilních vyhledávání vede k nákupu offline
-- **88 %** zákazníků zavolá nebo navštíví firmu do 24 hodin po lokálním vyhledávání
+- **70 %** lidí rozklikne jeden ze 3 prvních výsledků
+- **0 %** lidí se prokliká na 4tou stránku výsledků
  
 ## 3 základní kroky lokálního SEO
  
 ### 1. Google Business Profile
 Zdarma firemní profil na Googlu je základ. Bez něj se na mapách prostě neobjevíte. Vyplňte vše – fotky, otevírací dobu, popis služeb.
  
-### 2. Konzistentní NAP
-NAP = Name, Address, Phone. Vaše jméno, adresa a telefon musí být **všude stejné** – na webu, v katalozích, na sociálních sítích.
+### 2. On-page SEO
+Optimalizace tagů jako title, H1 a H2 jsou základní důležité faktory pro vaši pozici v googlu.
  
-### 3. Recenze
-Google miluje firmy s recenzemi. Nebojte se zákazníkům říct ať vám recenzi nechají – většina to ráda udělá, pokud jsou spokojeni.
+### 3. Citace
+Citace a zmínky jsou dalží z důležitých "ranking faktorů", mít vaše stránky zmíněny aplikacemi a stránkami které google bere jako důvěryhodné, je masivní plus.
  
 ## Chcete víc zákazníků z Googlu?
  
