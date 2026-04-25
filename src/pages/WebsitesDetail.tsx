@@ -3,24 +3,13 @@ import { ArrowLeft, CheckCircle, Wallet, Layout, Layers, Zap, Smartphone, Search
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 function WebsitesDetail() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
-      <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/blue_hw.png" alt="HavranWeb" className="h-10 w-auto" />
-            <span className="text-xl font-bold">HavranWeb</span>
-          </Link>
-          <div className="hidden md:flex gap-12">
-            <a href="/#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
-            <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
-            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
-            <a href="/#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
-          </div>
-        </div>
-      </nav>
+      
+<Header />     
 
       <section className="relative pt-32 pb-24 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[400px] bg-gradient-to-b from-blue-600/20 to-cyan-500/10 blur-[100px] -z-10 rounded-full pointer-events-none" />
