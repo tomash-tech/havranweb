@@ -16,11 +16,11 @@ function Home() {
           </Link>
           <div className="hidden md:flex gap-12">
             <a href="#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
-            <Link to="/service/websites" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
-            <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
-            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
+            <Link to="/sluzby/webdesign" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
+            <Link to="/sluzby/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
+            <Link to="/sluzby/eshopy" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
             <Link to="/legal" className="text-gray-300 hover:text-white transition-colors font-medium">Legální</Link>
-           <Link to="/blog" className="text-gray-300 hover:text-white transition-colors font-medium">Blog</Link>
+            <Link to="/blog" className="text-gray-300 hover:text-white transition-colors font-medium">Blog</Link>
             <a href="#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
           </div>
         </div>
@@ -85,9 +85,9 @@ function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { id: 'websites', icon: Sparkles, title: "Webové stránky", desc: "Od jednodušších po komplexnější weby, které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální." },
-              { id: 'seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Google, když zákazník vyhledá Npř. Kadeřnictví Nový Jičín, váš podnik se mu zobrazí hned nahoře." },
-              { id: 'eshops', icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů (kurzy, e-booky atd)." },
+              { url: '/sluzby/webdesign', icon: Sparkles, title: "Webové stránky", desc: "Od jednodušších po komplexnější weby, které obsahují rezervační systémy, podstránky, formuláře a mnoho více. Cena individuální." },
+              { url: '/sluzby/seo', icon: Code2, title: "Lokální SEO", desc: "Dostaňme váš podnik do top 3 na Google, když zákazník vyhledá Npř. Kadeřnictví Nový Jičín, váš podnik se mu zobrazí hned nahoře." },
+              { url: '/sluzby/eshopy', icon: Rocket, title: "Eshopy", desc: "Jednoduché eshopy propojené s vašimi webovými stránkami, ideální pro prodej digitálních produktů (kurzy, e-booky atd)." },
             ].map((item, idx) => (
               <ScrollReveal key={idx} delay={idx * 150}>
                 <div className="group bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 hover:border-blue-500/50 transition-all hover:shadow-2xl hover:shadow-blue-500/10 flex flex-col h-full">
@@ -97,7 +97,7 @@ function Home() {
                   <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
                   <p className="text-gray-400 leading-relaxed mb-6 flex-grow">{item.desc}</p>
                   <Link
-                    to={`/service/${item.id}`}
+                    to={item.url}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 hover:from-blue-500/30 hover:to-cyan-500/30 border border-blue-500/50 hover:border-blue-500 rounded-lg font-semibold transition-all text-blue-300 hover:text-blue-200 w-fit"
                   >
                     Více informací
@@ -201,7 +201,7 @@ function Home() {
         </div>
       </section>
 
-{/* Blog sekce */}
+      {/* Blog sekce */}
       <section id="blog" className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
@@ -223,7 +223,7 @@ function Home() {
                   <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-3 py-1 rounded-full w-fit mb-4">
                     {post.category}
                   </span>
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-gr-300 transition-colors">
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-blue-300 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-400 leading-relaxed mb-6 flex-grow text-sm">
@@ -241,7 +241,7 @@ function Home() {
             <div className="text-center mt-12">
               <Link
                 to="/blog"
-               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 w-fit"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 w-fit"
               >
                 Všechny články <ArrowRight className="w-5 h-5" />
               </Link>
@@ -249,7 +249,7 @@ function Home() {
           </ScrollReveal>
         </div>
       </section>
-      
+
       <section id="kontakt" className="min-h-screen px-6 flex items-center">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
