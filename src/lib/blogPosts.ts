@@ -132,6 +132,46 @@ Web, který přivede jednoho nového zákazníka měsíčně, se zaplatí velmi 
 
 [ozvěte se nám](/). Rádi si probereme co by vašemu byznysu pomohlo nejvíc a připravíme nezávaznou nabídku.
   `
+},
+{
+  slug: "proc-podniky-v-novem-jicine-ztraceji-zakazniky",
+  title: "Proč podniky v Novém Jičíně ztrácí zákazníky",
+  description: "Bez viditelnosti na Googlu pravděpodobně přicházíte o zákazníky každý měsíc, aniž byste o tom věděli.",
+  date: "2026-04-25",
+  category: "SEO",
+  readTime: 5,
+  content: `
+## Zákazník vás hledá – ale nenajde vás
+
+Představte si situaci: někdo v Novém Jičíně potřebuje instalatéra, kadeřníka nebo účetní. Otevře Google, napíše název služby a město. Zobrazí se mu seznam firem – a vaše tam není.
+
+Neznamená to, že jste špatní. Znamená to jen, že vás Google nezná. A zákazník zavolá někomu jinému.
+
+## Proč Google viditelnost rozhoduje
+
+Čísla hovoří jasně – 70-80% lidí při hledání lokální služby nekliká dál než na první tři výsledky. Pokud tam nejste vy, jsou tam vaši konkurenti.
+
+A nestačí jen existovat na internetu. Web který Google nezná, jako by neexistoval. Proto je důležité mít správně nastavené lokální SEO – aby vás Google zobrazil přesně těm lidem, kteří hledají vaše služby v Novém Jičíně a okolí.
+
+## Co lokální SEO obnáší?
+
+- **Google Business Profile** – firemní profil na Googlu a mapách, zdarma, ale musí být správně vyplněný
+- **Správná struktura webu** – Google musí vidět správnou strukturu stránek a podstránek v doméně (většina lidí má tohle špatně)
+- **Správně optimalizované tagy** – Tagy jako H1, H2, Title nebo meta tagy by měly obsahovat přesně to co po nich google chce, tohle má správně méně než 1% webů, takže tímhle společně předběhneme konkurenci
+- **Zmínky a citace** – firmy které jsou zmíněny na určitých pro google důvěryhodných stránkách, mají masivní náskok, ale dělat tohle sám bez SEO znalostí, vám zabere spoustu času a energie - bude lepší když to necháte na nás
+
+## Zkuste si to sami
+
+Otevřete Google a napište název vaší služby + "Nový Jičín". Zobrazíte se? Jste v top 3?
+
+Pokud ne, někdo jiný bere zákazníky, kteří mohli být vaši.
+
+## Jak vám můžeme pomoct
+
+Lokální SEO je naše specialita. Postaráme se o to, aby vás zákazníci v Novém Jičíně a okolí našli dřív než konkurenci.
+
+Chcete vědět jak jste na tom konkrétně? [Ozvěte se nám](/). Zdarma se podíváme na vaši situaci a řekneme vám na rovinu, co by vašemu byznysu pomohlo nejvíc.
+  `
 }
 ];
  
