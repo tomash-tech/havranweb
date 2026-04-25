@@ -1,4 +1,9 @@
 {
+  "redirects": [
+    { "source": "/service/websites", "destination": "/sluzby/webdesign", "permanent": true },
+    { "source": "/service/seo", "destination": "/sluzby/seo", "permanent": true },
+    { "source": "/service/eshops", "destination": "/sluzby/eshopy", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
