@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
- 
+
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: '#0a0f1e' }} className="border-t border-cyan-500/30">
         <div className="container mx-auto px-6 py-12">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
- 
+
             {/* Column 1 - Logo & Tagline */}
             <div className="md:col-span-1">
               <img
@@ -43,27 +43,27 @@ export default function Footer() {
                 </a>
               </div>
             </div>
- 
+
             {/* Spacer */}
             <div className="hidden md:block" />
- 
+
             {/* Column 3 - Services + Ostatní */}
             <div>
               <h3 className="text-white text-sm font-bold uppercase tracking-widest mb-1">Služby</h3>
               <div className="w-8 h-0.5 mb-4" style={{ backgroundColor: '#22d3ee' }}></div>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><Link to="/service/websites" className="hover:text-cyan-400 transition">Web design</Link></li>
-                <li><Link to="/service/seo" className="hover:text-cyan-400 transition">Lokální SEO</Link></li>
-                <li><Link to="/service/eshops" className="hover:text-cyan-400 transition">E-shopy</Link></li>
+                <li><Link to="/sluzby/webdesign" className="hover:text-cyan-400 transition">Web design</Link></li>
+                <li><Link to="/sluzby/seo" className="hover:text-cyan-400 transition">Lokální SEO</Link></li>
+                <li><Link to="/sluzby/eshopy" className="hover:text-cyan-400 transition">E-shopy</Link></li>
               </ul>
- 
+
               <h3 className="text-white text-sm font-bold uppercase tracking-widest mt-8 mb-1">Ostatní</h3>
               <div className="w-8 h-0.5 mb-4" style={{ backgroundColor: '#22d3ee' }}></div>
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li><Link to="/blog" className="hover:text-cyan-400 transition">Blog</Link></li>
               </ul>
             </div>
- 
+
             {/* Column 4 - Contact */}
             <div>
               <h3 className="text-white text-sm font-bold uppercase tracking-widest mb-1">Kontakt</h3>
@@ -91,10 +91,10 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
- 
+
           </div>
         </div>
- 
+
         {/* Bottom copyright bar */}
         <div className="border-t py-4" style={{ borderColor: 'rgba(34,211,238,0.2)' }}>
           <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-gray-500">
@@ -108,4 +108,3 @@ export default function Footer() {
       </footer>
   );
 }
- 
