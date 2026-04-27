@@ -18,20 +18,20 @@ export default function ContactForm() {
     setSubmitStatus('idle');
 
     try {
-      const response = await fetch(
+      const form = new FormData();
+      form.append('jmeno', formData.jmeno);
+      form.append('email', formData.email);
+      form.append('telefon', formData.telefon);
+      form.append('obor', formData.obor);
+
+      await fetch(
         'https://script.google.com/macros/s/AKfycbwR26dfD18Csr5sqRCAD7IEiTxx4EfQB0BAvx8eeutOW-hDA2yrgIDAiNeFqWvzYy5u/exec',
         {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          mode: 'no-cors',
+          body: form,
         }
       );
-
-      const data = await response.json();
-
-      if (!response.ok || data.success === false) {
-        throw new Error(data?.error || 'Chyba při odesílání formuláře');
-      }
 
       setSubmitStatus('success');
       setFormData({ jmeno: '', email: '', telefon: '', obor: '' });
