@@ -57,4 +57,25 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+  <loc>https://havranweb.cz/blog/web-pro-posilovnu-novy-jicin</loc>
+  <lastmod>2026-04-30</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://havranweb.cz/blog/proc-podniky-v-novem-jicine-ztraceji-zakazniky</loc>
+  <lastmod>2026-04-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://havranweb.cz/blog/kolik-stoji-webove-stranky-novy-jicin</loc>
+  <lastmod>2026-04-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+  
 </urlset>
