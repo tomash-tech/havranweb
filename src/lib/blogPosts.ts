@@ -172,6 +172,62 @@ Lokální SEO je naše specialita. Postaráme se o to, aby vás zákazníci v No
 
 Chcete vědět jak jste na tom konkrétně? [Ozvěte se nám](/). Zdarma se podíváme na vaši situaci a řekneme vám na rovinu, co by vašemu byznysu pomohlo nejvíc.
   `
+},
+{
+  slug: "web-pro-posilovnu-novy-jicin",
+  title: "Proč se vyplatí web pro posilovnu v Novém Jičíně",
+  description: "Jedna posilovna v Novém Jičíně fungovala jen přes Facebook. Zákazníci nemohli zjistit otvírací dobu, ceny ani vybavení. Změnili jsme to.",
+  date: "2026-04-30",
+  category: "Tvorba webů",
+  readTime: 4,
+  content: `
+## Posilovna bez webu – jak to vypadá z pohledu zákazníka
+
+Představte si že hledáte posilovnu v Novém Jičíně. Otevřete Google, najdete výsledky, kliknete na jeden odkaz – a skončíte na Facebooku kde byl poslední příspěvek před třemi měsíci.
+
+Chcete zjistit otvírací dobu o svátcích. Není tam. Ceny členství? Taky ne. Fotky vybavení? Pár starých fotek z roku 2022.
+
+Zavoláte? Možná. Ale pravděpodobně prostě zavřete a zkusíte další posilovnu která web má.
+
+## Příklad z naší práce
+
+Přesně v takové situaci byla jedna posilovna v Novém Jičíně se kterou jsme nedávno spolupracovali. Fungovali roky pouze přes Facebook, kde ale příliš aktivní nebyli. Zákazníci měli problém zjistit základní informace – otvírací dobu, ceny, a zvlášť v období svátků to byl chaos.
+
+Vytvořili jsme jim moderní web který řeší všechny tyto problémy najednou.
+
+## Co web posilovně přinesl
+
+### Otvírací doba vždy po ruce
+
+Na webu je přehledně zobrazena otvírací doba včetně svátků a výjimek. Zákazník si to ověří kdykoliv sám – bez nutnosti volat nebo hledat na Facebooku.
+
+### Fotogalerie vybavení a strojů
+
+Jednou z největších výhod je kompletní fotogalerie všech strojů a vybavení. Nový zákazník si může prohlédnout co posilovna nabízí ještě před první návštěvou. To výrazně snižuje bariéru pro lidi kteří posilovnu ještě neznají.
+
+### Důvěryhodnost která přivádí nové zákazníky
+
+Moderní profesionální web dělá hodně pro první dojem. Zákazník který posilovnu nezná si z webu okamžitě udělá představu – o úrovni vybavení, prostředí i přístupu. Dobře vypadající web prostě signalizuje že firma dbá na kvalitu.
+
+### Vše na jednom místě
+
+Ceny, kontakt, adresa, otvírací doba, fotky, Google mapa – vše přehledně na jednom místě. Zákazník nemusí nic hledat, vše najde během pár sekund.
+
+## Proč Facebook nestačí
+
+Facebook je skvělý nástroj pro komunikaci se stávajícími zákazníky. Ale pro získávání nových má zásadní omezení:
+
+- Algoritmus rozhoduje kdo váš obsah uvidí
+- Nový zákazník který vás hledá na Googlu na Facebook nenarazí
+- Informace jsou roztroušené ve starých příspěvcích a těžko se hledají
+- Firma bez webu působí méně seriózně než konkurence která web má
+
+## Chcete web pro vaši posilovnu nebo fitness centrum?
+
+Podobný web můžeme vytvořit i pro vás. Ať už provozujete posilovnu, crossfit, jógu nebo jakékoliv jiné fitness centrum v Novém Jičíně a okolí.
+
+[Ozvěte se nám](/). Rádi se podíváme na vaši situaci a připravíme nezávaznou nabídku.
+  `
 }
 ];
  
