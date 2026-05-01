@@ -228,6 +228,59 @@ Podobný web můžeme vytvořit i pro vás. Ať už provozujete posilovnu, nebo 
 
 [Ozvěte se nám](/). Rádi se podíváme na vaši situaci a připravíme nezávaznou nabídku.
   `
+},
+{
+  slug: "jak-dlouho-trva-tvorba-webu",
+  title: "Jak dlouho trvá tvorba webu?",
+  description: "Jednoduchá landing page může být hotová za dva týdny. Složitější web s rezervačními systémy může trvat několik měsíců. Záleží na mnoha faktorech.",
+  date: "2026-05-01",
+  category: "Tvorba webů",
+  readTime: 4,
+  content: `
+## Záleží na tom, co potřebujete
+
+Nejčastější otázka kterou dostáváme: *"Jak rychle můžete web udělat?"* Upřímná odpověď je – záleží. A v tomto článku vám vysvětlíme na čem přesně.
+
+## Jednoduchá landing page – do dvou týdnů
+
+Pokud potřebujete jednoduchý prezentační web nebo landing page – úvod, popis služeb, kontakt – může být hotová klidně do dvou týdnů od prvního setkání.
+
+Tento typ webu je ideální pro živnostníky a malé firmy které potřebují rychle získat online přítomnost bez složitých funkcí.
+
+## Standardní firemní web – 4 až 8 týdnů
+
+Web s více podstránkami, fotogalerií, kontaktním formulářem a napojením na Google tabulky typicky zabere 4 až 8 týdnů. Záleží na množství obsahu a rychlosti zpětné vazby z vaší strany.
+
+## Složitější projekty – několik měsíců
+
+Pokud váš web obsahuje rezervační systémy, dotazníkové formuláře, napojení na externí systémy nebo pokročilé funkce na míru, může se vývoj protáhnout na několik měsíců. Ne proto, že by práce šla pomalu – ale proto, že každá integrace vyžaduje důkladné testování a dolaďování aby vše fungovalo spolehlivě.
+
+## Co prodlužuje dobu tvorby webu?
+
+Velká část zpoždění při tvorbě webu nepochází od vývojáře – ale od klienta. A to není kritika, je to prostě realita.
+
+Nejčastější důvody proč se web zpožďuje:
+
+- **Čekání na fotografie** – pokud web obsahuje profesionální fotky z focení, musíme počkat než fotograf dodá výsledky
+- **Texty a obsah** – potřebujeme vědět co na web napsat, a tuto informaci může dodat jen klient
+- **Zpětná vazba na návrh** – čím rychleji nám vrátíte připomínky k návrhu, tím rychleji pokračujeme
+- **Změny v průběhu** – přidání nových funkcí nebo změna zadání v průběhu vývoje celý proces prodlužuje
+
+## Jak urychlit tvorbu vašeho webu?
+
+Pokud potřebujete web rychle, připravte si předem:
+
+- **Texty** – co chcete na webu říct o sobě a svých službách
+- **Fotografie** – logo, fotky provozovny, produktů nebo týmu
+- **Inspiraci** – weby které se vám líbí a chcete se jim přiblížit
+- **Rychlou komunikaci** – čím rychleji reagujete na dotazy a návrhy, tím dříve je web hotový
+
+## Začínáme ihned po dohodě
+
+Jakmile se dohodneme na podobě a ceně webu, začínáme pracovat bez zbytečného otálení. Návrh vám ukážeme co nejdříve a společně ho doladíme přesně podle vašich představ.
+
+Chcete vědět jak rychle bychom zvládli váš konkrétní projekt? [Ozvěte se nám](/), rádi vám dáme přesnější odhad.
+  `
 }
 ];
  
