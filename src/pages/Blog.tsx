@@ -6,11 +6,9 @@ import Footer from '../components/Footer';
 export default function Blog() {
   return (
     <>
-      {/* SEO meta - ideálně přidej přes react-helmet nebo přímo v index.html */}
       <title>Blog – HavranWeb | Tvorba webů, e-shopů a SEO</title>
-
       <main className="min-h-screen bg-[#0a0a0a] text-white">
-        <div className="max-w-4xl mx-auto px-6 pt-10">
+        <div className="max-w-6xl mx-auto px-6 pt-10">
           <Link
             to="/"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white text-sm transition-colors duration-200"
@@ -23,8 +21,7 @@ export default function Blog() {
         <section className="relative pt-32 pb-20 px-6 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111] to-[#0a0a0a]" />
           <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none" />
-
-          <div className="relative max-w-4xl mx-auto">
+          <div className="relative max-w-6xl mx-auto">
             <span className="inline-block text-blue-400 text-sm font-medium tracking-widest uppercase mb-4">
               HavranWeb Blog
             </span>
@@ -39,13 +36,13 @@ export default function Blog() {
         </section>
 
         {/* Articles */}
-        <section className="max-w-4xl mx-auto px-6 pb-32">
-          <div className="space-y-6">
+        <section className="max-w-6xl mx-auto px-6 pb-32">
+          <div className="grid md:grid-cols-2 gap-6">
             {blogPosts.map((post) => (
               <Link
                 key={post.slug}
                 to={`/blog/${post.slug}`}
-                className="group block bg-white/5 hover:bg-white/8 border border-white/10 hover:border-blue-500/40 rounded-2xl p-8 transition-all duration-300"
+                className="group flex flex-col bg-white/5 hover:bg-white/8 border border-white/10 hover:border-blue-500/40 rounded-2xl p-8 transition-all duration-300"
               >
                 <div className="flex flex-wrap items-center gap-3 mb-4">
                   <span className="flex items-center gap-1.5 text-blue-400 text-xs font-medium bg-blue-400/10 px-3 py-1 rounded-full">
@@ -59,10 +56,10 @@ export default function Blog() {
                   </span>
                 </div>
 
-                <h2 className="text-2xl font-bold text-white group-hover:text-blue-300 transition-colors duration-200 mb-3">
+                <h2 className="text-xl font-bold text-white group-hover:text-blue-300 transition-colors duration-200 mb-3">
                   {post.title}
                 </h2>
-                <p className="text-gray-400 leading-relaxed mb-5">
+                <p className="text-gray-400 leading-relaxed mb-5 flex-grow text-sm">
                   {post.description}
                 </p>
 
@@ -74,7 +71,6 @@ export default function Blog() {
           </div>
         </section>
       </main>
-
       <Footer />
     </>
   );
