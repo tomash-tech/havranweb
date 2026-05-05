@@ -17,6 +17,7 @@ export default function Header() {
           <Link to="/blog" className="text-gray-300 hover:text-white transition-colors font-medium">Blog</Link>
           <Link to="/kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</Link>
           <Link to="/cenik" className="text-gray-300 hover:text-white transition-colors font-medium">Ceník</Link>
+          <Link to="/faq" className="text-gray-300 hover:text-white transition-colors font-medium">FAQ</Link>
         </div>
       </div>
     </nav>
