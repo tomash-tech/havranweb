@@ -52,7 +52,7 @@ const faqs = [
       },
       {
         q: "Jak dlouho trvá než se SEO projeví?",
-        a: "SEO není okamžitý výsledek jako reklama – jde o dlouhodobou investici. První výsledky se obvykle začínají projevovat po 2–3 měsících. Plný efekt lokálního SEO se typicky projeví po 4–6 měsících."
+        a: "SEO není okamžitý výsledek jako reklama – jde o delší věc. První výsledky se obvykle začínají projevovat po 2–3 týdnech. Plný efekt lokálního SEO se typicky projeví po 3 měsících."
       },
       {
         q: "Potřebuji SEO pokud už mám web?",
