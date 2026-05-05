@@ -63,6 +63,7 @@ export default function Footer() {
                 <li><Link to="/blog" className="hover:text-cyan-400 transition">Blog</Link></li>
                 <li><Link to="/cenik" className="hover:text-cyan-400 transition">Ceník</Link></li>
                 <li><Link to="/kontakt" className="hover:text-cyan-400 transition">Kontakt</Link></li>
+                <li><Link to="/faq" className="hover:text-cyan-400 transition">Časté otázky</Link></li>
               </ul>
             </div>
 
