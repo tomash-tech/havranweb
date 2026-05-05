@@ -8,6 +8,7 @@ import Legal from './pages/Legal';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
+import Pricing from './pages/Pricing';
 import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/kontakt" element={<Contact />} />
+        <Route path="/cenik" element={<Pricing />} /> 
       </Routes>
       <AiAssistant />
     </Router>
