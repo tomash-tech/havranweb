@@ -57,7 +57,7 @@ const shopPlans = [
     desc: "Jednoduchý prodejní formulář přes SimpleShop nebo podobnou platformu napojený na váš web.",
     features: [
       "Napojení na existující web",
-      "Jednoduchá správa produktů",
+      "Jednoduchá správa produktů, cen a slev",
       "Rychlé spuštění",
       "Ideální pro digitální produkty",
     ],
@@ -71,7 +71,8 @@ const shopPlans = [
     features: [
       "Integrováno do vašeho webu",
       "Platební brána",
-      "Správa objednávek",
+      "Správa objednávek a produktů",
+      "Správa cen, slev a kupónů",
       "Přizpůsobivý design",
     ],
     cta: "Mám zájem",
@@ -79,14 +80,16 @@ const shopPlans = [
   },
   {
     name: "E-shop na míru",
-    price: "10 000 – 12 000 Kč",
+    price: "10 000 Kč",
     desc: "Samostatný e-shop na vlastní doméně s kompletním řešením pro váš online prodej.",
     features: [
       "Vlastní URL adresa",
       "Kompletní e-shop řešení",
       "Platební brána",
       "Správa produktů a objednávek",
+      "Správa cen, slev a kupónů",
       "Přizpůsobivý design na míru",
+      "Profesionální e-shop oddělený od všeho ostatního",
     ],
     cta: "Mám zájem",
     highlight: false,
@@ -95,12 +98,12 @@ const shopPlans = [
 
 const seoPlans = [
   {
-    name: "SEO – váš web",
+    name: "SEO – náš web",
     price: "5 000 Kč",
     period: "jednorázově",
     desc: "Pokud už máte web od nás – obsahuje základní on-page SEO optimalizaci.",
     features: [
-      "On-page SEO optimalizace",
+      "Pokročilé On-page SEO optimalizace",
       "Google Business Profile",
       "Technická optimalizace",
       "Lokální klíčová slova",
@@ -116,7 +119,7 @@ const seoPlans = [
     desc: "Máte web od jiného vývojáře? Upravíme ho pro lokální vyhledávání. Cena nezahrnuje tvorbu nového webu.",
     features: [
       "Audit stávajícího webu",
-      "On-page SEO optimalizace",
+      "Základní i pokročilé On-page SEO optimalizace",
       "Google Business Profile",
       "Lokální klíčová slova",
       "Zmínky a citace",
