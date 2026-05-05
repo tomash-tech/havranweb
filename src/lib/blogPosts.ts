@@ -286,7 +286,7 @@ Chcete vědět jak rychle bychom zvládli váš konkrétní projekt? [Ozvěte se
   slug: "plati-se-web-jednorazove-nebo-mesicne",
   title: "Platí se web jednorázově nebo měsíčně?",
   description: "Spousta lidí neví jak funguje platba za web. U nás je to jednoduché – platíte jednou a hosting máte zdarma.",
-  date: "2026-05-01",
+  date: "2026-05-05",
   category: "Tvorba webů",
   readTime: 3,
   content: `
