@@ -7,6 +7,7 @@ import EshopsDetail from './pages/EshopsDetail';
 import Legal from './pages/Legal';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import Contact from './pages/Contact';
 import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/legal" element={<Legal />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/kontakt" element={<Contact />} />
       </Routes>
       <AiAssistant />
     </Router>
