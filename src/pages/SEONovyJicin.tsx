@@ -105,7 +105,7 @@ function SEONovyJicin() {
                 {[
                   { icon: <TrendingUp className="w-5 h-5 text-green-400" />, value: "70–80 %", label: "lidí kliká na top 3" },
                   { icon: <MapPin className="w-5 h-5 text-green-400" />, value: "46 %", label: "hledání je lokálních" },
-                  { icon: <Star className="w-5 h-5 text-green-400" />, value: "2–3 měs.", label: "první výsledky" },
+                  { icon: <Star className="w-5 h-5 text-green-400" />, value: "2–3 týd.", label: "první výsledky" },
                 ].map((stat, idx) => (
                   <div key={idx} className="flex flex-col items-center text-center p-4 bg-gray-800/50 rounded-2xl border border-gray-700">
                     {stat.icon}
@@ -119,48 +119,57 @@ function SEONovyJicin() {
         </div>
       </section>
 
-      {/* Nový Jičín sekce */}
-      <section className="py-24 px-6 bg-gray-800/20">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal>
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">SEO v Novém Jičíně – jak na to?</h2>
-              <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                Nový Jičín má přibližně 23 000 obyvatel a desítky lokálních podniků které bojují o pozornost zákazníků na Googlu. Kdo je nahoře, bere zákazníky.
-              </p>
-            </div>
-          </ScrollReveal>
+{/* Výsledky sekce */}
+<section className="py-24 px-6 bg-gray-800/20">
+  <div className="max-w-7xl mx-auto">
+    <ScrollReveal>
+      <div className="text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">Jak vypadají výsledky lokálního SEO?</h2>
+        <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          SEO není okamžitý výsledek jako reklama – je to dlouhodobá investice která se vyplácí. Tady je co můžete reálně očekávat.
+        </p>
+      </div>
+    </ScrollReveal>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              {
-                icon: "🗺️",
-                title: "Google Business Profile",
-                desc: "Základ lokálního SEO. Správně vyplněný profil s fotkami, otevírací dobou a recenzemi vás dostane na Google mapy a do lokálních výsledků.",
-              },
-              {
-                icon: "🔍",
-                title: "On-page optimalizace",
-                desc: "Správná struktura webu, H1/H2 nadpisy, meta tagy a lokální klíčová slova jako 'kadeřnictví Nový Jičín'. Méně než 1 % webů to má správně.",
-              },
-              {
-                icon: "🔗",
-                title: "Zmínky a citace",
-                desc: "Váš podnik musí být zmíněn na důvěryhodných katalozích a webech. Google pak vaší firmě více věří a zobrazuje ji výše.",
-              },
-            ].map((item, idx) => (
-              <ScrollReveal key={idx} delay={idx * 100}>
-                <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 hover:border-green-500/40 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10">
-                  <div className="text-4xl mb-4">{item.icon}</div>
-                  <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
-                  <p className="text-gray-400 leading-relaxed text-sm">{item.desc}</p>
-                </div>
-              </ScrollReveal>
-            ))}
+    <div className="grid md:grid-cols-3 gap-6">
+      {[
+        {
+          icon: "🌱",
+          time: "2–3 týdny",
+          title: "První pohyby",
+          desc: "Google začíná indexovat změny na vašem webu a Google Business profilu. Začínáte se objevovat pro méně konkurenční dotazy.",
+        },
+        {
+          icon: "📈",
+          time: "Do 90 dnů",
+          title: "Top 3 na Googlu",
+          desc: "Pro většinu lokálních dotazů jako 'vaše služba Nový Jičín' se dostáváte do top 3 výsledků. Zákazníci vás začínají nacházet organicky.",
+          highlight: true,
+        },
+        {
+          icon: "🏆",
+          time: "Dlouhodobě",
+          title: "Stabilní pozice",
+          desc: "Jednou získané pozice se udržují. Na rozdíl od reklamy která přestane fungovat jakmile přestanete platit, SEO pracuje za vás pořád.",
+        },
+      ].map((item, idx) => (
+        <ScrollReveal key={idx} delay={idx * 100}>
+          <div className={`bg-gradient-to-br p-8 rounded-2xl border transition-all duration-300 hover:shadow-2xl ${
+            item.highlight
+              ? 'from-green-600/20 to-emerald-600/10 border-green-500/50 hover:border-green-400 hover:shadow-green-500/20'
+              : 'from-gray-800/50 to-gray-900/50 border-gray-700 hover:border-green-500/40 hover:shadow-green-500/10'
+          }`}>
+            <div className="text-4xl mb-3">{item.icon}</div>
+            <p className="text-green-400 text-sm font-bold uppercase tracking-widest mb-2">{item.time}</p>
+            <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
+            <p className="text-gray-400 leading-relaxed text-sm">{item.desc}</p>
           </div>
-        </div>
-      </section>
-
+        </ScrollReveal>
+      ))}
+    </div>
+  </div>
+</section>
+      
       {/* Ceny */}
       <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
