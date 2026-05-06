@@ -153,7 +153,7 @@ function WebdesignNovyJicin() {
                 highlight: true,
               },
               {
-                name: "Web na míru",
+                name: "Komplexní web na míru",
                 price: "10 000 Kč+",
                 desc: "Komplexní projekty s funkcemi a integracemi na míru.",
                 items: ["Rezervační systém", "Více jazyků", "Propojení s externími systémy", "Funkce na míru"],
