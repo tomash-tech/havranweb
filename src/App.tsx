@@ -10,6 +10,7 @@ import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import Pricing from './pages/Pricing';
 import FAQ from './pages/FAQ';
+import Lokality from './pages/Lokality';
 import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/cenik" element={<Pricing />} /> 
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/lokality" element={<Lokality />} />
       </Routes>
       <AiAssistant />
     </Router>
