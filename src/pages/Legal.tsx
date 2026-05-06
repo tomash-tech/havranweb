@@ -3,8 +3,12 @@ import { ArrowLeft } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import { useEffect } from 'react';
 
 function Legal() {
+ useEffect(() => {
+  document.title = 'Právní informace – HavranWeb';
+}, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
 
