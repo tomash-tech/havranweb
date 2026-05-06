@@ -9,7 +9,10 @@ import { useEffect } from 'react';
 function WebsitesDetail() {
 useEffect(() => {
   document.title = 'Tvorba webových stránek Nový Jičín – HavranWeb';
+document.querySelector('meta[name="description"]')
+    ?.setAttribute('content', 'Tvorba webových stránek na míru v Novém Jičíně. Přizpůsobivý design, rychlé načítání, základní SEO. Ceny od 4 000 Kč.');
 }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
       
