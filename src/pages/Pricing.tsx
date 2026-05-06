@@ -188,7 +188,9 @@ function PlanCard({ plan, accent }: { plan: any, accent: string }) {
 export default function Pricing() {
  useEffect(() => {
   document.title = 'Ceník – HavranWeb';
-}, []);
+document.querySelector('meta[name="description"]')
+    ?.setAttribute('content', 'Přehled cen tvorby webů, e-shopů a SEO optimalizace. Transparentní ceny bez skrytých poplatků. Hosting zdarma.');
+ }, []);
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
