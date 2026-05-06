@@ -6,21 +6,9 @@ import Footer from '../components/Footer';
 function Legal() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
-      <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/blue_hw.png" alt="HavranWeb" className="h-10 w-auto" />
-            <span className="text-xl font-bold">HavranWeb</span>
-          </Link>
-          <div className="hidden md:flex gap-12">
-            <a href="/#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
-            <Link to="/service/websites" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
-            <Link to="/service/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
-            <Link to="/service/eshops" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
-            <a href="/#kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</a>
-          </div>
-        </div>
-      </nav>
+
+      <Header />     
+
 
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
