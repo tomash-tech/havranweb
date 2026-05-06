@@ -2,8 +2,12 @@ import { Link } from 'react-router-dom';
 import { blogPosts, formatDate } from '../lib/blogPosts';
 import { Clock, ArrowRight, Tag, ArrowLeft } from 'lucide-react';
 import Footer from '../components/Footer';
+import { useEffect } from 'react';
 
 export default function Blog() {
+ useEffect(() => {
+  document.title = 'Blog – HavranWeb | Tvorba webů, e-shopů a SEO';
+}, []);
   return (
     <>
       <title>Blog – HavranWeb | Tvorba webů, e-shopů a SEO</title>
