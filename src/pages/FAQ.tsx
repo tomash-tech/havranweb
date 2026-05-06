@@ -1,7 +1,7 @@
 import ScrollReveal from '../components/ScrollReveal';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const faqs = [
@@ -103,6 +103,9 @@ function FaqItem({ question, answer }: { question: string, answer: string }) {
 }
 
 export default function FAQ() {
+useEffect(() => {
+  document.title = 'Časté otázky – HavranWeb';
+}, []);
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
