@@ -2,8 +2,12 @@ import { Link } from 'react-router-dom';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import { useEffect } from 'react';
 
 export default function Contact() {
+ useEffect(() => {
+  document.title = 'Kontakt – HavranWeb';
+}, []);
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
