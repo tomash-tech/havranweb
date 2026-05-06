@@ -105,6 +105,8 @@ function FaqItem({ question, answer }: { question: string, answer: string }) {
 export default function FAQ() {
 useEffect(() => {
   document.title = 'Časté otázky – HavranWeb';
+ document.querySelector('meta[name="description"]')
+    ?.setAttribute('content', 'Odpovědi na nejčastější otázky o tvorbě webů, e-shopů a lokálním SEO.');
 }, []);
   return (
     <>
