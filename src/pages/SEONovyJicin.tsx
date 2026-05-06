@@ -136,8 +136,8 @@ function SEONovyJicin() {
         {
           icon: "🌱",
           time: "2–3 týdny",
-          title: "První pohyby",
-          desc: "Google začíná indexovat změny na vašem webu a Google Business profilu. Začínáte se objevovat pro méně konkurenční dotazy.",
+          title: "První výsledky",
+          desc: "Google si začíná všímat změn na vašem webu a Google Business profilu. Začínáte se objevovat na 1-2 stránce.",
         },
         {
           icon: "📈",
@@ -150,7 +150,7 @@ function SEONovyJicin() {
           icon: "🏆",
           time: "Dlouhodobě",
           title: "Stabilní pozice",
-          desc: "Jednou získané pozice se udržují. Na rozdíl od reklamy která přestane fungovat jakmile přestanete platit, SEO pracuje za vás pořád.",
+          desc: "Jednou získané pozice se v menším městě jako Nový Jičín udržují. Na rozdíl od reklamy která přestane fungovat jakmile přestanete platit, nebo velkoměst kde je stovka konkurentů a pravidelné postování je tam nutné. SEO zde pracuje za vás pořád.",
         },
       ].map((item, idx) => (
         <ScrollReveal key={idx} delay={idx * 100}>
