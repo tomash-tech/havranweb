@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 function Legal() {
   return (
