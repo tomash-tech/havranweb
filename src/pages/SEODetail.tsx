@@ -4,8 +4,12 @@ import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import { useEffect } from 'react';
 
 function SEODetail() {
+useEffect(() => {
+  document.title = 'Lokální SEO Nový Jičín – HavranWeb';
+}, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
     <Header />
