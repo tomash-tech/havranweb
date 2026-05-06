@@ -10,7 +10,7 @@ export default function Blog() {
 }, []);
   return (
     <>
-      <title>Blog – HavranWeb | Tvorba webů, e-shopů a SEO</title>
+     
       <main className="min-h-screen bg-[#0a0a0a] text-white">
         <div className="max-w-6xl mx-auto px-6 pt-10">
           <Link
