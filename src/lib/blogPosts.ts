@@ -324,6 +324,41 @@ Drobné úpravy řešíme individuálně. Pokud víte že budete web chctít pra
 
 Máte otázky ohledně ceny nebo chcete nezávaznou nabídku? [Ozvěte se nám](/).
   `
+},
+{
+  slug: "mohu-web-upravovat-sam",
+  title: "Mohu web později upravovat sám?",
+  description: "Záleží na tom jak je web postavený. U webů na míru vysvětlíme co je reálné a jak řešíme úpravy po spuštění.",
+  date: "2026-05-06",
+  category: "Tvorba webů",
+  readTime: 3,
+  content: `
+## Záleží na tom jak je web postavený
+
+Každý web který vytváříme je nakódovaný na míru podle konkrétních potřeb klienta. Na rozdíl od šablonových řešení jako WordPress nebo Wix, kde si obsah můžete měnit sami přes jednoduché rozhraní, náš přístup vyžaduje základní znalost kódu.
+
+Pokud s kódem neumíte, přímé úpravy webu sami pravděpodobně nezvládnete – a to je v pořádku.
+
+## Co když budu chtít něco změnit?
+
+Jednoduché úpravy jako změna ceny, telefonu, textu nebo otevírací doby řešíme bez poplatku. Stačí nám napsat a změnu provedeme rychle.
+
+Pokud budete chtít pravidelně upravovat větší části webu – přidávat nové služby, měnit sekce, aktualizovat obsah – domluvíme se na poplatku za správu a pravidelné úpravy. Cena záleží na rozsahu a frekvenci změn.
+
+## Proč nepoužíváme WordPress nebo jiné CMS?
+
+Šablonová řešení jako WordPress jsou sice snadno editovatelná, ale přinášejí kompromisy – pomalejší načítání, bezpečnostní rizika, omezený design a závislost na pluginech které přestávají fungovat.
+
+Weby které vytváříme jsou rychlé, bezpečné a přesně takové jaké potřebujete – bez zbytečného balastu. Za to stojí mít vývojáře který vám s úpravami pomůže.
+
+## Shrnutí
+
+- **Drobné úpravy** (texty, ceny, kontakt) – zdarma, stačí napsat
+- **Pravidelné úpravy** – domluvíme se na správě webu
+- **Větší změny nebo nové funkce** – řešíme jako novou zakázku
+
+Máte otázky ohledně správy webu? [Ozvěte se nám](/).
+  `
 }
 ];
  
