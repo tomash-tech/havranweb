@@ -24,6 +24,7 @@ function Home() {
             <Link to="/kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</Link>
             <Link to="/cenik" className="text-gray-300 hover:text-white transition-colors font-medium">Ceník</Link>
             <Link to="/faq" className="text-gray-300 hover:text-white transition-colors font-medium">FAQ</Link>
+            <Link to="/lokality" className="text-gray-300 hover:text-white transition-colors font-medium">Lokality</Link>
           </div>
         </div>
       </nav>
