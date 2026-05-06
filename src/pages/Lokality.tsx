@@ -10,7 +10,7 @@ const cities = [
     name: "Nový Jičín",
     desc: "Hlavní oblast působení HavranWeb. Tvorba webů, e-shopů a lokální SEO pro podnikatele v Novém Jičíně.",
     services: [
-      { label: "Webdesign Nový Jičín", url: "/lokality/webdesign-novy-jicin" },
+      { label: "Webdesign Nový Jičín", url: "/lokality/tvorba-webovych-stranek-novy-jicin" },
       { label: "SEO Nový Jičín", url: "/lokality/seo-novy-jicin" },
     ],
     highlight: true,
