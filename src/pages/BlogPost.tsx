@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { getBlogPost, blogPosts, formatDate } from '../lib/blogPosts';
 import { Clock, ArrowLeft, Tag, ArrowRight } from 'lucide-react';
 import Footer from '../components/Footer';
+import { useEffect } from 'react';
 
 // Jednoduchý Markdown renderer (bez externí knihovny)
 function renderMarkdown(content: string): string {
@@ -34,6 +35,10 @@ export default function BlogPost() {
 
   if (!post) return <Navigate to="/blog" replace />;
 
+useEffect(() => {
+  if (post) document.title = `${post.title} – HavranWeb`;
+}, [post]);
+  
   // Najdi další článek
   const currentIndex = blogPosts.findIndex(p => p.slug === slug);
   const nextPost = blogPosts[currentIndex + 1] || blogPosts[0];
