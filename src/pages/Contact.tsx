@@ -7,7 +7,9 @@ import { useEffect } from 'react';
 export default function Contact() {
  useEffect(() => {
   document.title = 'Kontakt – HavranWeb';
-}, []);
+document.querySelector('meta[name="description"]')
+    ?.setAttribute('content', 'Kontaktujte HavranWeb – tvorba webů a SEO v Novém Jičíně. Email, telefon nebo kontaktní formulář.');
+ }, []);
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
