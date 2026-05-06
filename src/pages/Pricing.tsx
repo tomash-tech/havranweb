@@ -36,7 +36,7 @@ const webPlans = [
     highlight: true,
   },
   {
-    name: "Web na míru",
+    name: "Komplexní web na míru",
     price: "10 000 Kč+",
     desc: "Komplexní projekty s pokročilými funkcemi a integracemi na míru.",
     features: [
