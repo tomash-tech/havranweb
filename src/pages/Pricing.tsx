@@ -3,6 +3,7 @@ import { ArrowRight, Check } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import { useEffect } from 'react';
 
 const webPlans = [
   {
@@ -185,6 +186,9 @@ function PlanCard({ plan, accent }: { plan: any, accent: string }) {
 }
 
 export default function Pricing() {
+ useEffect(() => {
+  document.title = 'Ceník – HavranWeb';
+}, []);
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
