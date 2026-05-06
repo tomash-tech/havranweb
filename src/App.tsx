@@ -12,6 +12,7 @@ import Pricing from './pages/Pricing';
 import FAQ from './pages/FAQ';
 import Lokality from './pages/Lokality';
 import WebdesignNovyJicin from './pages/WebdesignNovyJicin';
+import SEONovyJicin from './pages/SEONovyJicin';
 import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/lokality" element={<Lokality />} />
         <Route path="/lokality/tvorba-webovych-stranek-novy-jicin" element={<WebdesignNovyJicin />} />
+        <Route path="/lokality/seo-novy-jicin" element={<SEONovyJicin />} />
       </Routes>
       <AiAssistant />
     </Router>
