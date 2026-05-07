@@ -22,6 +22,9 @@ export default function Lokality() {
     document.title = 'Lokality – HavranWeb | Webdesign a SEO v okolí Nového Jičína';
     document.querySelector('meta[name="description"]')
       ?.setAttribute('content', 'Tvorba webových stránek a lokální SEO pro podnikatele v Novém Jičíně a okolí. Vyberte své město a zjistěte více.');
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/lokality');
   }, []);
 
   return (
