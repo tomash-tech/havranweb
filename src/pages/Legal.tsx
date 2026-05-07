@@ -8,7 +8,10 @@ import { useEffect } from 'react';
 function Legal() {
  useEffect(() => {
   document.title = 'Právní informace – HavranWeb';
-}, []);
+let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/legal');
+ }, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
 
