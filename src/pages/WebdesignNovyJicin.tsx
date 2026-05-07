@@ -11,6 +11,9 @@ function WebdesignNovyJicin() {
     document.title = 'Tvorba webových stránek Nový Jičín – HavranWeb';
     document.querySelector('meta[name="description"]')
       ?.setAttribute('content', 'Tvorba webových stránek na míru pro podnikatele v Novém Jičíně. Přizpůsobivý design, rychlé načítání, základní SEO. Ceny od 4 000 Kč, hosting zdarma.');
+ let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/lokality/tvorba-webovych-stranek-novy-jicin');
   }, []);
 
   return (
