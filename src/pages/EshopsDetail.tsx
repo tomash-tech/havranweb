@@ -35,6 +35,9 @@ useEffect(() => {
   document.title = 'Tvorba e-shopů Nový Jičín – HavranWeb';
 document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Tvorba e-shopů. Od jednoduchého prodejního formuláře až po e-shop na míru pod vlastní doménou. Od 2 000 Kč.');
+let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/sluzby/eshopy');
 }, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
