@@ -107,6 +107,9 @@ useEffect(() => {
   document.title = 'Časté otázky – HavranWeb';
  document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Odpovědi na nejčastější otázky o tvorbě webů, e-shopů a lokálním SEO.');
+let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/faq');
 }, []);
   return (
     <>
