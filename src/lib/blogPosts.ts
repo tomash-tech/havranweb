@@ -396,7 +396,7 @@ Jednou získané pozice se udržují. Na rozdíl od reklamy která přestane fun
 
 **Stáří webu** – starší weby s historií mají u Googlu větší důvěru. Nový web se prosazuje pomaleji.
 
-**Stav výchozí pozice** – pokud váš web nemá základní SEO vůbec nastavené, je prostor pro rychlý posun velký. Pokud jste na 5. místě a chcete na 1., trvá to déle.
+**Stav výchozí pozice** – pokud váš web nemá základní SEO vůbec nastavené, je prostor pro rychlý posun velký. Pokud jste na 35. místě a chcete na 1., trvá to déle.
 
 **Recenze** – firmy s více recenzemi na Google se zobrazují výše. Čím rychleji získáte nové recenze, tím rychleji rostou pozice.
 
