@@ -11,6 +11,9 @@ function SEONovyJicin() {
     document.title = 'Lokální SEO Nový Jičín – HavranWeb';
     document.querySelector('meta[name="description"]')
       ?.setAttribute('content', 'Lokální SEO optimalizace pro firmy v Novém Jičíně. Dostaňte svůj podnik do top 3 na Googlu. Cena od 5 000 Kč, jednorázově.');
+   let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/lokality/seo-novy-jicin');
   }, []);
 
   return (
