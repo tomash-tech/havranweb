@@ -9,6 +9,9 @@ export default function Contact() {
   document.title = 'Kontakt – HavranWeb';
 document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Kontaktujte HavranWeb – tvorba webů a SEO v Novém Jičíně. Email, telefon nebo kontaktní formulář.');
+let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/kontakt');
  }, []);
   return (
     <>
