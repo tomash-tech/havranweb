@@ -4,8 +4,13 @@ import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { blogPosts } from '../lib/blogPosts';
+import { useEffect } from 'react';
 
 function Home() {
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+  canonical.setAttribute('href', 'https://havranweb.cz/');
+}, []);
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
       <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
