@@ -35,14 +35,15 @@ export default function BlogPost() {
 
   if (!post) return <Navigate to="/blog" replace />;
 
-useEffect(() => {
-  if (post) document.title = `${post.title} – HavranWeb`;
-}, [post]);
-   let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-    canonical.setAttribute('href', `https://havranweb.cz/blog/${post.slug}`);
-  }
-}, [post]);
+  useEffect(() => {
+    if (post) {
+      document.title = `${post.title} – HavranWeb`;
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+      canonical.setAttribute('href', `https://havranweb.cz/blog/${post.slug}`);
+    }
+  }, [post]);
+
   // Najdi další článek
   const currentIndex = blogPosts.findIndex(p => p.slug === slug);
   const nextPost = blogPosts[currentIndex + 1] || blogPosts[0];
