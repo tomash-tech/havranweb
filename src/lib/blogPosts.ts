@@ -359,6 +359,55 @@ Weby které vytváříme jsou rychlé, bezpečné a přesně takové jaké potř
 
 Máte otázky ohledně správy webu? [Ozvěte se nám](/).
   `
+},
+{
+  slug: "jak-dlouho-trva-nez-se-seo-projevi",
+  title: "Jak dlouho trvá než se SEO projeví?",
+  description: "SEO není okamžitá reklama – ale výsledky přichází rychleji než si myslíte. Reálné časové odhady z praxe.",
+  date: "2026-05-07",
+  category: "SEO",
+  readTime: 4,
+  content: `
+## SEO není reklama – ale funguje déle
+
+Jedna z nejčastějších otázek kterou dostáváme: *"Kdy uvidím výsledky?"* Je to pochopitelná otázka – platíte za službu a chcete vědět co a kdy dostanete.
+
+Na rozdíl od Google reklamy která přivede návštěvníky hned po spuštění, SEO pracuje postupně. Ale výsledky vydrží – a nepřestanou fungovat jakmile přestanete platit.
+
+## Reálný časový plán
+
+### 2–3 týdny – první pohyby
+
+Během prvních dvou až tří týdnů Google začíná indexovat změny které jsme provedli na vašem webu a Google Business profilu. Začínáte se objevovat pro méně konkurenční dotazy a vaše pozice se postupně posouvají nahoru.
+
+Pokud je konkurence ve vašem oboru v Novém Jičíně slabší, může se stát že se dostanete na 1.–2. stránku Googlu už v této fázi.
+
+### Do 3 měsíců – top 3 na Googlu
+
+Pro většinu lokálních dotazů jako "vaše služba Nový Jičín" se během tří měsíců dostáváte do top 3 výsledků. To je klíčová hranice – 70–80 % lidí nekliká dál než na první tři výsledky.
+
+### Dlouhodobě – stabilní pozice
+
+Jednou získané pozice se udržují. Na rozdíl od reklamy která přestane fungovat jakmile přestanete platit, SEO pracuje za vás pořád – bez dalších nákladů.
+
+## Co ovlivňuje rychlost výsledků?
+
+**Konkurence v oboru** – čím více firem ve vašem oboru a lokalitě má dobře nastavené SEO, tím déle trvá dostat se před ně. V Novém Jičíně je konkurence u většiny oborů relativně slabší než ve velkých městech.
+
+**Stáří webu** – starší weby s historií mají u Googlu větší důvěru. Nový web se prosazuje pomaleji.
+
+**Stav výchozí pozice** – pokud váš web nemá základní SEO vůbec nastavené, je prostor pro rychlý posun velký. Pokud jste na 5. místě a chcete na 1., trvá to déle.
+
+**Recenze** – firmy s více recenzemi na Google se zobrazují výše. Čím rychleji získáte nové recenze, tím rychleji rostou pozice.
+
+## SEO vs. reklama – co dává větší smysl?
+
+Obojí má své místo. Reklama přivede zákazníky hned, ale jakmile přestanete platit, zmizí. SEO trvá déle, ale jednou nastavené pracuje za vás dlouhodobě bez dalších nákladů.
+
+Pro lokální podnikatele v Novém Jičíně doporučujeme začít SEO co nejdříve – každý měsíc bez něj je měsíc kdy zákazníci nacházejí konkurenci místo vás.
+
+Chcete vědět jak jste na tom konkrétně? [Ozvěte se nám](/kontakt) – zdarma se podíváme na vaši situaci.
+  `
 }
 ];
  
