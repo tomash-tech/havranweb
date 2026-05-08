@@ -33,6 +33,8 @@ function WebdesignNovyJicin() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-10">
+
+              {/* H1 + popisek */}
               <ScrollReveal>
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-blue-500/30 text-5xl mb-6 shadow-xl shadow-blue-500/10">
                   🌐
@@ -45,7 +47,26 @@ function WebdesignNovyJicin() {
                 </p>
               </ScrollReveal>
 
-              <ScrollReveal delay={100}>
+              {/* Jste z NJ? kartičky */}
+              <ScrollReveal delay={80}>
+                <div className="grid grid-cols-2 gap-4">
+                  {[
+                    { icon: "🤝", title: "Osobní přístup", desc: "Scházíme se tváří v tvář, ne jen přes email" },
+                    { icon: "⚡", title: "Rychlé spuštění", desc: "Landing page hotová do 2 týdnů od schválení" },
+                    { icon: "💰", title: "Férové ceny", desc: "Od 4 000 Kč, hosting zdarma, bez měsíčních poplatků" },
+                    { icon: "🔧", title: "Podpora po spuštění", desc: "Drobné úpravy zdarma, vždy dostupný" },
+                  ].map((item, idx) => (
+                    <div key={idx} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-5 rounded-2xl border border-gray-700 hover:border-blue-500/40 transition-all duration-300">
+                      <div className="text-2xl mb-2">{item.icon}</div>
+                      <h3 className="font-bold text-white mb-1 text-sm">{item.title}</h3>
+                      <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
+                    </div>
+                  ))}
+                </div>
+              </ScrollReveal>
+
+              {/* O službě */}
+              <ScrollReveal delay={120}>
                 <div className="relative p-8 rounded-3xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 border border-gray-700/50 backdrop-blur-md shadow-2xl hover:border-blue-500/30 transition-colors duration-500">
                   <div className="absolute top-0 left-8 px-4 py-1.5 -translate-y-1/2 bg-gradient-to-r from-blue-600 to-cyan-500 text-xs font-bold uppercase tracking-wider text-white rounded-full shadow-lg shadow-blue-500/30 flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
@@ -96,7 +117,7 @@ function WebdesignNovyJicin() {
               </ScrollReveal>
             </div>
 
-            {/* Co nabízím - odrážky */}
+            {/* Co nabízím - pravý sloupec */}
             <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
               <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
                 <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
@@ -126,63 +147,8 @@ function WebdesignNovyJicin() {
         </div>
       </section>
 
-      {/* Jste z Nového Jičína? */}
-      <section className="py-24 px-6 bg-gray-800/20">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal>
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                  Jste z Nového Jičína?<br />
-                  <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Tohle je pro vás.</span>
-                </h2>
-                <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  Jako místní vývojář znám specifika podnikání v Novém Jičíně. Vím jaká konkurence v jednotlivých oborech existuje, jak zákazníci v regionu hledají služby a co funguje.
-                </p>
-                <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                  Scházíme se osobně – v kavárně, u vás nebo u mě. Žádné video hovory které nic nenahradí osobní setkání. Probereme vaše představy, ukážu vám návrhy přímo na místě a společně dotáhneme web do finální podoby.
-                </p>
-                <ul className="space-y-3 mb-8">
-                  {[
-                    "Osobní setkání v Novém Jičíně",
-                    "Znám místní trh a konkurenci",
-                    "Rychlá komunikace a odezva",
-                    "Podpora i po spuštění webu",
-                  ].map((item, idx) => (
-                    <li key={idx} className="flex items-center gap-3 text-gray-300">
-                      <CheckCircle className="w-5 h-5 text-blue-400 shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  to="/kontakt"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30"
-                >
-                  Domluvme se na setkání <ArrowRight className="w-5 h-5" />
-                </Link>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { icon: "🤝", title: "Osobní přístup", desc: "Scházíme se tváří v tvář, ne jen přes email" },
-                  { icon: "⚡", title: "Rychlé spuštění", desc: "Landing page hotová do 2 týdnů od schválení" },
-                  { icon: "💰", title: "Férové ceny", desc: "Od 4 000 Kč, hosting zdarma, bez měsíčních poplatků" },
-                  { icon: "🔧", title: "Podpora po spuštění", desc: "Drobné úpravy zdarma, vždy dostupný" },
-                ].map((item, idx) => (
-                  <div key={idx} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-6 rounded-2xl border border-gray-700 hover:border-blue-500/40 transition-all duration-300">
-                    <div className="text-3xl mb-3">{item.icon}</div>
-                    <h3 className="font-bold text-white mb-2 text-sm">{item.title}</h3>
-                    <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
       {/* Cenový přehled */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-gray-800/20">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="text-center mb-16">
@@ -256,7 +222,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Jak to funguje */}
-      <section className="py-24 px-6 bg-gray-800/20">
+      <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <ScrollReveal>
@@ -295,7 +261,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Kontakt */}
-      <section className="min-h-screen px-6 flex items-center py-24">
+      <section className="min-h-screen px-6 flex items-center py-24 bg-gray-800/20">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-5xl font-bold">Pojďme se pobavit</h2>
