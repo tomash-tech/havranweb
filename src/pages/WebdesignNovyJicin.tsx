@@ -109,10 +109,10 @@ function WebdesignNovyJicin() {
           </div>
         </div>
      <ScrollReveal delay={100}>
-  <div className="mt-8">
+  <div className="mt-8 flex justify-end">
     <Link
       to="/sluzby/webdesign"
-      className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-blue-500/50 rounded-xl font-semibold transition-all duration-200 text-gray-300 hover:text-white text-sm"
+      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 text-white text-sm"
     >
       Více info o tvorbě webových stránek <ArrowRight className="w-4 h-4" />
     </Link>
