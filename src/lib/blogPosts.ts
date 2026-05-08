@@ -408,6 +408,35 @@ Pro lokální podnikatele v Novém Jičíně doporučujeme začít SEO co nejdř
 
 Chcete vědět jak jste na tom konkrétně? [Ozvěte se nám](/kontakt) – zdarma se podíváme na vaši situaci.
   `
+},
+{
+  slug: "pracujete-jen-v-novem-jicine",
+  title: "Pracujete jen v Novém Jičíně nebo i jinde?",
+  description: "Primárně působíme v Novém Jičíně a okolí, ale spolupracujeme i se vzdálenými klienty online nebo osobně.",
+  date: "2026-05-08",
+  category: "Obecné",
+  readTime: 3,
+  content: `
+## Primárně Nový Jičín a okolí
+
+Pocházím z okolí Nového Jičína a pro klienty z tohoto regionu je spolupráce nejjednodušší – můžeme se sejít osobně, probrat vše tváří v tvář a průběžně se potkávat při tvorbě webu.
+
+Osobní setkání má svou hodnotu. Je jednodušší probrat představy o webu, ukázat návrhy přímo na obrazovce a rychle reagovat na připomínky. Proto klientům z Nového Jičína a okolí osobní schůzku vždy nabízím.
+
+## Spolupráce na dálku je také možná
+
+Pokud jste z jiného města nebo regionu, nic se neděje. Vše lze vyřešit online – přes video hovor, email nebo zprávy. Návrhy sdílím digitálně, připomínky řešíme na dálku a web spustíme bez nutnosti osobního setkání.
+
+Pokud preferujete osobní schůzku a jste ochotni přijet do Nového Jičína, rád se s vámi setkám.
+
+## Kde všude jsme spolupracovali?
+
+Primárně působíme v Novém Jičíně a okolí – Kopřivnice, Příbor, Fulnek a Moravskoslezský kraj. Spolupracujeme ale i se klienty z celé České republiky.
+
+## Jak začít spolupráci?
+
+Bez ohledu na to odkud jste, první krok je vždy stejný – [ozvěte se nám](/kontakt). Probereme vaše potřeby a domluvíme se na dalším postupu, ať už osobně nebo online.
+  `
 }
 ];
  
