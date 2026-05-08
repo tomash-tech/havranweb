@@ -81,44 +81,44 @@ function WebdesignNovyJicin() {
         </div>
       </section>
 
-      {/* 3. Co nabízím */}
-      <section className="py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <ScrollReveal>
-            <h2 className="text-4xl font-bold mb-2">Co vám nabízím</h2>
-            <div className="w-12 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full mb-10" />
-          </ScrollReveal>
-          <div className="grid md:grid-cols-2 gap-4 max-w-3xl">
-            {[
-              "Přizpůsobivý design pro mobil i počítač",
-              "Napojení na Google tabulky",
-              "Extrémně rychlé načítání",
-              "Více podstránek",
-              "Google mapy na webu",
-              "Základní SEO optimalizace",
-              "Rezervační systémy",
-              "Podpora více jazyků",
-            ].map((item, idx) => (
-              <ScrollReveal key={idx} delay={idx * 50}>
-                <div className="flex items-center gap-3 text-gray-300 bg-white/5 p-4 rounded-xl border border-white/10">
-                  <CheckCircle className="w-4 h-4 text-blue-400 shrink-0" />
-                  <span className="text-sm">{item}</span>
-                </div>
-              </ScrollReveal>
-            ))}
+     {/* 3. Co nabízím */}
+<section className="py-24 px-6">
+  <div className="max-w-7xl mx-auto">
+    <ScrollReveal>
+      <h2 className="text-4xl font-bold mb-2 text-center">Co vám nabízím</h2>
+      <div className="w-12 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full mb-10 mx-auto" />
+    </ScrollReveal>
+    <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+      {[
+        "Přizpůsobivý design pro mobil i počítač",
+        "Napojení na Google tabulky",
+        "Extrémně rychlé načítání",
+        "Více podstránek",
+        "Google mapy na webu",
+        "Základní SEO optimalizace",
+        "Rezervační systémy",
+        "Podpora více jazyků",
+      ].map((item, idx) => (
+        <ScrollReveal key={idx} delay={idx * 50}>
+          <div className="flex items-center gap-3 text-gray-300 bg-white/5 p-4 rounded-xl border border-white/10">
+            <CheckCircle className="w-4 h-4 text-blue-400 shrink-0" />
+            <span className="text-sm">{item}</span>
           </div>
-        </div>
-     <ScrollReveal delay={100}>
-  <div className="mt-8 flex justify-end">
-    <Link
-      to="/sluzby/webdesign"
-      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 text-white text-sm"
-    >
-      Více info o tvorbě webových stránek <ArrowRight className="w-4 h-4" />
-    </Link>
+        </ScrollReveal>
+      ))}
+    </div>
+    <ScrollReveal delay={100}>
+      <div className="flex justify-center mt-8">
+        <Link
+          to="/sluzby/webdesign"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30 text-white text-sm"
+        >
+          Více info o tvorbě webových stránek <ArrowRight className="w-4 h-4" />
+        </Link>
+      </div>
+    </ScrollReveal>
   </div>
-</ScrollReveal>
-      </section>
+</section>
 
       {/* 4. Cenový přehled */}
       <section className="py-24 px-6 bg-gray-800/20">
