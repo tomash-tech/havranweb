@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
@@ -82,6 +82,90 @@ document.querySelector('meta[name="description"]')
         </div>
       </section>
 
+{/* Relevantní články - přidej PŘED sekci s kontaktem */}
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <h2 className="text-4xl md:text-5xl font-bold mb-2">Relevantní články</h2>
+            <div className="w-12 h-1 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full mb-10" />
+          </ScrollReveal>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { slug: 'jak-dlouho-trva-nez-se-seo-projevi', title: 'Jak dlouho trvá než se SEO projeví?', desc: 'SEO není okamžitá reklama – ale výsledky přichází rychleji než si myslíte. Reálné časové odhady z praxe.', category: 'SEO' },
+              { slug: 'proc-podniky-v-novem-jicine-ztraceji-zakazniky', title: 'Proč podniky v Novém Jičíně ztrácí zákazníky', desc: 'Bez viditelnosti na Googlu pravděpodobně přicházíte o zákazníky každý měsíc, aniž byste o tom věděli.', category: 'SEO' },
+              { slug: 'co-je-lokalni-seo', title: 'Lokální SEO: Jak se dostat na první místo na Googlu', desc: 'Lokální SEO je nejsilnější nástroj pro malé firmy. Zjistěte, jak funguje a co musíte udělat.', category: 'SEO' },
+            ].map((post, idx) => (
+              <ScrollReveal key={idx} delay={idx * 100}>
+                <Link
+                  to={`/blog/${post.slug}`}
+                  className="group flex flex-col bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-2xl border border-gray-700 hover:border-green-500/50 transition-all hover:shadow-2xl hover:shadow-green-500/10 h-full"
+                >
+                  <span className="text-xs font-medium text-green-400 bg-green-400/10 px-3 py-1 rounded-full w-fit mb-4">
+                    {post.category}
+                  </span>
+                  <h3 className="text-lg font-bold text-white group-hover:text-green-300 transition-colors mb-3">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-400 text-sm leading-relaxed flex-grow mb-4">
+                    {post.desc}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-green-400 text-sm font-medium group-hover:gap-3 transition-all duration-200">
+                    Číst článek <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Kde nabízíme - přidej ZA relevantní články, PŘED kontakt */}
+      <section className="py-24 px-6 bg-gray-800/20">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <h2 className="text-4xl md:text-5xl font-bold mb-2">Kde tuto službu nabízíme</h2>
+            <div className="w-12 h-1 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full mb-10" />
+          </ScrollReveal>
+          <div className="grid md:grid-cols-3 gap-6">
+            <ScrollReveal delay={0}>
+              <Link
+                to="/lokality/seo-novy-jicin"
+                className="group flex flex-col bg-gradient-to-br from-green-600/20 to-emerald-600/10 p-8 rounded-2xl border border-green-500/50 hover:border-green-400 transition-all hover:shadow-2xl hover:shadow-green-500/20"
+              >
+                <span className="text-3xl mb-4">📍</span>
+                <h3 className="text-xl font-bold text-white group-hover:text-green-300 transition-colors mb-2">
+                  Nový Jičín
+                </h3>
+                <p className="text-gray-400 text-sm leading-relaxed flex-grow mb-4">
+                  Hlavní oblast působení. Osobní setkání, rychlé výsledky.
+                </p>
+                <span className="inline-flex items-center gap-2 text-green-400 text-sm font-medium group-hover:gap-3 transition-all duration-200">
+                  Více informací <ArrowRight className="w-4 h-4" />
+                </span>
+              </Link>
+            </ScrollReveal>
+
+            <ScrollReveal delay={100}>
+              <div className="flex flex-col items-center justify-center p-8 rounded-2xl border border-dashed border-gray-700 text-center min-h-[200px]">
+                <span className="text-3xl mb-3">🗺️</span>
+                <p className="text-gray-500 font-medium">Další města brzy</p>
+                <p className="text-gray-600 text-sm mt-1">Kopřivnice, Příbor, Fulnek...</p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={200}>
+              <div className="flex flex-col justify-center p-8 rounded-2xl border border-gray-700 bg-gradient-to-br from-gray-800/50 to-gray-900/50">
+                <span className="text-3xl mb-4">🌐</span>
+                <h3 className="text-xl font-bold text-white mb-2">Celá ČR – online</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  Pracujeme i vzdáleně pro klienty z celé České republiky přes video hovor a email.
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+      
       <section className="min-h-screen px-6 flex items-center py-24">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
