@@ -147,5 +147,12 @@
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
+
+<url>
+  <loc>https://havranweb.cz/blog/pracujete-jen-v-novem-jicine</loc>
+  <lastmod>2026-05-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
   
 </urlset>
