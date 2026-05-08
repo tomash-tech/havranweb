@@ -47,8 +47,15 @@ function WebdesignNovyJicin() {
                 </p>
               </ScrollReveal>
 
-              {/* Jste z NJ? kartičky */}
+              {/* Jste z NJ? text + kartičky */}
               <ScrollReveal delay={80}>
+                <h2 className="text-3xl font-bold mb-3">
+                  Jste z Nového Jičína?{' '}
+                  <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Tohle je pro vás.</span>
+                </h2>
+                <p className="text-gray-300 leading-relaxed mb-6">
+                  Jako místní vývojář znám specifika podnikání v Novém Jičíně. Scházíme se osobně – probereme vaše představy, ukážu vám návrhy přímo na místě a společně dotáhneme web do finální podoby.
+                </p>
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { icon: "🤝", title: "Osobní přístup", desc: "Scházíme se tváří v tvář, ne jen přes email" },
@@ -73,7 +80,7 @@ function WebdesignNovyJicin() {
                     O službě
                   </div>
                   <p className="text-lg text-gray-300 leading-relaxed font-light mb-8 mt-2">
-                    Jsem webový vývojář z Nového Jičína. Vytvářím weby pro živnostníky a firmy v Novém Jičíně a okolí – od jednoduchých prezentačních webů až po komplexní weby s rezervačními systémy a pokročilými funkcemi.
+                    Vytvářím weby pro živnostníky a firmy v Novém Jičíně a okolí – od jednoduchých prezentačních webů až po komplexní weby s rezervačními systémy a pokročilými funkcemi.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
                     Každý web je navržený na míru podle vašich potřeb. Žádné šablony, žádné kompromisy – jen přesně to co váš byznys potřebuje.
