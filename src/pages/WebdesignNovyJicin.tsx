@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, CheckCircle, Wallet, Layout, Layers, Zap, Smartphone, Search, Globe, MessageSquare } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle, Wallet } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
@@ -11,9 +11,9 @@ function WebdesignNovyJicin() {
     document.title = 'Tvorba webových stránek Nový Jičín – HavranWeb';
     document.querySelector('meta[name="description"]')
       ?.setAttribute('content', 'Tvorba webových stránek na míru pro podnikatele v Novém Jičíně. Přizpůsobivý design, rychlé načítání, základní SEO. Ceny od 4 000 Kč, hosting zdarma.');
- let canonical = document.querySelector('link[rel="canonical"]');
-  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-  canonical.setAttribute('href', 'https://havranweb.cz/lokality/tvorba-webovych-stranek-novy-jicin');
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+    canonical.setAttribute('href', 'https://havranweb.cz/lokality/tvorba-webovych-stranek-novy-jicin');
   }, []);
 
   return (
@@ -97,38 +97,92 @@ function WebdesignNovyJicin() {
               </ScrollReveal>
             </div>
 
+            {/* Co nabízím - odrážky místo tabulky */}
             <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
               <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
                 <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
                   <span className="text-blue-400">✨</span> Co vám nabízím
                 </h2>
-                <div className="grid sm:grid-cols-1 gap-4">
+                <ul className="space-y-3">
                   {[
-                    { text: "Přizpůsobivý design", icon: <Layout className="w-5 h-5 text-blue-400" /> },
-                    { text: "Napojení na Google tabulky", icon: <Layers className="w-5 h-5 text-blue-400" /> },
-                    { text: "Extrémně rychlé načítání", icon: <Zap className="w-5 h-5 text-blue-400" /> },
-                    { text: "Více podstránek", icon: <Layout className="w-5 h-5 text-blue-400" /> },
-                    { text: "Google mapy na webu", icon: <Globe className="w-5 h-5 text-blue-400" /> },
-                    { text: "Základní SEO optimalizace", icon: <Search className="w-5 h-5 text-blue-400" /> },
-                    { text: "Rezervační systémy", icon: <Smartphone className="w-5 h-5 text-blue-400" /> },
-                    { text: "Podpora více jazyků", icon: <MessageSquare className="w-5 h-5 text-blue-400" /> },
-                  ].map((feature, idx) => (
-                    <div key={idx} className="group flex items-center gap-4 p-4 bg-gray-800/40 rounded-2xl border border-gray-700/50 hover:border-blue-500/50 hover:bg-gray-800/80 transition-all duration-300 hover:-translate-x-1 hover:shadow-lg hover:shadow-blue-500/10">
-                      <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-500/20 group-hover:scale-110 transition-all duration-300 shadow-inner">
-                        {feature.icon || <CheckCircle className="w-5 h-5 text-blue-400" />}
-                      </div>
-                      <span className="text-gray-200 text-sm font-medium">{feature.text}</span>
-                    </div>
+                    "Přizpůsobivý design pro mobil i počítač",
+                    "Napojení na Google tabulky",
+                    "Extrémně rychlé načítání",
+                    "Více podstránek",
+                    "Google mapy na webu",
+                    "Základní SEO optimalizace",
+                    "Rezervační systémy",
+                    "Podpora více jazyků",
+                  ].map((item, idx) => (
+                    <li key={idx} className="flex items-center gap-3 text-gray-300">
+                      <CheckCircle className="w-4 h-4 text-blue-400 shrink-0" />
+                      <span className="text-sm">{item}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </ScrollReveal>
           </div>
         </div>
       </section>
 
-      {/* Cenové přehled */}
+      {/* Jste z Nového Jičína? */}
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                  Jste z Nového Jičína?<br />
+                  <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Tohle je pro vás.</span>
+                </h2>
+                <p className="text-lg text-gray-300 leading-relaxed mb-6">
+                  Jako místní vývojář znám specifika podnikání v Novém Jičíně. Vím jaká konkurence v jednotlivých oborech existuje, jak zákazníci v regionu hledají služby a co funguje.
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed mb-8">
+                  Scházíme se osobně – v kavárně, u vás nebo u mě. Žádné video hovory které nic nenahradí osobní setkání. Probereme vaše představy, ukážu vám návrhy přímo na místě a společně dotáhneme web do finální podoby.
+                </p>
+                <ul className="space-y-3 mb-8">
+                  {[
+                    "Osobní setkání v Novém Jičíně",
+                    "Znám místní trh a konkurenci",
+                    "Rychlá komunikace a odezva",
+                    "Podpora i po spuštění webu",
+                  ].map((item, idx) => (
+                    <li key={idx} className="flex items-center gap-3 text-gray-300">
+                      <CheckCircle className="w-5 h-5 text-blue-400 shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  to="/kontakt"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30"
+                >
+                  Domluvme se na setkání <ArrowRight className="w-5 h-5" />
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { icon: "🤝", title: "Osobní přístup", desc: "Scházíme se tváří v tvář, ne jen přes email" },
+                  { icon: "⚡", title: "Rychlé spuštění", desc: "Landing page hotová do 2 týdnů od schválení" },
+                  { icon: "💰", title: "Férové ceny", desc: "Od 4 000 Kč, hosting zdarma, bez měsíčních poplatků" },
+                  { icon: "🔧", title: "Podpora po spuštění", desc: "Drobné úpravy zdarma, vždy dostupný" },
+                ].map((item, idx) => (
+                  <div key={idx} className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-6 rounded-2xl border border-gray-700 hover:border-blue-500/40 transition-all duration-300">
+                    <div className="text-3xl mb-3">{item.icon}</div>
+                    <h3 className="font-bold text-white mb-2 text-sm">{item.title}</h3>
+                    <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Cenový přehled */}
       <section className="py-24 px-6 bg-gray-800/20">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
