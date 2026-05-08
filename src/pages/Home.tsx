@@ -13,9 +13,11 @@ function Home() {
   if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
   canonical.setAttribute('href', 'https://havranweb.cz/');
 }, []);
-  return (
-  
-  <Header />
+return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
+      <Header />
+
+      <section className="min-h-screen flex items-center px-6 relative overflow-hidden">
 
       <section className="min-h-screen flex items-center px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 via-transparent to-transparent pointer-events-none"></div>
