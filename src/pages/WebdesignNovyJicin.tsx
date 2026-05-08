@@ -57,7 +57,6 @@ function WebdesignNovyJicin() {
                   <p className="text-lg text-gray-300 leading-relaxed font-light mb-8">
                     Každý web je navržený na míru podle vašich potřeb. Žádné šablony, žádné kompromisy – jen přesně to co váš byznys potřebuje.
                   </p>
-
                   <div className="mt-6 flex items-center gap-4 bg-gray-950/50 p-5 rounded-2xl border border-gray-800 shadow-inner group transition-all hover:border-blue-500/30">
                     <div className="p-3 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-xl group-hover:scale-110 transition-transform duration-300">
                       <Wallet className="w-7 h-7 text-blue-400" />
@@ -97,7 +96,7 @@ function WebdesignNovyJicin() {
               </ScrollReveal>
             </div>
 
-            {/* Co nabízím - odrážky místo tabulky */}
+            {/* Co nabízím - odrážky */}
             <ScrollReveal delay={200} className="lg:sticky lg:top-32 relative">
               <div className="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800 p-8 rounded-3xl border border-gray-700/50 shadow-xl relative overflow-hidden">
                 <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 blur-3xl rounded-full pointer-events-none" />
@@ -128,7 +127,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Jste z Nového Jičína? */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-gray-800/20">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -183,7 +182,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Cenový přehled */}
-      <section className="py-24 px-6 bg-gray-800/20">
+      <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="text-center mb-16">
@@ -257,7 +256,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Jak to funguje */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 bg-gray-800/20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <ScrollReveal>
@@ -296,7 +295,7 @@ function WebdesignNovyJicin() {
       </section>
 
       {/* Kontakt */}
-      <section className="min-h-screen px-6 flex items-center py-24 bg-gray-800/20">
+      <section className="min-h-screen px-6 flex items-center py-24">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-5xl font-bold">Pojďme se pobavit</h2>
