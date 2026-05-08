@@ -13,27 +13,8 @@ function Home() {
   canonical.setAttribute('href', 'https://havranweb.cz/');
 }, []);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-gray-100">
-      <nav className="sticky top-0 w-full bg-gray-950/95 backdrop-blur-md z-50 border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/blue_hw.png" alt="HavranWeb" className="h-10 w-auto" />
-            <span className="text-xl font-bold">HavranWeb</span>
-          </Link>
-          <div className="hidden md:flex gap-12">
-            <a href="#sluzby" className="text-gray-300 hover:text-white transition-colors font-medium">Služby</a>
-            <Link to="/sluzby/webdesign" className="text-gray-300 hover:text-white transition-colors font-medium">Web design</Link>
-            <Link to="/sluzby/seo" className="text-gray-300 hover:text-white transition-colors font-medium">Lokální SEO</Link>
-            <Link to="/sluzby/eshopy" className="text-gray-300 hover:text-white transition-colors font-medium">E-shopy</Link>
-            <Link to="/legal" className="text-gray-300 hover:text-white transition-colors font-medium">Legální</Link>
-            <Link to="/blog" className="text-gray-300 hover:text-white transition-colors font-medium">Blog</Link>
-            <Link to="/kontakt" className="text-gray-300 hover:text-white transition-colors font-medium">Kontakt</Link>
-            <Link to="/cenik" className="text-gray-300 hover:text-white transition-colors font-medium">Ceník</Link>
-            <Link to="/faq" className="text-gray-300 hover:text-white transition-colors font-medium">FAQ</Link>
-            <Link to="/lokality" className="text-gray-300 hover:text-white transition-colors font-medium">Lokality</Link>
-          </div>
-        </div>
-      </nav>
+  
+  <Header />
 
       <section className="min-h-screen flex items-center px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/10 via-transparent to-transparent pointer-events-none"></div>
