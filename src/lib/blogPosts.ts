@@ -429,9 +429,7 @@ Pokud jste z jiného města nebo regionu, nic se neděje. Vše lze vyřešit onl
 
 Pokud preferujete osobní schůzku a jste ochotni přijet do Nového Jičína, rád se s vámi setkám.
 
-## Kde všude jsme spolupracovali?
 
-Primárně působíme v Novém Jičíně a okolí – Kopřivnice, Příbor, Fulnek a Moravskoslezský kraj. Spolupracujeme ale i se klienty z celé České republiky.
 
 ## Jak začít spolupráci?
 
