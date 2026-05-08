@@ -108,6 +108,16 @@ function WebdesignNovyJicin() {
             ))}
           </div>
         </div>
+     <ScrollReveal delay={100}>
+  <div className="mt-8">
+    <Link
+      to="/sluzby/webdesign"
+      className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-blue-500/50 rounded-xl font-semibold transition-all duration-200 text-gray-300 hover:text-white text-sm"
+    >
+      Více info o tvorbě webových stránek <ArrowRight className="w-4 h-4" />
+    </Link>
+  </div>
+</ScrollReveal>
       </section>
 
       {/* 4. Cenový přehled */}
