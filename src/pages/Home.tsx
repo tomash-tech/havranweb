@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { blogPosts } from '../lib/blogPosts';
 import { useEffect } from 'react';
+import Header from '../components/Header';
 
 function Home() {
   useEffect(() => {
