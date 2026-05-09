@@ -435,6 +435,84 @@ Pokud preferujete osobní schůzku a jste ochotni přijet do Nového Jičína, r
 
 Bez ohledu na to odkud jste, první krok je vždy stejný – [ozvěte se nám](/kontakt). Probereme vaše potřeby a domluvíme se na dalším postupu, ať už osobně nebo online.
   `
+},
+{
+  slug: "jaky-je-rozdil-mezi-webem-a-eshopem",
+  title: "Jaký je rozdíl mezi webem a e-shopem?",
+  excerpt: "Web nebo e-shop? Spousta podnikatelů si tím není jistá. Přitom odpověď je jednoduchá – záleží na tom, co chcete na internetu dělat.",
+  date: "2025-05-09",
+  readTime: "5 min",
+  category: "Webdesign",
+  content: `
+## Web nebo e-shop? Nejste v tom sami
+
+Jedna z nejčastějších otázek, kterou dostávám od podnikatelů z Nového Jičína a okolí, zní: *„Potřebuji web, nebo e-shop?"* A upřímně – je to logická otázka. Oba pojmy se dnes používají skoro zaměnitelně, ale ve skutečnosti jde o dvě dost odlišné věci.
+
+V tomto článku si to jednou provždy vysvětlíme.
+
+---
+
+## Co je webová stránka?
+
+Webová stránka (nebo také „prezentační web") slouží k tomu, aby vás lidé na internetu **našli a zjistili o vás základní informace**. Typicky obsahuje:
+
+- popis vašich služeb
+- kontaktní údaje a formulář
+- fotogalerii nebo reference
+- provozní dobu a adresu
+
+Web je vlastně váš digitální výklad. Zákazník přijde, podívá se, co nabízíte, a pak vám zavolá nebo napíše. **Žádné platby, žádné objednávky přes internet** – to na prezentačním webu neprobíhá.
+
+Typické příklady: truhlář, účetní, kadeřnictví, restaurace, autoservis, fitness centrum.
+
+---
+
+## Co je e-shop?
+
+E-shop (elektronický obchod) je web, na kterém zákazníci **přímo nakupují** – vybírají produkty, vkládají je do košíku a platí online. Vy pak objednávku zpracujete a zboží odešlete nebo připravíte k vyzvednutí.
+
+E-shop je výrazně složitější než prezentační web. Potřebuje:
+
+- správu produktů a skladových zásob
+- napojení na platební bránu (karta, PayPal apod.)
+- obchodní podmínky, GDPR, reklamační řád
+- řešení dopravy a vrácení zboží
+
+Typické příklady: oblečení, kosmetika, doplňky stravy, elektronika, dárkové předměty.
+
+---
+
+## Jak poznat, co potřebuju?
+
+Jednoduchý test: **Chcete, aby zákazník zaplatil přímo na webu?**
+
+- **Ano** → potřebujete e-shop
+- **Ne, stačí mi, když mi zavolá nebo napíše** → stačí prezentační web
+
+Pokud nabízíte služby (ne fyzické zboží), ve většině případů vám stačí pěkný web. Zákazník si vás najde přes Google, zjistí, co děláte, a kontaktuje vás – to je přesně to, co prezentační web umí skvěle.
+
+---
+
+## A co když chci něco mezi tím?
+
+Existuje i střední cesta. Někteří klienti chtějí třeba jen **jednoduchý prodejní formulář** – například pro rezervaci termínu, prodej jednoho kurzu nebo objednávku zakázkového výrobku. To není plnohodnotný e-shop, ale přesto umožňuje přijmout platbu online.
+
+V HavranWeb nabízím právě tuto variantu jako kompromis – je výrazně levnější než e-shop, a přitom pokryje potřeby většiny živnostníků a menších firem.
+
+---
+
+## Shrnutí na závěr
+
+| | Prezentační web | E-shop |
+|---|---|---|
+| **Účel** | Informovat a oslovit zákazníky | Prodávat produkty online |
+| **Platby online** | Ne | Ano |
+| **Složitost** | Nižší | Vyšší |
+| **Cena** | 4 000–12 000 Kč | od 10 000 Kč |
+| **Vhodné pro** | Služby, živnostníci, firmy | Prodej zboží |
+
+Pokud si stále nejste jistí, co přesně vaše podnikání potřebuje, rád se s vámi pobavím – bezplatná konzultace je samozřejmostí. Stačí mě [kontaktovat](/kontakt).
+  `.trim(),
 }
 ];
  
