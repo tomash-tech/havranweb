@@ -469,11 +469,11 @@ Typické příklady: truhlář, účetní, kadeřnictví, restaurace, autoservis
 
 ## Co je e-shop?
 
-E-shop (elektronický obchod) je web, na kterém zákazníci **přímo nakupují** – vybírají produkty, vkládají je do košíku a platí online. Vy pak objednávku zpracujete a zboží odešlete nebo připravíte k vyzvednutí.
+E-shop (elektronický obchod) je web, na kterém zákazníci **přímo nakupují** – vybírají produkty, vkládají je do košíku a platí online. Digitální produkt se pak odešle klientovi e-mailem automaticky, nebo pokud jde o něco fyzického, tak vám přijdou všechny informace o obědnávce a zbytek řešíte vy.
 
 E-shop je výrazně složitější než prezentační web. Potřebuje:
 
-- správu produktů a skladových zásob
+- správu produktů
 - napojení na platební bránu (karta, PayPal apod.)
 - obchodní podmínky, GDPR, reklamační řád
 - řešení vrácení zboží
@@ -487,7 +487,7 @@ Jednoduchý test: **Chcete, aby zákazník zaplatil přímo na webu?**
 - **Ano** → potřebujete e-shop
 - **Ne, stačí mi, když mi zavolá nebo napíše** → stačí prezentační web
 
-Pokud nabízíte služby (ne fyzické zboží), ve většině případů vám stačí pěkný web. Zákazník si vás najde přes Google, zjistí, co děláte, a kontaktuje vás – to je přesně to, co prezentační web umí skvěle.
+Pokud nabízíte služby (ne zboží), ve většině případů vám stačí pěkný web. Zákazník si vás najde přes Google, zjistí, co děláte, a kontaktuje vás – to je přesně to, co prezentační web umí skvěle.
 
 ---
 
@@ -495,7 +495,7 @@ Pokud nabízíte služby (ne fyzické zboží), ve většině případů vám st
 
 Existuje i střední cesta. Někteří klienti chtějí třeba jen **jednoduchý prodejní formulář** – například pro rezervaci termínu, prodej jednoho kurzu nebo objednávku zakázkového výrobku. To není plnohodnotný e-shop, ale přesto umožňuje přijmout platbu online.
 
-V HavranWeb nabízím právě tuto variantu jako kompromis – je výrazně levnější než e-shop, a přitom pokryje potřeby většiny živnostníků a menších firem.
+V HavranWeb nabízím právě i tuto variantu jako kompromis – je výrazně levnější než e-shop, a přitom pokryje potřeby většiny živnostníků a menších firem.
 
 ---
 
