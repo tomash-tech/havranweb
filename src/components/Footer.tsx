@@ -77,7 +77,7 @@ export default function Footer() {
                   <span> Název: HavranWeb Webdesign</span>
                 </li>
                  <li className="flex items-center gap-2">
-                  <span style={{ color: '#22d3ee' }}>⚡</span>
+                  <span style={{ color: '#22d3ee' }}>📍</span>
                   <span> Sídlo: Bernartice nad Odrou 118</span>
                 </li>
                 <li className="flex items-center gap-2">
