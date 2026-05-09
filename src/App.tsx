@@ -13,6 +13,7 @@ import FAQ from './pages/FAQ';
 import Lokality from './pages/Lokality';
 import WebdesignNovyJicin from './pages/WebdesignNovyJicin';
 import SEONovyJicin from './pages/SEONovyJicin';
+import EshopNovyJicin from './pages/EshopNovyJicin';
 import AiAssistant from './components/AiAssistant';
 
 function ScrollToTop() {
@@ -42,6 +43,7 @@ function App() {
         <Route path="/lokality" element={<Lokality />} />
         <Route path="/lokality/tvorba-webovych-stranek-novy-jicin" element={<WebdesignNovyJicin />} />
         <Route path="/lokality/seo-novy-jicin" element={<SEONovyJicin />} />
+        <Route path="/lokality/tvorba-eshopu-novy-jicin" element={<EshopNovyJicin />} />
       </Routes>
       <AiAssistant />
     </Router>
