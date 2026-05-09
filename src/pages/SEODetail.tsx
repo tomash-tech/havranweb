@@ -81,7 +81,57 @@ document.querySelector('meta[name="description"]')
           </div>
         </div>
       </section>
+{/* Výsledky sekce */}
+<section className="py-24 px-6 bg-gray-800/20">
+  <div className="max-w-7xl mx-auto">
+    <ScrollReveal>
+      <div className="text-center mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">Jak vypadají výsledky lokálního SEO?</h2>
+        <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          SEO není okamžitý výsledek jako reklama – je to dlouhodobá investice která se vyplácí. Tady je co můžete reálně očekávat.
+        </p>
+      </div>
+    </ScrollReveal>
 
+    <div className="grid md:grid-cols-3 gap-6">
+      {[
+        {
+          icon: "🌱",
+          time: "2–3 týdny",
+          title: "První výsledky",
+          desc: "Google si začíná všímat změn na vašem webu a Google Business profilu. Začínáte se objevovat na 1-2 stránce.",
+        },
+        {
+          icon: "📈",
+          time: "Do 90 dnů",
+          title: "Top 3 na Googlu",
+          desc: "Pro většinu lokálních dotazů jako 'vaše služba Nový Jičín' se dostáváte do top 3 výsledků. Zákazníci vás začínají nacházet organicky.",
+          highlight: true,
+        },
+        {
+          icon: "🏆",
+          time: "Dlouhodobě",
+          title: "Stabilní pozice",
+          desc: "Jednou získané pozice se v menším městě jako Nový Jičín udržují. Na rozdíl od reklamy která přestane fungovat jakmile přestanete platit, nebo velkoměst kde je stovka konkurentů a pravidelné postování je tam nutné. SEO zde pracuje za vás pořád.",
+        },
+      ].map((item, idx) => (
+        <ScrollReveal key={idx} delay={idx * 100}>
+          <div className={`bg-gradient-to-br p-8 rounded-2xl border transition-all duration-300 hover:shadow-2xl ${
+            item.highlight
+              ? 'from-green-600/20 to-emerald-600/10 border-green-500/50 hover:border-green-400 hover:shadow-green-500/20'
+              : 'from-gray-800/50 to-gray-900/50 border-gray-700 hover:border-green-500/40 hover:shadow-green-500/10'
+          }`}>
+            <div className="text-4xl mb-3">{item.icon}</div>
+            <p className="text-green-400 text-sm font-bold uppercase tracking-widest mb-2">{item.time}</p>
+            <h3 className="text-xl font-bold text-white mb-3">{item.title}</h3>
+            <p className="text-gray-400 leading-relaxed text-sm">{item.desc}</p>
+          </div>
+        </ScrollReveal>
+      ))}
+    </div>
+  </div>
+</section>
+      
 {/* Relevantní články - přidej PŘED sekci s kontaktem */}
       <section className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
