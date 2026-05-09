@@ -476,9 +476,7 @@ E-shop je výrazně složitější než prezentační web. Potřebuje:
 - správu produktů a skladových zásob
 - napojení na platební bránu (karta, PayPal apod.)
 - obchodní podmínky, GDPR, reklamační řád
-- řešení dopravy a vrácení zboží
-
-Typické příklady: oblečení, kosmetika, doplňky stravy, elektronika, dárkové předměty.
+- řešení vrácení zboží
 
 ---
 
