@@ -439,10 +439,10 @@ Bez ohledu na to odkud jste, první krok je vždy stejný – [ozvěte se nám](
 {
   slug: "jaky-je-rozdil-mezi-webem-a-eshopem",
   title: "Jaký je rozdíl mezi webem a e-shopem?",
-  excerpt: "Web nebo e-shop? Spousta podnikatelů si tím není jistá. Přitom odpověď je jednoduchá – záleží na tom, co chcete na internetu dělat.",
+  description: "Web nebo e-shop? Spousta podnikatelů si tím není jistá. Přitom odpověď je jednoduchá – záleží na tom, co chcete na internetu dělat.",
   date: "2025-05-09",
-  readTime: "5 min",
-  category: "Webdesign",
+  readTime: "6 min",
+  category: "E-shopy",
   content: `
 ## Web nebo e-shop? Nejste v tom sami
 
@@ -501,15 +501,6 @@ V HavranWeb nabízím právě tuto variantu jako kompromis – je výrazně levn
 
 ---
 
-## Shrnutí na závěr
-
-| | Prezentační web | E-shop |
-|---|---|---|
-| **Účel** | Informovat a oslovit zákazníky | Prodávat produkty online |
-| **Platby online** | Ne | Ano |
-| **Složitost** | Nižší | Vyšší |
-| **Cena** | 4 000–12 000 Kč | od 10 000 Kč |
-| **Vhodné pro** | Služby, živnostníci, firmy | Prodej zboží |
 
 Pokud si stále nejste jistí, co přesně vaše podnikání potřebuje, rád se s vámi pobavím – bezplatná konzultace je samozřejmostí. Stačí mě [kontaktovat](/kontakt).
   `.trim(),
