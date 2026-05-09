@@ -12,6 +12,7 @@ const cities = [
     services: [
       { label: "Webdesign Nový Jičín", url: "/lokality/tvorba-webovych-stranek-novy-jicin" },
       { label: "SEO Nový Jičín", url: "/lokality/seo-novy-jicin" },
+      { label: "E-shop Nový Jičín", url: "/lokality/tvorba-eshopu-novy-jicin" },
     ],
     highlight: true,
   },
