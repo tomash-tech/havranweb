@@ -74,23 +74,27 @@ export default function Footer() {
               <ul className="space-y-3 text-gray-400 text-sm">
                <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>⚡</span>
-                  <span>HavranWeb</span>
+                  <span> Název: HavranWeb Webdesign</span>
+                </li>
+                 <li className="flex items-center gap-2">
+                  <span style={{ color: '#22d3ee' }}>⚡</span>
+                  <span> Sídlo: Bernartice nad Odrou 118</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>✉️</span>
                   <a href="mailto:tomashavran.pracovni@gmail.com" className="hover:text-cyan-400 transition">
-                    tomashavran.pracovni@gmail.com
+                   E-mail: tomashavran.pracovni@gmail.com
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>📞</span>
                   <a href="tel:+420770600944" className="hover:text-cyan-400 transition">
-                    +420 770 600 944
+                   Tel: +420 770 600 944
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <span style={{ color: '#22d3ee' }}>📍</span>
-                  <span>Nový Jičín a okolí</span>
+                  <span>Oblast: Nový Jičín a okolí</span>
                 </li>
               </ul>
             </div>
