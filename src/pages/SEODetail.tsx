@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function SEODetail() {
 useEffect(() => {
-  document.title = 'Lokální SEO Nový Jičín – HavranWeb';
+  document.title = 'Lokální SEO, SEO optimalizace – HavranWeb';
 document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Lokální SEO optimalizace pro firmy a podniky. Dostaňte svůj podnik do top 3 na Googlu. Cena od 5 000 Kč.');
  let canonical = document.querySelector('link[rel="canonical"]');
