@@ -32,7 +32,7 @@ const steps = [
 
 function EshopsDetail() {
 useEffect(() => {
-  document.title = 'Tvorba e-shopů Nový Jičín – HavranWeb';
+  document.title = 'Tvorba e-shopů – HavranWeb';
 document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Tvorba e-shopů. Od jednoduchého prodejního formuláře až po e-shop na míru pod vlastní doménou. Od 2 000 Kč.');
 let canonical = document.querySelector('link[rel="canonical"]');
