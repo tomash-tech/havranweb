@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function WebsitesDetail() {
 useEffect(() => {
-  document.title = 'Tvorba webových stránek Nový Jičín – HavranWeb';
+  document.title = 'Tvorba webových stránek a webdesign – HavranWeb';
 document.querySelector('meta[name="description"]')
     ?.setAttribute('content', 'Tvorba webových stránek na míru. Přizpůsobivý design, rychlé načítání, základní SEO. Ceny od 4 000 Kč.');
  let canonical = document.querySelector('link[rel="canonical"]');
