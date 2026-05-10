@@ -570,16 +570,16 @@ Pokud nemáte fotoaparát, dnešní telefony zvládnou přijatelnou kvalitu – 
 
 ## 4. Vyřešte doménu
 
-Doména je adresa vašeho webu (např. `mujpodnik.cz`). Pokud ji ještě nemáte, není to takový problém, a můžu to udělat za vás, pokud ale chcete ušetřit co nejvíce času, a mít web brzy, je čas ji zaregistrovat.
+Doména je adresa vašeho webu (např. mujpodnik.cz). Pokud ji ještě nemáte, není to takový problém, a můžu to udělat za vás, pokud ale chcete ušetřit co nejvíce času, a mít web brzy, je čas ji zaregistrovat.
 
 Pár tipů:
 
 - **Volte jednoduché a zapamatovatelné názvy** – ideálně název vaší firmy nebo oboru.
-- **Preferujte `.cz`** pro lokální podnikání v Česku – zákazníci jí více důvěřují.
+- **Preferujte .cz** pro lokální podnikání v Česku – zákazníci jí více důvěřují.
 - **Zkontrolujte dostupnost** – například na webu [regnames.cz](https://www.regnames.cz) nebo [wedos.cz](https://www.wedos.cz).
 - **Zaregistrujte ji na sebe** – ne na webdesignera. Doména je váš majetek.
 
-Roční cena `.cz` domény se pohybuje kolem 200–300 Kč. V HavranWeb se o hosting postaráme, doménu ale registrujte raději sami – máte nad ní plnou kontrolu.
+Roční cena .cz domény se pohybuje kolem 200–300 Kč. V HavranWeb se o hosting postaráme, doménu ale registrujte raději sami – máte nad ní plnou kontrolu.
 
 ---
 
@@ -616,7 +616,7 @@ Než oslovíte webdesignera, zkontrolujte:
 Čím více z toho máte připravené, tím rychleji a hladčeji celý projekt proběhne. A výsledek bude lepší – protože web bude skutečně odrážet vaše podnikání.
 
 Pokud si chcete před objednávkou vše probrat osobně, neváhejte mě [kontaktovat](/kontakt). Úvodní konzultace je zdarma a nezávazná.
-  `.trim(),
+  \`.trim(),
 }
 ];
  
