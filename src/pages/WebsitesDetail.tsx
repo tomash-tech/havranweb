@@ -223,6 +223,81 @@ document.querySelector('meta[name="description"]')
           </div>
         </div>
       </section>
+
+ {/* 4. Cenový přehled */}
+      <section className="py-24 px-6 bg-gray-800/20">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Přehled cen</h2>
+              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                Transparentní ceny bez skrytých poplatků. Hosting zdarma.
+              </p>
+            </div>
+          </ScrollReveal>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                name: "Základní web",
+                price: "4 000 – 6 000 Kč",
+                desc: "Jednoduchý web pro živnostníka nebo malou firmu.",
+                items: ["Úvod, služby, kontakt", "Google mapa", "Přizpůsobivý design", "Rychlé načítání"],
+                highlight: false,
+              },
+              {
+                name: "Firemní web",
+                price: "6 000 – 10 000 Kč",
+                desc: "Web s více podstránkami a pokročilejšími funkcemi.",
+                items: ["Více podstránek", "Kontaktní formulář", "Napojení na Google tabulky", "Základní rezervační systém"],
+                highlight: true,
+              },
+              {
+                name: "Komplexní web na míru",
+                price: "10 000 Kč+",
+                desc: "Komplexní projekty s funkcemi a integracemi na míru.",
+                items: ["Rezervační systém", "Více jazyků", "Propojení s externími systémy", "Funkce na míru"],
+                highlight: false,
+              },
+            ].map((plan, idx) => (
+              <ScrollReveal key={idx} delay={idx * 100}>
+                <div className={`flex flex-col h-full rounded-2xl border p-8 transition-all duration-300 hover:shadow-2xl ${
+                  plan.highlight
+                    ? 'bg-gradient-to-br from-blue-600/20 to-cyan-600/10 border-blue-500/50 hover:border-blue-400 hover:shadow-blue-500/20'
+                    : 'bg-gradient-to-br from-gray-800/50 to-gray-900/50 border-gray-700 hover:border-gray-500'
+                }`}>
+                  {plan.highlight && (
+                    <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-blue-300 bg-blue-500/20 px-3 py-1 rounded-full w-fit mb-4">
+                      Nejoblíbenější
+                    </div>
+                  )}
+                  <h3 className="text-xl font-bold text-white mb-2">{plan.name}</h3>
+                  <p className="text-3xl font-extrabold text-white mb-2">{plan.price}</p>
+                  <p className="text-gray-400 text-sm mb-6">{plan.desc}</p>
+                  <ul className="space-y-2 flex-grow mb-6">
+                    {plan.items.map((item, i) => (
+                      <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
+                        <CheckCircle size={14} className="text-blue-400 shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    to="/cenik"
+                    className={`inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-200 text-sm ${
+                      plan.highlight
+                        ? 'bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white shadow-lg shadow-blue-500/30 hover:scale-105'
+                        : 'bg-gray-700 hover:bg-gray-600 text-white border border-gray-600'
+                    }`}
+                  >
+                    Více informací <ArrowRight size={14} />
+                  </Link>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       
       <section className="min-h-screen px-6 flex items-center py-24">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
