@@ -151,7 +151,7 @@ function EshopNovyJicin() {
               },
               {
                 name: "E-shop na míru",
-                price: "10 000 – 12 000 Kč",
+                price: "10 000 Kč",
                 period: "",
                 desc: "Samostatný e-shop na vlastní doméně s kompletním řešením pro váš online prodej.",
                 items: ["Vlastní URL adresa", "Kompletní e-shop řešení", "Platební brána", "Správa produktů a objednávek"],
