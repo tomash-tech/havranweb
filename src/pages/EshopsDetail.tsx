@@ -198,7 +198,7 @@ let canonical = document.querySelector('link[rel="canonical"]');
           <div className="grid md:grid-cols-3 gap-6">
             <ScrollReveal delay={0}>
               <Link
-                to="/lokality/tvorba-webovych-stranek-novy-jicin"
+                to="/lokality/tvorba-eshopu-novy-jicin"
                 className="group flex flex-col bg-gradient-to-br from-purple-600/20 to-pink-600/10 p-8 rounded-2xl border border-purple-500/50 hover:border-purple-400 transition-all hover:shadow-2xl hover:shadow-purple-500/20"
               >
                 <span className="text-3xl mb-4">📍</span>
