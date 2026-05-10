@@ -502,6 +502,121 @@ V HavranWeb nabízím právě i tuto variantu jako kompromis – je výrazně le
 
 Pokud si stále nejste jistí, co přesně vaše podnikání potřebuje, rád se s vámi pobavím – bezplatná konzultace je samozřejmostí. Stačí mě [kontaktovat](/kontakt).
   `.trim(),
+},
+{
+  slug: "co-delat-nez-si-objednate-tvorbu-webu",
+  title: "Co dělat, než si objednáte tvorbu webu",
+  description: "Chystáte se objednat nový web? Skvělé rozhodnutí. Než ale oslovíte webdesignera, je pár věcí, které byste měli mít připravené – ušetříte čas i peníze.",
+  date: "2025-05-10",
+  readTime: "7 min",
+  category: "Webdesign",
+  content: `
+## Než začneme tvořit – připravte se
+
+Tvorba webu je týmová práce. Jako webdesigner udělám maximum pro to, aby váš web vypadal skvěle, byl rychlý a dohledatelný na Googlu. Ale bez vaší spolupráce to prostě nejde – vy jste expert na své podnikání, já jsem expert na web.
+
+Spousta projektů se zbytečně protahuje právě proto, že klient přijde nepřipravený. Texty chybí, fotky nejsou, doména se řeší na poslední chvíli. Výsledek? Zbytečné čekání a stres na obou stranách.
+
+Tento článek vám ukáže, co si připravit předem, abyste celý proces zvládli hladce a web měli hotový co nejdříve.
+
+---
+
+## 1. Ujasněte si, co vlastně chcete
+
+Tohle zní samozřejmě, ale v praxi to bývá největší kámen úrazu. Než webdesignera oslovíte, zkuste si odpovědět na tyto otázky:
+
+**Co má web dělat?**
+Má přivádět nové zákazníky? Informovat o vašich službách? Sbírat poptávky přes formulář? Každý cíl ovlivňuje strukturu i obsah webu.
+
+**Kdo je váš zákazník?**
+Jinak oslovíte mladou maminku hledající kosmetiku, jinak firmu poptávající účetní služby. Čím lépe svého zákazníka znáte, tím lépe ho web osloví.
+
+**Jaké stránky web potřebuje?**
+Typický menší web obsahuje: úvodní stránku, popis služeb, reference, kontakt. Potřebujete víc? Méně? Zamyslete se předem.
+
+**Máte inspiraci?**
+Procházejte weby konkurence nebo jiné weby, které se vám líbí. Poznamenejte si, co konkrétně se vám na nich líbí – barvy, struktura, styl fotografií. To webdesignerovi hodně pomůže.
+
+---
+
+## 2. Připravte si texty
+
+Tohle je pro mnohé největší překvapení: **texty na web si musíte připravit vy.** Webdesigner umí web postavit, nakódovat a nakonfigurovat – ale váš příběh, vaše služby a vaše výhody za vás napsat neumí.
+
+Co budete potřebovat:
+
+- **O nás / O mně** – Kdo jste, jak dlouho podnikáte, co vás baví, proč zákazníci chodí právě k vám.
+- **Popis služeb** – Co konkrétně nabízíte, jak probíhá spolupráce, co zákazník dostane.
+- **Reference nebo recenze** – Pár vět od spokojených zákazníků udělá víc než sebelepší marketing.
+- **FAQ** – Jaké otázky vám zákazníci nejčastěji pokládají? Dejte odpovědi rovnou na web.
+
+Texty nemusí být literární dílo. Pište přirozeně, jako byste vysvětlovali službu kamarádovi. Pokud si s psaním opravdu nevíte rady, můžu pomoci s úpravami nebo strukturou – ale základní myšlenky musí přijít od vás.
+
+---
+
+## 3. Sežeňte kvalitní fotografie
+
+Web bez fotek je jako výloha bez zboží. A stock fotografie (ty generické fotky z internetu s usměvavými lidmi v oblecích) zákazníci poznají na první pohled – a nedůvěřují jim.
+
+Ideální jsou **vlastní fotografie nebo od fotografa**:
+
+- fotky vás samotných při práci
+- fotky vašich produktů, provozovny nebo vybavení
+- fotky hotových projektů nebo výsledků vaší práce
+
+Pokud nemáte fotoaparát, dnešní telefony zvládnou přijatelnou kvalitu – důležité je dobré osvětlení a čisté pozadí. Pro profesionálnější výsledek zvažte spolupráci s místním fotografem, investice se vyplatí.
+
+---
+
+## 4. Vyřešte doménu
+
+Doména je adresa vašeho webu (např. `mujpodnik.cz`). Pokud ji ještě nemáte, není to takový problém, a můžu to udělat za vás, pokud ale chcete ušetřit co nejvíce času, a mít web brzy, je čas ji zaregistrovat.
+
+Pár tipů:
+
+- **Volte jednoduché a zapamatovatelné názvy** – ideálně název vaší firmy nebo oboru.
+- **Preferujte `.cz`** pro lokální podnikání v Česku – zákazníci jí více důvěřují.
+- **Zkontrolujte dostupnost** – například na webu [regnames.cz](https://www.regnames.cz) nebo [wedos.cz](https://www.wedos.cz).
+- **Zaregistrujte ji na sebe** – ne na webdesignera. Doména je váš majetek.
+
+Roční cena `.cz` domény se pohybuje kolem 200–300 Kč. V HavranWeb se o hosting postaráme, doménu ale registrujte raději sami – máte nad ní plnou kontrolu.
+
+---
+
+## 5. Připravte přístupy a podklady
+
+Pokud přecházíte ze starého webu nebo potřebujete propojit různé služby, budete potřebovat přístupy. Připravte si:
+
+- **Přístup ke staré doméně** (pokud ji přenášíte nebo měníte DNS záznamy)
+- **Logo** mějte foto loga stažené ve vašem počítači ve formátu jako PNG ve vysokém rozlišení.
+- **Barevné schéma a fonty** – pokud máte firemní identitu, sdělte webdesignerovi přesné barvy
+- **Profily na sociálních sítích** – pokud chcete na web přidat tlačítka na profily na Instagramu apod.
+
+---
+
+## 6. Stanovte si rozpočet a termín
+
+Webdesigner vám dokáže navrhnout řešení odpovídající vašemu rozpočtu – ale jen pokud ho znáte. Nebojte se říct, kolik chcete investovat. Není to ostuda, je to praktická informace.
+
+Stejně tak termín. Potřebujete web do otevření provozovny za měsíc? Nebo spěch není? Čím dřív to víme, tím lépe naplánujeme kapacity a vy víte, co čekat.
+
+---
+
+## Shrnutí: váš checklist před objednávkou webu
+
+Než oslovíte webdesignera, zkontrolujte:
+
+- ✅ Vím, co má web dělat a koho oslovit
+- ✅ Mám připravené texty (nebo alespoň osnovu)
+- ✅ Mám fotografie (vlastní, nebo od fotografa)
+- ✅ Mám zaregistrovanou doménu (nebo alespoň ověřenou dostupnost)
+- ✅ Mám logo a firemní barvy
+- ✅ Znám svůj rozpočet a termín
+
+Čím více z toho máte připravené, tím rychleji a hladčeji celý projekt proběhne. A výsledek bude lepší – protože web bude skutečně odrážet vaše podnikání.
+
+Pokud si chcete před objednávkou vše probrat osobně, neváhejte mě [kontaktovat](/kontakt). Úvodní konzultace je zdarma a nezávazná.
+  `.trim(),
 }
 ];
  
