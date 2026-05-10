@@ -441,7 +441,7 @@ Bez ohledu na to odkud jste, první krok je vždy stejný – [ozvěte se nám](
   title: "Jaký je rozdíl mezi webem a e-shopem?",
   description: "Web nebo e-shop? Spousta podnikatelů si tím není jistá. Přitom odpověď je jednoduchá – záleží na tom, co chcete na internetu dělat.",
   date: "2025-05-09",
-  readTime: "6 min",
+  readTime: "6",
   category: "E-shopy",
   content: `
 ## Web nebo e-shop? Nejste v tom sami
@@ -508,7 +508,7 @@ Pokud si stále nejste jistí, co přesně vaše podnikání potřebuje, rád se
   title: "Co dělat, než si objednáte tvorbu webu",
   description: "Chystáte se objednat nový web? Skvělé rozhodnutí. Než ale oslovíte webdesignera, je pár věcí, které byste měli mít připravené – ušetříte čas i peníze.",
   date: "2025-05-10",
-  readTime: "7 min",
+  readTime: "7",
   category: "Webdesign",
   content: `
 ## Než začneme tvořit – připravte se
@@ -616,8 +616,8 @@ Než oslovíte webdesignera, zkontrolujte:
 Čím více z toho máte připravené, tím rychleji a hladčeji celý projekt proběhne. A výsledek bude lepší – protože web bude skutečně odrážet vaše podnikání.
 
 Pokud si chcete před objednávkou vše probrat osobně, neváhejte mě [kontaktovat](/kontakt). Úvodní konzultace je zdarma a nezávazná.
-  \`.trim(),
-}
+`.trim(),
+  },
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
