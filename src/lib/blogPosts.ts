@@ -666,7 +666,7 @@ Pořádáte školení, nabízíte sezónní akci nebo chcete propagovat konkrét
 
 Nemáte čas ani rozpočet na plnohodnotný web, ale potřebujete být online a sbírat poptávky? Landing page je rychlé a cenově dostupné řešení jak začít. Zákazník se dozví kdo jste, co nabízíte a jak vás kontaktovat – a to je zatím vše co potřebuje.
 
-### 6. Spěcháte naweb
+### 6. Spěcháte na web
 
 Potřebujete být na internetu co nejdříve? jednoduchý Landing page bývá hotový do 2 týdnů, v urgentních případech i dříve.
 ---
