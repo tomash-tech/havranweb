@@ -618,6 +618,121 @@ Než oslovíte webdesignera, zkontrolujte:
 Pokud si chcete před objednávkou vše probrat osobně, neváhejte mě [kontaktovat](/kontakt). Úvodní konzultace je zdarma a nezávazná.
 `.trim(),
   },
+{
+  slug: "co-je-landing-page",
+  title: "Landing page: co to je a pro koho se hodí?",
+  description: "Landing page není obyčejný web. Je to stránka s jedním cílem – přimět návštěvníka k akci. Vysvětlíme, co landing page je, kdy dává smysl a kdy naopak ne.",
+  date: "2026-05-11",
+  readTime: 7,
+  category: "Webdesign",
+  content: `
+## Co je to landing page?
+
+Landing page – česky „přistávací stránka" – je webová stránka navržená s jediným cílem: přimět návštěvníka k jedné konkrétní akci. Může to být vyplnění kontaktního formuláře, objednání konzultace, stažení e-booku nebo nákup produktu.
+
+Na rozdíl od klasického firemního webu, který má více stránek a nabízí různé informace najednou, landing page je záměrně jednoduchá. Žádné menu s desítkami odkazů, žádné odbočky. Jen jedna zpráva, jeden cíl, jedno tlačítko.
+
+---
+
+## Jak se liší od klasického webu?
+
+Klasický firemní web je jako prodejna – zákazník vstoupí a může se rozhlédnout, projít různé sekce, přečíst si o firmě, podívat se na reference. Má svobodu volby.
+
+Landing page je jako prodavač, který vás zastaví na ulici a říká: *„Máme pro vás skvělou nabídku. Chcete ji využít? Ano nebo ne."*
+
+| | Klasický web | Landing page |
+|---|---|---|
+| **Počet stránek** | Více | Jedna |
+| **Cíl** | Informovat, budovat důvěru | Jedna konkrétní akce |
+| **Navigace** | Ano | Minimální nebo žádná |
+| **Obsah** | Komplexní | Zaměřený, stručný |
+| **Vhodné pro** | Firmy, živnostníci | Kampaně, akce, produkty |
+
+---
+
+## Pro koho je landing page vhodná?
+
+### 1. Spouštíte nový produkt nebo službu
+
+Chystáte kurz, e-book, workshop nebo novou službu? Landing page je ideální způsob jak ji představit světu ještě předtím než máte hotový celý web. Stačí jedna stránka která jasně vysvětlí co nabízíte, komu to pomůže a jak se přihlásit.
+
+### 2. Spouštíte placenou reklamu
+
+Pokud inzerujete na Google nebo Facebooku, reklama by měla vést na stránku která přímo navazuje na to co jste v reklamě slíbili. Poslat lidi na úvodní stránku obecného webu je plýtvání penězi – zákazník přijde, rozhlédne se, ztratí se a odejde.
+
+Landing page vytvořená přesně pro danou kampaň výrazně zvyšuje šanci že návštěvník udělá to co chcete.
+
+### 3. Testujete zájem trhu
+
+Máte nápad na nový produkt nebo službu, ale nejste si jistí jestli o něj bude zájem? Landing page s formulářem „Chci být informován o spuštění" vám ukáže reálné čísla předtím než do projektu investujete velké peníze.
+
+### 4. Máte jednu konkrétní nabídku
+
+Pořádáte školení, nabízíte sezónní akci nebo chcete propagovat konkrétní službu? Landing page vám umožní soustředit veškerou pozornost návštěvníka na tuto jednu věc – bez rušivých odkazů na jiné části webu.
+
+### 5. Jste živnostník a teprve začínáte
+
+Nemáte čas ani rozpočet na plnohodnotný web, ale potřebujete být online a sbírat poptávky? Landing page je rychlé a cenově dostupné řešení jak začít. Zákazník se dozví kdo jste, co nabízíte a jak vás kontaktovat – a to je zatím vše co potřebuje.
+
+---
+
+## Co by měla dobrá landing page obsahovat?
+
+Každá landing page je jiná, ale osvědčená struktura vypadá takto:
+
+**Hlavní nadpis** – jasně říká co stránka nabízí a komu. Návštěvník musí do tří sekund pochopit jestli je na správném místě.
+
+**Podnadpis** – rozvíjí hlavní myšlenku, přidává kontext nebo konkrétní příslib.
+
+**Výhody a co zákazník získá** – ne seznam vlastností, ale konkrétní benefity. Ne „naše kurzy mají 10 modulů", ale „naučíte se za 4 týdny spravovat Instagram profil sami".
+
+**Sociální důkaz** – recenze, reference, loga klientů nebo počty zákazníků. Lidé důvěřují tomu co funguje ostatním.
+
+**Výzva k akci (CTA)** – tlačítko nebo formulář který jasně říká co má návštěvník udělat. „Chci nezávaznou nabídku", „Rezervovat místo", „Stáhnout zdarma".
+
+**Důvěryhodnost** – kontakt, fotka, pár vět o vás. Zákazník musí vědět s kým jedná.
+
+---
+
+## Kdy landing page nestačí a potřebujete plnohodnotný web?
+
+Landing page má své limity. Pokud nabízíte více různých služeb, potřebujete zákazníkům ukázat reference, vybudovat dlouhodobou důvěru nebo cílíte na lokální SEO – landing page sama o sobě nestačí.
+
+Google také lépe indexuje weby s více obsahem a podstránkami. Pokud chcete být dohledatelní bez placené reklamy, dřív nebo později budete potřebovat plnohodnotný web.
+
+Landing page je skvělý start nebo doplněk – ne trvalé řešení pro každou situaci.
+
+---
+
+## Kolik stojí landing page?
+
+Landing page je výrazně jednodušší než celý firemní web, a tomu odpovídá i cena. V HavranWeb začínají landing pages na **4 000 Kč** – záleží na rozsahu obsahu, funkcích a tom, jestli potřebujete napojení na formulář, platební bránu nebo jiné systémy.
+
+Oproti kompletnímu webu za 8 000–12 000 Kč je to dostupné řešení které zvládne přivést první zákazníky, otestovat nápad nebo podpořit reklamní kampaň.
+
+---
+
+## Shrnutí: je landing page pro vás?
+
+Landing page dává smysl pokud:
+
+- ✅ Spouštíte nový produkt, kurz nebo akci
+- ✅ Chystáte placenou reklamu na Google nebo Facebooku
+- ✅ Testujete zájem o nový nápad
+- ✅ Potřebujete být online rychle a bez velkého rozpočtu
+- ✅ Chcete soustředit pozornost zákazníka na jednu konkrétní nabídku
+
+Landing page pravděpodobně nestačí pokud:
+
+- ❌ Nabízíte více různých služeb
+- ❌ Chcete být dohledatelní na Googlu bez reklamy
+- ❌ Potřebujete budovat dlouhodobou důvěru a brand
+
+---
+
+Nejste si jistí co přesně vaše podnikání potřebuje? Rád se s vámi pobavím – bezplatná konzultace je samozřejmostí. Stačí mě [kontaktovat](/kontakt).
+  `.trim(),
+},
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
