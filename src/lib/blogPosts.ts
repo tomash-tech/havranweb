@@ -630,23 +630,15 @@ Pokud si chcete před objednávkou vše probrat osobně, neváhejte mě [kontakt
 
 Landing page – česky „přistávací stránka" – je webová stránka navržená s jediným cílem: přimět návštěvníka k jedné konkrétní akci. Může to být vyplnění kontaktního formuláře, objednání konzultace, stažení e-booku nebo nákup produktu.
 
-Na rozdíl od klasického firemního webu, který má více stránek a nabízí různé informace najednou, landing page je záměrně jednoduchá. Žádné menu s desítkami odkazů, žádné odbočky. Jen jedna zpráva, jeden cíl, jedno tlačítko.
+Na rozdíl od klasického firemního webu, který má více stránek a nabízí různé informace najednou, landing page je na jedné url stránce (vasweb.cz) a neobsahuje podstránky (vasweb.cz/sluzby) nebo (vasweb.cz/blog).
 
 ---
 
 ## Jak se liší od klasického webu?
 
-Klasický firemní web je jako prodejna – zákazník vstoupí a může se rozhlédnout, projít různé sekce, přečíst si o firmě, podívat se na reference. Má svobodu volby.
+Klasický firemní web je jako prodejna – zákazník vstoupí a může se rozhlédnout, projít různé stránky, přečíst si o firmě, podívat se na reference. Má svobodu volby.
 
 Landing page je jako prodavač, který vás zastaví na ulici a říká: *„Máme pro vás skvělou nabídku. Chcete ji využít? Ano nebo ne."*
-
-| | Klasický web | Landing page |
-|---|---|---|
-| **Počet stránek** | Více | Jedna |
-| **Cíl** | Informovat, budovat důvěru | Jedna konkrétní akce |
-| **Navigace** | Ano | Minimální nebo žádná |
-| **Obsah** | Komplexní | Zaměřený, stručný |
-| **Vhodné pro** | Firmy, živnostníci | Kampaně, akce, produkty |
 
 ---
 
@@ -674,6 +666,9 @@ Pořádáte školení, nabízíte sezónní akci nebo chcete propagovat konkrét
 
 Nemáte čas ani rozpočet na plnohodnotný web, ale potřebujete být online a sbírat poptávky? Landing page je rychlé a cenově dostupné řešení jak začít. Zákazník se dozví kdo jste, co nabízíte a jak vás kontaktovat – a to je zatím vše co potřebuje.
 
+### 6. Spěcháte naweb
+
+Potřebujete být na internetu co nejdříve? jednoduchý Landing page bývá hotový do 2 týdnů, v urgentních případech i dříve.
 ---
 
 ## Co by měla dobrá landing page obsahovat?
@@ -726,7 +721,9 @@ Landing page pravděpodobně nestačí pokud:
 
 - ❌ Nabízíte více různých služeb
 - ❌ Chcete být dohledatelní na Googlu bez reklamy
+- ❌ Potřebujete podstránky
 - ❌ Potřebujete budovat dlouhodobou důvěru a brand
+- ❌ Chcete mít na webu blogy a pravidelné příspěvky
 
 ---
 
