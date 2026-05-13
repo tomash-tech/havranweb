@@ -730,6 +730,136 @@ Landing page pravděpodobně nestačí pokud:
 Nejste si jistí co přesně vaše podnikání potřebuje? Rád se s vámi pobavím – bezplatná konzultace je samozřejmostí. Stačí mě [kontaktovat](/kontakt).
   `.trim(),
 },
+{
+  slug: "co-je-web-hosting",
+  title: "Co je web hosting a co to znamená pro vaši firmu?",
+  description: "Hosting je základ každého webu – ale málokdo ví co přesně to je, jak funguje a na co si dát pozor. Vysvětlíme vše srozumitelně, bez technického žargonu.",
+  date: "2026-05-13",
+  readTime: 7,
+  category: "Webdesign",
+  content: `
+## Co je web hosting?
+
+Když si vytvoříte web, někde musí fyzicky existovat – musí být uložený na počítači který je neustále zapnutý a připojený k internetu, aby ho mohl kdokoliv kdykoliv navštívit. Tomuto počítači se říká server a službě která vám na něm místo pronajímá se říká web hosting.
+
+Jednoduše řečeno: hosting je pronájem místa na serveru kde váš web bydlí.
+
+Bez hostingu web neexistuje. Je to stejně základní jako mít světlo v provozovně – zákazník ho nevidí, ale bez něj nic nefunguje.
+
+---
+
+## Jak hosting funguje?
+
+Představte si hosting jako nájem bytu. Vy jste nájemník (váš web), pronajímatel je hostingová společnost a byt je prostor na serveru. Dokud platíte nájem, byt je váš a web je dostupný online.
+
+Jakmile přestanete platit – nebo si vyberete špatného pronajímatele – mohou nastat problémy. Web může být pomalý, nedostupný, nebo v nejhorším případě ztracený.
+
+Technicky probíhá celý proces takto: když někdo zadá vaši webovou adresu do prohlížeče, prohlížeč se dotáže DNS serverů kde váš web najde, ty ho nasměrují na správný hosting server a ten zobrazí váš web návštěvníkovi. Celé to trvá zlomek sekundy.
+
+---
+
+## Jaké typy hostingu existují?
+
+Hostingových řešení je celá řada. Pro lokální firmy jsou nejrelevantnější tyto tři:
+
+### Sdílený hosting
+
+Nejlevnější varianta – váš web sdílí server s desítkami nebo stovkami jiných webů. Cena bývá od 50 do 300 Kč měsíčně.
+
+Nevýhoda? Pokud některý sousední web na serveru dostane velký nápor návštěvníků, může to zpomalit i váš web. Kvalita se výrazně liší podle poskytovatele.
+
+Vhodné pro: velmi malé weby s nízkým provozem, blogy, jednoduché vizitky.
+
+### VPS (Virtual Private Server)
+
+Virtuální privátní server – váš web má vyhrazenou část serveru jen pro sebe. Rychlejší, spolehlivější, ale také dražší. Ceny začínají kolem 300–500 Kč měsíčně.
+
+Vhodné pro: firemní weby se středním provozem, e-shopy, weby s vyššími nároky na výkon.
+
+### Cloudový hosting (Vercel, Netlify a podobné)
+
+Moderní řešení kde váš web běží na síti serverů po celém světě. Je rychlý, spolehlivý a automaticky se přizpůsobuje náporu návštěvníků. Řada cloudových platforem nabízí hostování zdarma pro menší projekty.
+
+Právě toto řešení používáme pro weby v HavranWeb – nasazujeme na platformu Vercel která zajišťuje rychlé načítání, vysokou dostupnost a automatické zálohování. A pro naše klienty je hosting zdarma.
+
+---
+
+## Proč na hostingu záleží?
+
+Mnoho podnikatelů hosting podceňuje. Je to chyba. Kvalita hostingu přímo ovlivňuje tři zásadní věci:
+
+### 1. Rychlost webu
+
+Google bere rychlost načítání jako jeden z ranking faktorů – čím pomalejší web, tím horší pozice ve výsledcích vyhledávání. Ale co je ještě důležitější: pomalý web odrazuje zákazníky.
+
+Studie ukazují že 53 % uživatelů na mobilu opustí web pokud se nenačte do 3 sekund. Špatný hosting může být přímou příčinou ztráty zákazníků – a vy o tom ani nevíte.
+
+### 2. Dostupnost webu (uptime)
+
+Uptime je procento času kdy je váš web dostupný online. Kvalitní hosting garantuje 99,9 % uptime – to znamená méně než 9 hodin výpadku za celý rok.
+
+Levný nekvalitní hosting může mít výpadky mnohem častější. Pokud zákazník přijde na váš web a ten nefunguje, pravděpodobně půjde ke konkurenci a už se nevrátí.
+
+### 3. Bezpečnost
+
+Kvalitní hosting zahrnuje SSL certifikát (to je ten zámeček v prohlížeči a https:// na začátku adresy), ochranu proti útokům a pravidelné zálohy. Bez toho je váš web zranitelný a zákazníci mu nebudou důvěřovat.
+
+---
+
+## Na co si dát pozor při výběru hostingu?
+
+Pokud si hosting řešíte sami, sledujte tyto parametry:
+
+**Uptime garance** – hledejte minimum 99,9 %. Cokoliv nižšího znamená příliš časté výpadky.
+
+**Rychlost serverů** – ideálně servery umístěné v Evropě nebo přímo v Česku pro nejrychlejší načítání pro vaše zákazníky.
+
+**SSL certifikát zdarma** – dnes je to standard, ne bonus. Každý seriózní hosting ho nabízí bez příplatku.
+
+**Zákaznická podpora** – co se stane když web přestane fungovat v sobotu večer? Má hosting podporu která vám pomůže?
+
+**Zálohy** – jak často se web zálohuje a jak snadno ho lze obnovit?
+
+**Cena za obnovu** – někteří poskytovatelé lákají na nízkou cenu v prvním roce a pak ji znásobí při obnově. Vždy se ptejte na cenu od druhého roku.
+
+---
+
+## Musím hosting řešit sám?
+
+Nemusíte. A upřímně – pro většinu lokálních podnikatelů je to zbytečná starost.
+
+Pokud si necháte web vytvořit od profesionála, hosting by měl být součástí řešení. V HavranWeb zajišťujeme hosting pro všechny naše klienty zdarma – na platformě Vercel která splňuje všechny výše zmíněné parametry. Vy se nemusíte starat o žádné technické detaily, platby hostingové společnosti ani výpadky serverů.
+
+Jediné za co platíte opakovaně je doména – vaše webová adresa (např. vasefirma.cz) za přibližně 200 Kč ročně.
+
+---
+
+## Hosting vs. doména – jaký je rozdíl?
+
+Tato dvě slova se často pletou. Jednoduché vysvětlení:
+
+- **Doména** je adresa vašeho webu – např. vasefirma.cz. Je to jako název ulice a číslo domu.
+- **Hosting** je místo kde web fyzicky existuje – server. Je to jako samotný dům.
+
+Potřebujete obojí. Doménu si registrujete u registrátora (např. Wedos nebo Regnames), hosting zajišťuje buď váš webdesigner nebo si ho platíte sami u hostingové společnosti.
+
+---
+
+## Shrnutí: co si z toho odnést?
+
+Hosting je základ každého webu – bez něj nic nefunguje. Zároveň je to věc o které nemusíte přemýšlet pokud pracujete se správným webdesignerem.
+
+Klíčové body:
+
+- ✅ Hosting = pronájem místa na serveru kde váš web bydlí
+- ✅ Kvalita hostingu ovlivňuje rychlost, dostupnost a bezpečnost webu
+- ✅ Špatný hosting může přímo způsobovat ztrátu zákazníků
+- ✅ Cloudové řešení (Vercel) je dnes nejspolehlivější varianta pro menší weby
+- ✅ V HavranWeb je hosting pro naše klienty zdarma
+
+Máte otázky ohledně hostingu nebo webu obecně? [Ozvěte se nám](/kontakt) – rádi vše vysvětlíme a poradíme co je pro vaše podnikání nejlepší.
+  `.trim(),
+},
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
