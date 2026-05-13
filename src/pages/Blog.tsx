@@ -5,17 +5,17 @@ import Footer from '../components/Footer';
 import { useEffect } from 'react';
 
 export default function Blog() {
- useEffect(() => {
-  document.title = 'Blog – HavranWeb | Tvorba webů, e-shopů a SEO';
-document.querySelector('meta[name="description"]')
-    ?.setAttribute('content', 'Blog o tvorbě webů, e-shopů a lokálním SEO. Praktické tipy pro podnikatele v Novém Jičíně a okolí.');
-let canonical = document.querySelector('link[rel="canonical"]');
-  if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
-  canonical.setAttribute('href', 'https://havranweb.cz/blog');
- }, []);
+  useEffect(() => {
+    document.title = 'Blog – HavranWeb | Tvorba webů, e-shopů a SEO';
+    document.querySelector('meta[name="description"]')
+      ?.setAttribute('content', 'Blog o tvorbě webů, e-shopů a lokálním SEO. Praktické tipy pro podnikatele v Novém Jičíně a okolí.');
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement('link'); canonical.setAttribute('rel', 'canonical'); document.head.appendChild(canonical); }
+    canonical.setAttribute('href', 'https://havranweb.cz/blog');
+  }, []);
+
   return (
     <>
-     
       <main className="min-h-screen bg-[#0a0a0a] text-white">
         <div className="max-w-6xl mx-auto px-6 pt-10">
           <Link
@@ -47,7 +47,7 @@ let canonical = document.querySelector('link[rel="canonical"]');
         {/* Articles */}
         <section className="max-w-6xl mx-auto px-6 pb-32">
           <div className="grid md:grid-cols-2 gap-6">
-            {blogPosts.map((post) => (
+            {[...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).map((post) => (
               <Link
                 key={post.slug}
                 to={`/blog/${post.slug}`}
