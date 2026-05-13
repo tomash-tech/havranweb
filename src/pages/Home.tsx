@@ -206,7 +206,10 @@ return (
           </ScrollReveal>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {blogPosts.slice(0, 3).map((post, idx) => (
+            {[...blogPosts]
+              .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+              .slice(0, 3)
+              .map((post, idx) => (
               <ScrollReveal key={post.slug} delay={idx * 150}>
                 <Link
                   to={`/blog/${post.slug}`}
