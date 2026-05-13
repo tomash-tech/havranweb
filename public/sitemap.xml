@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Hlavní stránky -->
   <url>
     <loc>https://havranweb.cz/</loc>
     <lastmod>2026-04-24</lastmod>
@@ -8,97 +9,71 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Služby -->
   <url>
-    <loc>https://havranweb.cz/service/websites</loc>
+    <loc>https://havranweb.cz/sluzby/webdesign</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/sluzby/seo</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/sluzby/eshopy</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Lokality -->
   <url>
-    <loc>https://havranweb.cz/service/seo</loc>
-    <lastmod>2026-04-24</lastmod>
+    <loc>https://havranweb.cz/lokality</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://havranweb.cz/service/eshops</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-  <loc>https://havranweb.cz/lokality/tvorba-webovych-stranek-novy-jicin</loc>
-  <lastmod>2026-05-06</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/lokality/seo-novy-jicin</loc>
-  <lastmod>2026-05-06</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/lokality/tvorba-eshopu-novy-jicin</loc>
-  <lastmod>2026-05-08</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.8</priority>
-</url>
-  
-<url>
-  <loc>https://havranweb.cz/lokality</loc>
-  <lastmod>2026-05-06</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.7</priority>
-</url>
-  
-  <url>
-  <loc>https://havranweb.cz/kontakt</loc>
-  <lastmod>2026-05-01</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.7</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/cenik</loc>
-  <lastmod>2026-05-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.7</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/faq</loc>
-  <lastmod>2026-05-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-  
-  <url>
-    <loc>https://havranweb.cz/blog</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://havranweb.cz/blog/proc-potrebuje-vas-podnik-web</loc>
-    <lastmod>2026-04-24</lastmod>
+    <loc>https://havranweb.cz/lokality/tvorba-webovych-stranek-novy-jicin</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/lokality/seo-novy-jicin</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/lokality/tvorba-eshopu-novy-jicin</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ostatní stránky -->
+  <url>
+    <loc>https://havranweb.cz/cenik</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/faq</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://havranweb.cz/blog/co-je-lokalni-seo</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://havranweb.cz/kontakt</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://havranweb.cz/legal</loc>
     <lastmod>2026-04-24</lastmod>
@@ -106,60 +81,90 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Blog -->
   <url>
-  <loc>https://havranweb.cz/blog/web-pro-posilovnu-novy-jicin</loc>
-  <lastmod>2026-04-30</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
+    <loc>https://havranweb.cz/blog</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/proc-potrebuje-vas-podnik-web</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/co-je-lokalni-seo</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/kolik-stoji-webove-stranky-novy-jicin</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/proc-podniky-v-novem-jicine-ztraceji-zakazniky</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/web-pro-posilovnu-novy-jicin</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/jak-dlouho-trva-tvorba-webu</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/plati-se-web-jednorazove-nebo-mesicne</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/mohu-web-upravovat-sam</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/jak-dlouho-trva-nez-se-seo-projevi</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/pracujete-jen-v-novem-jicine</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/jaky-je-rozdil-mezi-webem-a-eshopem</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/co-delat-nez-si-objednate-tvorbu-webu</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://havranweb.cz/blog/co-je-landing-page</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-<url>
-  <loc>https://havranweb.cz/blog/proc-podniky-v-novem-jicine-ztraceji-zakazniky</loc>
-  <lastmod>2026-04-25</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/kolik-stoji-webove-stranky-novy-jicin</loc>
-  <lastmod>2026-04-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/jak-dlouho-trva-tvorba-webu</loc>
-  <lastmod>2026-05-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/plati-se-web-jednorazove-nebo-mesicne</loc>
-  <lastmod>2026-05-01</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/mohu-web-upravovat-sam</loc>
-  <lastmod>2026-05-06</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/jak-dlouho-trva-nez-se-seo-projevi</loc>
-  <lastmod>2026-05-07</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://havranweb.cz/blog/pracujete-jen-v-novem-jicine</loc>
-  <lastmod>2026-05-08</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.6</priority>
-</url>
-  
 </urlset>
