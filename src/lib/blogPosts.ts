@@ -440,7 +440,7 @@ Bez ohledu na to odkud jste, první krok je vždy stejný – [ozvěte se nám](
   slug: "jaky-je-rozdil-mezi-webem-a-eshopem",
   title: "Jaký je rozdíl mezi webem a e-shopem?",
   description: "Web nebo e-shop? Spousta podnikatelů si tím není jistá. Přitom odpověď je jednoduchá – záleží na tom, co chcete na internetu dělat.",
-  date: "2025-05-09",
+  date: "2026-05-09",
   readTime: "6",
   category: "E-shopy",
   content: `
@@ -507,7 +507,7 @@ Pokud si stále nejste jistí, co přesně vaše podnikání potřebuje, rád se
   slug: "co-delat-nez-si-objednate-tvorbu-webu",
   title: "Co dělat, než si objednáte tvorbu webu",
   description: "Chystáte se objednat nový web? Skvělé rozhodnutí. Než ale oslovíte webdesignera, je pár věcí, které byste měli mít připravené – ušetříte čas i peníze.",
-  date: "2025-05-10",
+  date: "2026-05-10",
   readTime: "7",
   category: "Webdesign",
   content: `
