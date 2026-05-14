@@ -860,6 +860,221 @@ Klíčové body:
 Máte otázky ohledně hostingu nebo webu obecně? [Ozvěte se nám](/kontakt) – rádi vše vysvětlíme a poradíme co je pro vaše podnikání nejlepší.
   `.trim(),
 },
+{
+  slug: "jak-vybrat-jaky-web-se-pro-vas-hodi",
+  title: "Jak vybrat jaký web se pro vás hodí?",
+  description: "Vizitka, prezentační web, landing page nebo e-shop? Každý podnik potřebuje něco jiného. Podívejte se na 10 příkladů podle oboru a zjistěte co přesně potřebujete vy.",
+  date: "2026-05-14",
+  readTime: 9,
+  category: "Webdesign",
+  content: `
+## Každý podnik je jiný – web by měl být také
+
+Jedna z nejčastějších chyb při objednávání webu je, že podnikatel ani neví jaký typ webu vlastně potřebuje. Někdo si nechá udělat složitý web s desítkami podstránek, přestože by mu stačila jednoduchá landing page. Jiný si objedná základní vizitku a pak zjistí, že potřeboval i rezervační systém.
+
+Správný výběr typu webu vám ušetří peníze, čas a frustraci. V tomto článku si projdeme základní typy webů, 10 konkrétních příkladů podle oboru a na konci pár otázek které vám pomohou rozhodnout se.
+
+---
+
+## Typy webů – rychlý přehled
+
+**Vizitka** – jedna nebo dvě stránky. Kdo jste, co děláte, jak vás kontaktovat. Ideální pro živnostníky kteří potřebují jen základní online přítomnost.
+
+**Prezentační web** – více podstránek, podrobnější popis služeb, fotogalerie, reference, kontaktní formulář. Nejběžnější typ webu pro malé a střední firmy.
+
+**Landing page** – jedna stránka s jediným cílem: přimět návštěvníka k akci. Vhodná pro kampaně, nové produkty nebo testování trhu.
+
+**E-shop** – web pro prodej digitálních produktů online. Zákazník vybere, zaplatí a produkt dostane automaticky. Složitější než prezentační web, ale otevírá nové možnosti prodeje.
+
+---
+
+## 10 příkladů podle oboru
+
+### 1. Řemeslník (truhlář, instalatér, elektrikář, malíř pokojů)
+
+Řemeslník nepotřebuje složitý web. Zákazník chce vědět co umíte, kde pracujete, jak vás zaplatit a jak vás kontaktovat.
+
+**Co web musí obsahovat:**
+- Popis služeb s konkrétními příklady práce
+- Fotogalerie hotových projektů – tohle je nejsilnější prodejní argument
+- Oblast působení (město a okolí)
+- Telefonní číslo na viditelném místě – řemeslníci dostávají zakázky převážně přes telefon
+- Jednoduché kontaktní formulář pro poptávky
+
+**Doporučený typ:** Prezentační web nebo vizitka
+
+---
+
+### 2. Kadeřnictví, kosmetický salon, nehtové studio
+
+Zákaznice (a zákazníci) chtějí vidět výsledky vaší práce a jednoduše si rezervovat termín.
+
+**Co web musí obsahovat:**
+- Fotogalerie prací – účesy, manikúry, ošetření
+- Ceník služeb přehledně rozdělený podle kategorií
+- Online rezervace nebo odkaz na rezervační systém
+- Otevírací doba
+- Adresa s Google mapou
+- Instagram feed nebo odkaz na profil kde pravidelně sdílíte práci
+
+**Doporučený typ:** Prezentační web s rezervačním formulářem
+
+---
+
+### 3. Restaurace, kavárna, bistro
+
+Hladový zákazník se rozhoduje rychle. Web musí odpovědět na tři otázky okamžitě: co servírujete, kde jste a kdy máte otevřeno.
+
+**Co web musí obsahovat:**
+- Jídelní a nápojový lístek – ideálně aktualizovatelný
+- Otevírací doba včetně svátků
+- Adresa s Google mapou a navigací
+- Fotky jídel a prostředí
+- Možnost rezervace stolu nebo odkaz na rezervační systém
+- Kontakt pro cateringové nebo firemní akce
+
+**Doporučený typ:** Prezentační web
+
+---
+
+### 4. Fitness centrum, posilovna, sportovní studio
+
+Nový zákazník chce vědět co ho čeká ještě před první návštěvou. Fotky a informace snižují bariéru vstupu.
+
+**Co web musí obsahovat:**
+- Fotogalerie vybavení, strojů a prostor
+- Ceník členství a vstupů
+- Otevírací doba
+- Rozvrh lekcí nebo skupinových tréninků
+- Informace o trenérech nebo instruktorech
+- Online nákup vstupů nebo členství (volitelně)
+
+**Doporučený typ:** Prezentační web, u větších center s možností online plateb
+
+---
+
+### 5. Účetní, daňový poradce, právník
+
+Důvěra je v tomto oboru všechno. Web musí působit profesionálně a přesvědčit zákazníka že jste správná volba.
+
+**Co web musí obsahovat:**
+- Popis služeb s vysvětlením komu jsou určeny
+- Vzdělání, certifikace a zkušenosti
+- Reference nebo recenze klientů
+- Jasný popis jak spolupráce probíhá
+- Kontaktní formulář pro nezávaznou konzultaci
+- Blog nebo články které ukazují vaši odbornost (volitelně)
+
+**Doporučený typ:** Prezentační web
+
+---
+
+### 6. Realitní makléř
+
+Makléř prodává sám sebe stejně jako nemovitosti. Web musí budovat osobní brand a zároveň ukazovat výsledky.
+
+**Co web musí obsahovat:**
+- Osobní příběh a přístup k práci
+- Přehled prodaných nebo aktuálně nabízených nemovitostí
+- Reference od spokojených klientů
+- Proces spolupráce krok za krokem
+- Kontaktní formulář pro nezávaznou schůzku
+- Propojení se sociálními sítěmi
+
+**Doporučený typ:** Prezentační web s důrazem na osobní brand
+
+---
+
+### 7. Fotograf, grafik, kreativec
+
+Portfolio je základ. Zákazník musí vidět práci a hned vědět jestli je váš styl to co hledá.
+
+**Co web musí obsahovat:**
+- Rozsáhlá galerie prací rozdělená podle kategorií
+- Krátký popis vás a vašeho přístupu
+- Ceník nebo alespoň orientační ceny
+- Kontaktní formulář s dotazníkem pro nové zakázky
+- Sociální sítě (Instagram je pro vizuální obory klíčový)
+
+**Doporučený typ:** Portfolio web (speciální typ prezentačního webu)
+
+---
+
+### 8. Lektor, kouč, terapeut
+
+Zákazník kupuje vaši osobnost a přístup stejně jako samotnou službu. Web musí vybudovat důvěru a přimět k prvnímu kontaktu.
+
+**Co web musí obsahovat:**
+- Osobní příběh – proč děláte co děláte
+- Popis služeb, kurzů nebo programů
+- Reference nebo výsledky klientů
+- Odpovědi na nejčastější otázky (FAQ)
+- Možnost rezervace konzultace nebo úvodního hovoru
+- E-mail nebo newsletter pro budování komunity (volitelně)
+
+**Doporučený typ:** Prezentační web, při prodeji kurzů nebo e-booků e-shop s digitálními produkty
+
+---
+
+### 9. Autoservis, pneuservis, autopůjčovna
+
+Zákazník většinou hledá rychle a chce vědět jestli zvládnete jeho konkrétní problém.
+
+**Co web musí obsahovat:**
+- Přehled nabízených služeb (co opravujete, jaké značky)
+- Ceník nebo alespoň orientační ceny za nejčastější úkony
+- Online objednávka termínu
+- Otevírací doba
+- Adresa s Google mapou
+- Telefonní číslo na viditelném místě
+
+**Doporučený typ:** Prezentační web s rezervačním formulářem
+
+---
+
+### 10. Ubytování, penzion, apartmány
+
+Zákazník si vybírá očima. Krásné fotky a jednoduchá rezervace jsou základ.
+
+**Co web musí obsahovat:**
+- Profesionální fotky pokojů, prostor a okolí
+- Popis ubytování – kapacita, vybavení, co je zahrnuto v ceně
+- Ceník podle sezóny
+- Online rezervační systém nebo alespoň kontakt pro rezervaci
+- Informace o okolí – co je v dosahu, tipy na výlety
+- Recenze hostů
+
+**Doporučený typ:** Prezentační web s rezervačním systémem
+
+---
+
+## Jak poznat co přesně potřebujete?
+
+Projděte si tyto otázky – odpovědi vám ukážou správný směr:
+
+**Chcete prodávat online?**
+Pokud ano a prodáváte digitální produkty jako kurzy, e-booky nebo soubory ke stažení, potřebujete e-shop. Pokud jen chcete aby vás zákazníci kontaktovali a zaplatili osobně nebo převodem, stačí prezentační web.
+
+**Nabízíte více různých služeb?**
+Každá hlavní služba by měla mít vlastní podstránku kde ji podrobně popisujete. To pomáhá zákazníkům najít přesně to co hledají a zároveň zlepšuje pozici webu na Googlu.
+
+**Potřebujete zákazníky z více měst?**
+Pokud chcete být dohledatelní například v Novém Jičíně, Kopřivnici i Příboře, nestačí jeden obecný web. Potřebujete lokální landing pages nebo podstránky optimalizované pro každé město zvlášť – to je součást lokálního SEO.
+
+**Jak rychle potřebujete výsledky?**
+Pokud potřebujete zákazníky ihned, zvažte kombinaci landing page a placené reklamy. Pokud vám záleží na dlouhodobé viditelnosti bez reklamy, investujte do prezentačního webu s SEO optimalizací.
+
+**Jak velký je váš rozpočet?**
+Vizitka nebo jednoduchá landing page začíná na 4 000 Kč. Plnohodnotný prezentační web s SEO se pohybuje od 6 000 do 12 000 Kč. E-shop s digitálními produkty od 10 000 Kč výše.
+
+**Budete web pravidelně aktualizovat?**
+Pokud plánujete přidávat novinky, akce nebo blog články, ujistěte se že váš webdesigner toto řeší – buď možností snadných úprav, nebo domluvou na pravidelné správě webu.
+
+---
+
+Nejste si jistí co přesně vaše podnikání potřebuje? Rád se s vámi pobavím a společně přijdeme na to co bude pro vás nejlepší řešení. [Ozvěte se mi](/kontakt) – konzultace je zdarma a nezávazná.
+  `.trim(),
+},
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
