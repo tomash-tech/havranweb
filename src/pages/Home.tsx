@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import { blogPosts } from '../lib/blogPosts';
 import { useEffect } from 'react';
 import Header from '../components/Header';
+import { Suspense, lazy } from 'react';
+const Spline = lazy(() => import('@splinetool/react-spline'));
 
 function Home() {
   useEffect(() => {
@@ -47,19 +49,20 @@ return (
                 </a>
               </div>
             </div>
-            <div 
-              className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
-              style={{
-                WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
-                maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
-              }}
-            >
-              <iframe
-                src="https://my.spline.design/3dglobe-ilZgUXNKvZsJki6lkUrp7g8I/"
-                frameBorder="0"
-                className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
-              />
-            </div>
+           <div 
+  className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
+  style={{
+    WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
+    maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
+  }}
+>
+  <Suspense fallback={<div className="w-full h-full" />}>
+    <Spline
+      scene="https://prod.spline.design/wBgCGYZ8LohxNKqT/scene.splinecode"
+      className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
+    />
+  </Suspense>
+</div>
           </div>
         </div>
       </section>
@@ -137,19 +140,20 @@ return (
               </div>
             </div>
             <ScrollReveal>
-              <div 
-                className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
-                style={{
-                  WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
-                  maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
-                }}
-              >
-                <iframe
-                  src="https://my.spline.design/ai-OtgZtBaKnNgOf0s9O870kAZD/"
-                  frameBorder="0"
-                  className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
-                />
-              </div>
+             <div 
+  className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
+  style={{
+    WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
+    maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
+  }}
+>
+  <Suspense fallback={<div className="w-full h-full" />}>
+    <Spline
+      scene="https://prod.spline.design/b3VwZq0707Gy4zjP/scene.splinecode"
+      className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
+    />
+  </Suspense>
+</div>
             </ScrollReveal>
           </div>
         </div>
