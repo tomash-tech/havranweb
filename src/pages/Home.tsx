@@ -49,20 +49,7 @@ return (
                 </a>
               </div>
             </div>
-           <div 
-  className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden"
-  style={{
-    WebkitMaskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)',
-    maskImage: 'radial-gradient(ellipse at center, black 50%, transparent 80%)'
-  }}
->
-  <Suspense fallback={<div className="w-full h-full" />}>
-    <Spline
-      scene="https://prod.spline.design/wBgCGYZ8LohxNKqT/scene.splinecode"
-      className="absolute top-0 left-0 w-full h-[calc(100%+70px)]"
-    />
-  </Suspense>
-</div>
+          
           </div>
         </div>
       </section>
