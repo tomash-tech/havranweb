@@ -1057,6 +1057,143 @@ Pokud plánujete přidávat novinky, akce nebo blog články, ujistěte se že v
 Nejste si jistí co přesně vaše podnikání potřebuje? Rád se s vámi pobavím a společně přijdeme na to co bude pro vás nejlepší řešení. [Ozvěte se mi](/kontakt) – konzultace je zdarma a nezávazná.
   `.trim(),
 },
+{
+  slug: "proc-pomaly-web-prichazi-o-zakazniky",
+  title: "Proč pomalý web přichází o zákazníky",
+  description: "Pomalý web nejen frustruje návštěvníky – aktivně vás připravuje o zákazníky a horší pozici na Googlu. Zjistěte proč na rychlosti záleží a co s tím dělat.",
+  date: "2026-05-15",
+  readTime: 9,
+  category: "Webdesign",
+  content: `
+## Tři sekundy. To je vše co máte.
+
+Výzkumy Google ukazují že 53 % uživatelů na mobilu opustí web pokud se nenačte do 3 sekund. Tři sekundy. Zákazník přijde, čeká – a odejde. Bez telefonátu, bez poptávky, bez nákupu.
+
+A to nejhorší? Vy o tom vůbec nevíte. Váš web funguje, telefon mlčí, a vy si myslíte že jednoduše není poptávka. Přitom problém může být jen v tom, že váš web načítá příliš pomalu.
+
+Rychlost webu není technický detail pro vývojáře. Je to přímý faktor který ovlivňuje kolik zákazníků vám web přinese.
+
+---
+
+## Kolik zákazníků pomalý web stojí?
+
+Čísla jsou jasná:
+
+- Každá sekunda zpoždění načítání snižuje konverze (počet zákazníků kteří se ozvou) o 7 %
+- Web který se načítá 5 sekund místo 2 sekund může přijít až o 25 % zákazníků
+- 79 % uživatelů kteří mají špatnou zkušenost s rychlostí webu se na něj nevrátí
+
+Představte si že váš web navštíví měsíčně 200 lidí. Pokud je web pomalý a odradí třetinu z nich ještě před načtením, přicházíte o 60 potenciálních zákazníků každý měsíc. To je 720 zákazníků ročně – a vy o tom ani nevíte.
+
+---
+
+## Co způsobuje pomalý web?
+
+Existuje několik nejčastějších příčin pomalého webu. Většina z nich je řešitelná – ale jen pokud víte kde hledat.
+
+### Nekvalitní hosting
+
+Hosting je základ. Pokud váš web bydlí na přeplněném serveru levné hostingové společnosti, sdílí výkon se stovkami jiných webů. V momentě kdy některý ze sousedů dostane větší nápor návštěvníků, zpomalí se i váš web – a vy s tím nic nenaděláte.
+
+Kvalitní cloudový hosting jako Vercel, který používáme v HavranWeb, distribuuje váš web na servery po celém světě a automaticky přizpůsobuje výkon aktuální zátěži. Výsledek? Web se načítá rychle nezávisle na tom kolik lidí ho právě navštěvuje.
+
+### Neoptimalizované obrázky
+
+Obrázky jsou nejčastější příčinou pomalého webu. Fotka nafocená telefonem nebo fotoaparátem může mít klidně 5–10 MB. Pokud web obsahuje 10 takových fotek, prohlížeč musí stáhnout 50–100 MB dat jen pro obrázky – a to trvá.
+
+Správně optimalizovaný web komprimuje obrázky na zlomek původní velikosti bez viditelné ztráty kvality a používá moderní formáty jako WebP které jsou výrazně menší než klasické JPEG nebo PNG.
+
+### Šablonové weby a zbytečný kód
+
+Weby postavené na šablonách jako WordPress, Wix nebo Squarespace nesou s sebou obrovské množství kódu který nepotřebujete. Každý plugin, každá funkce navíc, každá nepoužitá šablona – to vše musí prohlížeč načíst i když to zákazník nikdy neuvidí.
+
+Je to jako objednat si v restauraci celé menu jen proto že chcete svíčkovou. Dostanete svíčkovou, ale s ní přijde i vše ostatní co jste nechtěli – a za to vše zaplatíte časem načítání.
+
+### Weby nakódované na míru jsou rychlejší
+
+Weby nakódované na míru, jako ty které vytváříme v HavranWeb, obsahují přesně takový kód jaký daný web potřebuje – nic víc, nic míň. Žádné zbytečné pluginy, žádné nepoužívané funkce, žádný balast ze šablon.
+
+Výsledek je web který je výrazně lehčí a rychlejší než šablonové řešení se stejným vzhledem. Zákazník čeká méně, Google hodnotí lépe a vy dostáváte více poptávek.
+
+---
+
+## Pomalý web a Google – dvojitý trest
+
+Pomalý web vás nepotrestá jen u zákazníků. Potrestá vás i Google.
+
+Rychlost načítání je jedním z přímých ranking faktorů Googlu – tedy věcí které přímo ovlivňují na které pozici se ve výsledcích vyhledávání zobrazíte. Pomalý web prostě Google řadí níže než rychlý web se stejným obsahem.
+
+Algoritmus Googlu to vidí takto: pokud váš web nabízí špatnou zkušenost (a pomalé načítání je špatná zkušenost), proč by ho doporučoval svým uživatelům?
+
+Takže zatímco pomalý web odrazuje zákazníky kteří na něj přijdou, zároveň zajišťuje že jich přijde méně – protože Google ho zobrazuje hůře. Dvojitý trest za jednu chybu.
+
+---
+
+## Pomalý web působí neprofesionálně
+
+Rychlost webu ovlivňuje i to jak zákazník vnímá vaši firmu – i když si to neuvědomuje.
+
+Výzkumy ukazují že uživatelé si vytvářejí první dojem o webu za méně než půl sekundy. Pomalý, zasekávající se web nevědomě signalizuje: tato firma není na úrovni, není spolehlivá, asi ani jejich práce nebude kvalitní.
+
+Naopak rychlý, plynulý web buduje důvěru ještě předtím než zákazník přečte jediné slovo. Je to jako první dojem při osobním setkání – zákazník ho nedokáže vědomě potlačit.
+
+---
+
+## Jak si rychlost webu otestovat sám?
+
+Rychlost vašeho webu si můžete otestovat zdarma pomocí nástroje Google PageSpeed Insights na adrese pagespeed.web.dev. Stačí zadat adresu vašeho webu a za několik sekund dostanete výsledky.
+
+Co čísla znamenají:
+
+- **90–100 (zelená)** – výborně, web je rychlý
+- **50–89 (oranžová)** – průměr, je co zlepšovat
+- **0–49 (červená)** – web je pomalý, zákazníci odcházejí
+
+Testujte zejména mobilní verzi – Google hodnotí weby primárně podle toho jak fungují na mobilu, a právě mobilní uživatelé jsou nejcitlivější na rychlost načítání.
+
+Pokud váš web skóruje pod 70 na mobilu, je čas něco řešit.
+
+---
+
+## Co ovlivňuje skóre v PageSpeed Insights?
+
+Nástroj hodnotí několik faktorů:
+
+**LCP (Largest Contentful Paint)** – jak rychle se načte největší prvek na stránce (obvykle hlavní obrázek nebo nadpis). Ideálně do 2,5 sekundy.
+
+**FID / INP (interaktivita)** – jak rychle web reaguje na kliknutí nebo dotyk. Pomalá reakce je frustrující zejména na mobilu.
+
+**CLS (Cumulative Layout Shift)** – jestli se prvky na stránce „skáčou" při načítání. Znáte to – chcete kliknout na tlačítko a najednou se posune dolů protože se načetl obrázek nad ním. To je špatné CLS.
+
+Všechny tyto faktory Google sleduje a zahrnuje do hodnocení webu.
+
+---
+
+## Jak to řešíme v HavranWeb?
+
+Rychlost webu bereme jako základ, ne jako bonus. Proto každý web který vytváříme:
+
+- Stavíme na moderních technologiích (React + Vite) které produkují minimální a optimalizovaný kód
+- Nasazujeme na cloudový hosting Vercel s globální sítí serverů
+- Optimalizujeme všechny obrázky před nasazením – správná velikost, správný formát
+- Nepřidáváme zbytečné pluginy ani kód který web nepotřebuje
+- Testujeme rychlost na mobilu i počítači před spuštěním
+
+Výsledkem jsou weby které skórují vysoko v PageSpeed Insights a načítají se rychle i na pomalejším mobilním připojení.
+
+---
+
+## Shrnutí: proč rychlost webu není detail
+
+Pomalý web vás připravuje o zákazníky hned na třech frontách:
+
+- **Zákazníci odcházejí** než se web načte – a už se nevrátí
+- **Google vás řadí níže** protože pomalý web = špatná uživatelská zkušenost
+- **Důvěryhodnost trpí** – pomalý web působí neprofesionálně ještě před přečtením prvního slova
+
+Pokud nevíte jak na tom váš web je, otestujte ho na pagespeed.web.dev. A pokud výsledky nejsou dobré, nebo máte pocit že váš web nepřináší tolik zákazníků kolik by měl, [ozvěte se nám](/kontakt). Rádi se na váš web podíváme a řekneme vám co by šlo zlepšit.
+  `.trim(),
+},
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
