@@ -187,5 +187,12 @@
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
+
+<url>
+  <loc>https://havranweb.cz/blog/co-je-google-business-profile</loc>
+  <lastmod>2026-05-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
   
 </urlset>
