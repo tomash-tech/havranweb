@@ -1194,6 +1194,133 @@ Pomalý web vás připravuje o zákazníky hned na třech frontách:
 Pokud nevíte jak na tom váš web je, otestujte ho na pagespeed.web.dev. A pokud výsledky nejsou dobré, nebo máte pocit že váš web nepřináší tolik zákazníků kolik by měl, [ozvěte se nám](/kontakt). Rádi se na váš web podíváme a řekneme vám co by šlo zlepšit.
   `.trim(),
 },
+{
+  slug: "co-je-google-business-profile",
+  title: "Co je Google Business Profile a proč ho každá lokální firma potřebuje?",
+  description: "Google Business Profile je zdarma a zobrazuje vaši firmu přímo ve výsledcích Googlu a na mapách. Přesto ho většina firem nemá správně nastavený. Zjistěte proč na tom záleží.",
+  date: "2026-05-16",
+  readTime: 9,
+  category: "SEO",
+  content: `
+## Co je Google Business Profile?
+
+Google Business Profile (zkráceně GBP, dříve Google My Business) je bezplatný nástroj od Googlu který umožňuje firmám spravovat svůj profil přímo ve výsledcích vyhledávání a na Google Mapách.
+
+Když někdo napíše do Googlu "kavárna Nový Jičín" nebo "instalatér blízko mě", zobrazí se mu mapa s výsledky a seznam firem. Právě to je Google Business Profile v akci. Bez něj se vaše firma na tomto místě jednoduše neobjeví — bez ohledu na to jak dobrý web máte.
+
+GBP je jeden z nejsilnějších nástrojů lokálního marketingu. A přitom je zdarma.
+
+---
+
+## Kde se GBP zobrazuje?
+
+Google Business Profile se zobrazuje na dvou klíčových místech:
+
+**Google Mapy** — když zákazník hledá firmy v okolí, vidí je přímo na mapě. Klikne na vaši firmu a okamžitě vidí adresu, hodiny, fotky, recenze a kontakt.
+
+**Local Pack ve vyhledávání** — takzvaný "local pack" jsou tři firmy které se zobrazují úplně nahoře ve výsledcích vyhledávání, ještě před organickými výsledky. Pokud hledáte zákazníky z Googlu, chcete být právě tam.
+
+Studie ukazují že přes 70 % lidí nekliká dál než na první tři výsledky. A local pack je nad nimi všemi. To je obrovská výhoda pro lokální firmy které mají GBP správně nastavený.
+
+---
+
+## Co GBP profil obsahuje?
+
+Dobře nastavený Google Business Profile obsahuje celou řadu informací které zákazník potřebuje:
+
+**Název firmy** — přesný název pod kterým podnikáte.
+
+**Kategorie** — co vaše firma dělá. Google používá kategorii k rozhodnutí pro jaká vyhledávání vás zobrazí. Špatná kategorie = zobrazujete se lidem kteří o vás nemají zájem.
+
+**Adresa a oblast působení** — kde sídlíte a kam dojíždíte. Pokud pracujete u zákazníků doma (jako instalatér nebo elektrikář), můžete nastavit oblast působení bez zobrazení přesné adresy.
+
+**Otevírací doba** — včetně svátků a výjimek. Zákazníci to kontrolují velmi často a chybná otevírací doba vede ke zbytečným telefonátům nebo naštvaným zákazníkům před zavřeným obchodem.
+
+**Telefonní číslo a web** — přímý kontakt a odkaz na vaše stránky.
+
+**Fotografie** — exteriér, interiér, produkty, tým. Firmy s fotografiemi dostávají výrazně více kliknutí než ty bez nich.
+
+**Popis firmy** — krátký text co děláte, pro koho a proč si vás zákazník má vybrat.
+
+**Příspěvky** — jako na sociálních sítích, ale přímo v Google profilu. Akce, novinky, nabídky.
+
+**Recenze** — hvězdičkové hodnocení a komentáře od zákazníků. O tom více v další části.
+
+**Otázky a odpovědi** — zákazníci se mohou ptát přímo v profilu a vy nebo kdokoliv jiný může odpovědět.
+
+---
+
+## Proč jsou recenze tak důležité?
+
+Recenze jsou srdce Google Business Profileu. Ovlivňují dvě zásadní věci najednou: pozici ve výsledcích vyhledávání a rozhodování zákazníků.
+
+**Vliv na pozici** — Google zobrazuje firmy s více recenzemi a vyšším hodnocením výše než firmy bez recenzí. Není to jediný faktor, ale je to jeden z nejvýznamnějších. Firma s 50 recenzemi a hodnocením 4,8 má výraznou výhodu před firmou se dvěma recenzemi.
+
+**Vliv na zákazníky** — 93 % zákazníků čte recenze před tím než se rozhodne kontaktovat lokální firmu. Žádné recenze nebo nízké hodnocení = zákazník jde ke konkurenci. Jednoduché.
+
+### Jak recenze získávat?
+
+Největší chyba kterou firmy dělají je čekat až zákazníci recenzi napíšou sami. Napíšou — ale jen ti nespokojení. Spokojený zákazník recenzi obvykle nenapíše pokud ho o to výslovně nepožádáte.
+
+Několik osvědčených způsobů:
+
+- **Požádejte osobně** — po dokončení zakázky nebo návštěvě. "Byl byste ochotný napsat nám krátkou recenzi na Googlu? Pomůže nám to hodně."
+- **Pošlete odkaz** — Google vygeneruje přímý odkaz na váš profil kde zákazník může napsat recenzi. Pošlete ho zákazníkovi přes WhatsApp nebo SMS.
+- **Automatická zpráva** — po dokončení objednávky nebo schůzky pošlete zákazníkovi zprávu s poděkováním a odkazem na recenzi.
+
+A co negativní recenze? Vždy odpovídejte — klidně, profesionálně a s nabídkou řešení. Zákazníci čtou i vaše odpovědi a seriózní reakce na negativní recenzi může paradoxně posílit důvěru víc než samotné pozitivní hodnocení.
+
+---
+
+## GBP vs. web — nestačí mít jen jedno?
+
+Tato otázka padá velmi často. Odpověď je jednoznačná: potřebujete obojí a obojí se navzájem doplňuje.
+
+**Google Business Profile** je vaše vizitka na Googlu. Zákazník vás rychle najde, vidí základní informace a kontaktuje vás. Je ideální pro zákazníky kteří vás aktivně hledají a chtějí rychlou odpověď — adresu, telefon, hodiny.
+
+**Web** jde do hloubky. Zákazník si přečte o vašich službách, prohlédne reference, pochopí jak spolupráce probíhá a teprve pak se rozhodne kontaktovat vás. Web buduje důvěru a přesvědčuje váhavé zákazníky.
+
+Mnoho firem má GBP bez webu — zákazník je najde, chce se dozvědět víc, klikne na odkaz a... nic tam není. Odejde ke konkurenci která web má.
+
+Jiné firmy mají web bez GBP — jsou krásně viditelné pro lidi kteří hledají konkrétní informace, ale v local packu kde se rozhoduje 70 % lokálních zákazníků chybí úplně.
+
+Správná kombinace je GBP + web. Jedno přivede zákazníka, druhé ho přesvědčí.
+
+---
+
+## Co má správně nastavený GBP vliv na?
+
+Shrnutí toho co kvalitní Google Business Profile ovlivňuje:
+
+**Viditelnost v local packu** — zobrazujete se nad organickými výsledky přesně těm lidem kteří hledají vaše služby ve vašem městě.
+
+**Důvěryhodnost** — profil s fotkami, recenzemi a vyplněnými informacemi působí profesionálně. Prázdný nebo neúplný profil naopak zákazníky odrazuje.
+
+**Konverze** — zákazník najde vše co potřebuje přímo v profilu a kontaktuje vás. Čím méně překážek, tím více zákazníků.
+
+**Pozice ve vyhledávání** — GBP signály (recenze, aktivita, kompletnost profilu) ovlivňují i pozici vašeho webu v organickém vyhledávání.
+
+---
+
+## GBP nastavíme za vás — na 100 %
+
+Nastavení Google Business Profileu zní jednoduše, ale v praxi je plné nástrah. Špatná kategorie, neúplné informace, chybějící fotky, nereagování na recenze — každá z těchto věcí snižuje vaši viditelnost a připravuje vás o zákazníky.
+
+V rámci naší [SEO služby](/sluzby/seo) se postaráme o kompletní nastavení a optimalizaci vašeho Google Business Profileu:
+
+- Správná kategorie a podkategorie pro maximální viditelnost
+- Kompletní vyplnění všech informací
+- Optimalizovaný popis firmy
+- Nastavení oblasti působení
+- Propojení s webem a sociálními sítěmi
+- Strategie pro získávání recenzí
+
+Vy se staráte o své podnikání — Google necháte na nás.
+
+[Zjistěte více o naší SEO službě](/sluzby/seo) nebo nás rovnou [kontaktujte](/kontakt) pro nezávaznou konzultaci zdarma.
+  `.trim(),
+},
+
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
