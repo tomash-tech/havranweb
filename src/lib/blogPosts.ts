@@ -1320,7 +1320,142 @@ Vy se staráte o své podnikání — Google necháte na nás.
 [Zjistěte více o naší SEO službě](/sluzby/seo) nebo nás rovnou [kontaktujte](/kontakt) pro nezávaznou konzultaci zdarma.
   `.trim(),
 },
+{
+  slug: "web-na-miru-vs-sablonovy-web",
+  title: "Web na míru vs. šablonový web – co je lepší volba?",
+  description: "Wix, WordPress nebo web na míru? Spousta podnikatelů sahá po šabloně protože si myslí že je to levnější. Ve skutečnosti to tak nemusí být – a rozdíl ve výsledcích je obrovský.",
+  date: "2026-05-17",
+  readTime: 9,
+  category: "Webdesign",
+  content: `
+## Šablona nebo web na míru? Záleží na tom víc než si myslíte.
 
+Když se podnikatel rozhoduje jak řešit web, velmi často narazí na lákavou nabídku: Wix, Squarespace, Webnode nebo WordPress.com. Stačí se zaregistrovat, vybrat šablonu, přetáhnout bloky a za víkend máte web. Zdarma nebo za pár stovek měsíčně.
+
+Zní to skvěle. Ale je za tím velký háček — a v tomto článku si ho rozebereme pořádně.
+
+---
+
+## Co jsou šablonové weby?
+
+Šablonové weby jsou platformy kde si vyberete předpřipravený design a do něj doplníte svůj obsah. Mezi nejznámější patří:
+
+- **Wix** — drag & drop editor, velmi jednoduchý na použití
+- **Squarespace** — hezké šablony, oblíbený u kreativců
+- **Webnode** — česká platforma, populární u malých firem
+- **WordPress.com** — ne to samé jako WordPress.org, spíše uzavřená platforma
+- **Shoptet** — šablonové řešení pro e-shopy
+
+Společné mají jedno: někdo jiný napsal kód, navrhl design a vy ho jen přizpůsobujete. Platíte za pronájem místa na jejich platformě a používáte jejich nástroje.
+
+---
+
+## Co jsou výhody šablonových webů?
+
+Buďme féroví — šablony mají své výhody a bylo by neférové je ignorovat.
+
+**Rychlost spuštění** — jednoduchý web na Wixu nebo Webnodu lze mít online za jeden den. Nepotřebujete programátora ani designéra.
+
+**Nízká vstupní cena** — základní plány začínají na stokorunách měsíčně nebo jsou dokonce zdarma.
+
+**Snadná editace** — obsah si měníte sami přes vizuální editor bez znalosti kódu.
+
+To jsou reálné výhody. Ale teď se podívejme na druhou stranu mince.
+
+---
+
+## Proč šablony v praxi selhávají?
+
+### Jsou pomalé
+
+Šablonové platformy nesou s sebou obrovské množství kódu který váš web nepotřebuje. Každý plugin, každá funkce šablony, každý nepoužitý blok — to vše se načítá při každé návštěvě.
+
+Výsledek? Pomalý web. A pomalý web znamená horší pozici na Googlu a zákazníky kteří odcházejí ještě před načtením stránky. Jak jsme psali v jiném článku — 53 % uživatelů na mobilu opustí web pokud se nenačte do 3 sekund.
+
+### Vypadají genericky
+
+Šablony jsou navrženy tak aby vyhovovaly co největšímu počtu lidí. Výsledkem jsou weby které vypadají podobně, mají stejnou strukturu a zákazník je od sebe těžko rozliší.
+
+Váš web by měl odrážet vaše podnikání, vaši osobnost a vaše hodnoty. Šablona vám to neumožní — jste vždy omezeni tím co platforma dovoluje.
+
+### Závislost na platformě
+
+Když si vytvoříte web na Wixu, váš web patří Wixu. Pokud se Wix rozhodne zdražit, změnit podmínky nebo v krajním případě ukončit provoz — nemáte nic v ruce. Web nelze přenést jinam, kód si nevezmete s sebou.
+
+Je to jako stavět dům na pronajatém pozemku. Budova je krásná, ale půda pod ní není vaše.
+
+### Měsíční poplatky se nasčítají
+
+Základní plán za 200 Kč měsíčně vypadá levně. Ale za rok je to 2 400 Kč. Za tři roky 7 200 Kč — a pořád nemáte nic vlastního. Přičtěte k tomu prémiové šablony, placené pluginy, vlastní doménu a pokročilé funkce — reálná cena roste výrazně.
+
+### Omezené možnosti SEO
+
+Šablonové platformy mají SEO optimalizaci omezenou na to co platforma dovoluje. Nemůžete zasáhnout do struktury kódu, nemůžete optimalizovat rychlost načítání na úrovni kódu, nemůžete implementovat pokročilé technické SEO. Prostě nastavíte co nastavit jde a zbytek necháte platformě.
+
+### Pluginy a aktualizace
+
+WordPress.org (ne WordPress.com) je trochu jiný případ — dává větší svobodu, ale přináší jiné problémy. Weby na WordPressu jsou závislé na pluginech třetích stran které přestávají být aktualizované, jsou zranitelné vůči útokům a při každé aktualizaci hrozí že se něco rozbije. Správa WordPress webu je výrazně náročnější než se zdá.
+
+---
+
+## Co je web na míru?
+
+Web na míru je web který vývojář napíše od základu pro vás a vaše potřeby. Žádná šablona, žádné předpřipravené bloky, žádný cizí kód.
+
+Každý řádek kódu existuje z konkrétního důvodu. Design je navržen přesně pro vaše podnikání. Funkce jsou přesně ty které potřebujete — nic víc, nic méně.
+
+To je přesně přístup který používáme v HavranWeb. Každý web stavíme na moderních technologiích (React + Vite), hostujeme na cloudové platformě Vercel a optimalizujeme pro maximální rychlost a výkon.
+
+---
+
+## Výkon a SEO: web na míru vyhrává jasně
+
+Toto je oblast kde je rozdíl největší.
+
+Web nakódovaný na míru obsahuje pouze kód který potřebuje. Výsledkem je web který se načítá výrazně rychleji než šablonové řešení se stejným vzhledem. A rychlost je pro Google jeden z klíčových ranking faktorů.
+
+Náš vlastní web havranweb.cz dosahuje skóre 98/100 v Google PageSpeed Insights na mobilu. Typický Wix nebo WordPress web se pohybuje kolem 40–60. Tento rozdíl se přímo promítá do pozice ve výsledcích vyhledávání a počtu zákazníků které web přivede.
+
+Web na míru také umožňuje plnou kontrolu nad technickým SEO — správnou strukturou nadpisů, kanonickými tagy, schema.org značkami, rychlostí načítání a vším ostatním co Google sleduje.
+
+---
+
+## Cena: šablona vypadá levněji ale není
+
+Toto je největší mýtus kolem šablonových webů.
+
+Podívejme se na reálné čísla. Prémiový plán na Wixu stojí přibližně 400–800 Kč měsíčně. Za tři roky zaplatíte 14 000–29 000 Kč. Za pět let 24 000–48 000 Kč. A pořád nemáte nic vlastního — jakmile přestanete platit, web zmizí.
+
+Web na míru od HavranWeb stojí 4 000–12 000 Kč jednorázově. Hosting je zdarma. Doména vychází na ~200 Kč ročně. Po dvou třech letech je web na míru výrazně levnější než šablona — a navíc je váš.
+
+---
+
+## Web na míru nemusí být dražší
+
+Největší omyl je že web na míru je automaticky drahý a dostupný jen pro velké firmy.
+
+V HavranWeb vytváříme weby na míru pro živnostníky a malé firmy z Nového Jičína a okolí — od 4 000 Kč. Za tu cenu dostanete web který:
+
+- Je nakódovaný přesně pro vaše potřeby
+- Načítá se rychle na mobilu i počítači
+- Vypadá profesionálně a odlišuje vás od konkurence
+- Patří vám — žádné měsíční poplatky, žádná závislost na platformě
+- Je optimalizovaný pro Google od prvního dne
+- Má hosting zdarma
+
+Šablona na Wixu za stejné peníze vám dá generický web na rok a půl — a pak platíte dál.
+
+---
+
+## Shrnutí: proč web na míru?
+
+Šablonové weby jsou lákavé na první pohled — jsou rychlé na spuštění a zdánlivě levné. Ale v praxi jsou pomalé, generické, omezené a dlouhodobě dražší než web na míru.
+
+Web nakódovaný na míru je rychlejší, lépe hodnocený Googlem, vizuálně unikátní a patří vám. A jak jsme ukázali — nemusí být dražší. Zejména pokud vezmete v úvahu co za ty peníze skutečně dostanete.
+
+Pokud přemýšlíte o novém webu a chcete vědět co by bylo nejlepší řešení pro vaše podnikání, [ozvěte se nám](/kontakt). Konzultace je zdarma a nezávazná — rádi vám poradíme.
+  `.trim(),
+},
 ];
  
 export function getBlogPost(slug: string): BlogPost | undefined {
